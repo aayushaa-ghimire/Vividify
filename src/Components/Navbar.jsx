@@ -1,24 +1,27 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
-    console.log("home ma")
   return (
     <>
-    <nav className='flex items-center gap-[4vw] px-[6%] py-4 bg-white sticky top-0 justify-between shadow'>
-        <img src="../../public/vividify-logo.png" alt="logo" className='w-40' />
-        <div className='hidden md:flex gap-8 items-center text-gray-700 font-medium'>
-            <Link to='/'>Home</Link>
-            <Link to='/about'>About</Link>
-            <Link to='/service'>Service</Link>
-            <Link to='/faq'>FAQ</Link>
-            <Link to='/contacts'>Contacts</Link>
-            <Link to='/tools'>Tools</Link>
+      <nav className="flex items-center  bg-[white] sticky top-0 justify-around w-full h-auto text-[1.1rem] shadow">
+        <img src="../../public/vividify-logo.png" alt="logo" className="w-45" />
+        <div className="hidden md:flex gap-8 items-center text-[#686868] font-500">
+          <Link to="/" className="p-5">
+            Home
+          </Link>
+          <Link to="/about">About</Link>
+          <Link to="/service">Service</Link>
+          <Link to="/faq">FAQ</Link>
+          <Link to="/contacts">Contacts</Link>
+          <Link to="/tools">Tools</Link>
         </div>
-        <a href='...' className='bg-blue-700 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-all text-sm'>Free Website Audit</a>
-    </nav>
+        <div className="p-4 mr-6 bg-[#0c5adb] text-white  rounded-4xl  hover:bg-blue-700 transition-all">
+          <span className="px-8">Free Website Audit</span>
+        </div>
+      </nav>
     </>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
