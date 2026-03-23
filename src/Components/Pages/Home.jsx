@@ -3,6 +3,7 @@ import Hero from '../Hero'
 import WhatWeDo from '../WhatWeDo'
 import OurServices from '../OurServices'
 import AnimatedText from '../AnimatedText'
+import Marketing from '../Marketing'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <AnimatedText/>
       <WhatWeDo/>
       <OurServices/>
+      <Marketing/>
     </div>     
     </>
   )
