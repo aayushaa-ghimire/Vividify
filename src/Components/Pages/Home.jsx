@@ -10,7 +10,7 @@ function Home() {
     <div className='mt-[8vw]'>
       <Hero/>
       <AnimatedText/>
-     
+      <WhatWeDo/>
     </div>     
     </>
   )
