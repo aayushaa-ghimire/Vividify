@@ -11,6 +11,7 @@ function Home() {
       <Hero/>
       <AnimatedText/>
       <WhatWeDo/>
+      <OurServices/>
     </div>     
     </>
   )
