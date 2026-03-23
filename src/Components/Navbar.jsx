@@ -5,17 +5,17 @@ function Navbar() {
     console.log("home ma")
   return (
     <>
-    <nav className='flex gap-[4vw] bg-amber-700 justify-between px-5'>
-        <img src="../../public/vividify-logo.png" alt="logo" className='w-[15vw] ml-[2vw]' />
-        <div className='flex gap-[4vw] justify-between'>
-            <Link to='/' className='bg-amber-950 text-amber-50'>Home</Link>
+    <nav className='flex items-center gap-[4vw] px-[6%] py-4 bg-white sticky top-0 justify-between shadow'>
+        <img src="../../public/vividify-logo.png" alt="logo" className='w-40' />
+        <div className='hidden md:flex gap-8 items-center text-gray-700 font-medium'>
+            <Link to='/'>Home</Link>
             <Link to='/about'>About</Link>
             <Link to='/service'>Service</Link>
             <Link to='/faq'>FAQ</Link>
             <Link to='/contacts'>Contacts</Link>
             <Link to='/tools'>Tools</Link>
         </div>
-        <a href='...' className='bg-blue-600 rounded-4xl p-[2vw] flex align-middle text-white w-[15vw]'>Free Website Audit</a>
+        <a href='...' className='bg-blue-700 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-all text-sm'>Free Website Audit</a>
     </nav>
     </>
   )

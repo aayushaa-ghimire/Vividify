@@ -3,8 +3,10 @@ import Hero from '../Hero'
 
 function Home() {
   return (
-    <>      
-    <Hero/>
+    <> 
+    <div className='mt-[8vw]'>
+      <Hero/>
+    </div>     
     </>
   )
 }
