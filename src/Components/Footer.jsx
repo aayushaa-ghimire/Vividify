@@ -21,7 +21,7 @@ function Footer() {
 
 
       {/* Mid Section */}
-          <div className='flex justify-between gap-[2vw] w-full py-[2vw] border-y-[#686868] border-y-[0.14vw] border-x-0 '>
+          <div className='flex justify-between gap-[2vw] w-full py-[2vw] border-y-[#686868] border-y-[0.1vw] border-x-0 '>
             
             {/* <div>
               <div>
