@@ -64,7 +64,7 @@ function Footer() {
 
             </div>  
 
-            <div className='flex flex-col gap-[2vw] ju'>
+            <div className='flex flex-col gap-[1.3vw] ju'>
               <div> 
                 <h4 className='font-medium text-[1.3rem] text-[#222222]'>Find Us on:</h4>
               </div>
@@ -72,19 +72,19 @@ function Footer() {
               <div className='flex gap-[1vw] text-[#222222]'>
 
                 <a href="https://facebook.com" target="_blank">
-                  <FaFacebook />
+                  <span className='text-[1.4rem] text-[#504D4D]'><FaFacebook /></span>
                 </a>
 
                 <a href="https://instagram.com" target="_blank">
-                  <FaInstagram />
+                   <span className='text-[1.4rem] text-[#504D4D]'><FaInstagram /></span>
                 </a>
 
                 <a href="https://linkedin.com" target="_blank">
-                  <FaLinkedin />
+                   <span className='text-[1.4rem] text-[#504D4D]'><FaLinkedin /></span>
                 </a>
 
                 <a href="https://wa.me/your-number">
-                  <FaWhatsapp />
+                   <span className='text-[1.4rem]'><FaWhatsapp /></span>
                 </a>
 
               </div>

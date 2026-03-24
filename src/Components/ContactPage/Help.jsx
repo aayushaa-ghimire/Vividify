@@ -3,12 +3,12 @@ import { FaEnvelope, FaPhone, FaClock } from "react-icons/fa";
 function Help() {
   return (
     <>
-      <div className='flex justify-around align-middle mt-[5vw]'>
+      <div className='flex justify-around align-middle mt-[5vw] mb-[10vw]'>
 
         <div className='flex flex-col w-[40vw] gap-[3vw] '>
 
             <div className='flex flex-col leading-relaxed'>
-                <span className='shadow-2xl w-fit p-[1vw] rounded-3xl border-1 border-[#504D4D]/15'><p className='text-[#0c5adb] font-medium'>Contact Us</p></span>
+                <span className='shadow-2xl w-fit p-[1vw] rounded-3xl border-1 border-[#504D4D]/19'><p className='text-[#0c5adb] font-medium'>Contact Us</p></span>
                 <h1 className='font-bold text-[2rem]'>Ready to Achieve Business Success?</h1>
                 <p className='text-[#686868] w-[30vw]'>Partner with us for expert solutions and support tailored to your needs. Let’s turn your goals into reality together!</p>
             </div>
@@ -72,8 +72,6 @@ function Help() {
                 className='shadow p-[0.8vw] w-full h-[10vw] outline-0 rounded-[0.8vw]'
                  ></textarea>
             </div>
-
-
 
 
             <div className='flex justify-center'>
