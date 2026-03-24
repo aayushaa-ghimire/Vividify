@@ -1,9 +1,10 @@
 import React from 'react'
+import Help from '../Components/ContactPage/Help'
 
 function Contacts() {
   return (
     <>
-      <h1>This is contacts section</h1>
+    <Help/>
     </>
   )
 }

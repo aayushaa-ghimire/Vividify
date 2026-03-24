@@ -1,11 +1,11 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Home from '../Components/Pages/Home'
-import About from '../Components/Pages/About'
-import Contacts from '../Components/Pages/Contacts'
-import FAQ from '../Components/Pages/FAQ'
-import Service from '../Components/Pages/Service'
-import Tools from '../Components/Pages/Tools'
+import Home from '../Pages/Home'
+import About from '../Pages/About'
+import Contacts from '../Pages/Contacts'
+import FAQ from '../Pages/FAQ'
+import Service from '../Pages/Service'
+import Tools from '../Pages/Tools'
 import MainLayout from '../Layouts/MainLayout'
 
 function AppRoutes() {
