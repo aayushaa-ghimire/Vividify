@@ -21,7 +21,7 @@ function Footer() {
 
 
       {/* Mid Section */}
-          <div className='flex justify-between gap-[2vw] w-full py-[2vw] border-y-[#686868] border-y-[0.1vw] border-x-0 '>
+          <div className='flex justify-between gap-[2vw] w-full py-[2vw] border-y-[#686868]/50 border-y-[0.1vw] border-x-0 '>
             
             {/* <div>
               <div>
@@ -31,9 +31,9 @@ function Footer() {
             
             <div className='flex gap-[5vw] justify-center'>
               <div className='flex flex-col gap-[1.4vw]'>
-                <h4 className='font-medium text-[1.3rem]'>Services</h4>
+                <h4 className='font-medium text-[1.3rem] text-[#222222]'>Services</h4>
 
-                <ul className='leading-[2.2vw] items-center text-[#222222]'>
+                <ul className='leading-[2.2vw] items-center text-[#686868]'>
                   <li><a href='...'>Website Development</a></li>
                   <li className=''><a href='...'>Digital Marketing</a></li>
                   <li><a href='...'>Search Engine Optimization</a></li>
@@ -43,8 +43,8 @@ function Footer() {
 
 
               <div className='flex flex-col gap-[1.4vw]'>
-                <h4 className='font-medium text-[1.3rem]'>Work</h4>
-                <ul className='leading-[2.2vw] items-center text-[#222222]'>
+                <h4 className='font-medium text-[1.3rem] text-[#222222]'>Work</h4>
+                <ul className='leading-[2.2vw] items-center text-[#686868]'>
                   <li><a href='...'>About Us</a></li>
                   <li><a href='...'>Services</a></li>
                   <li><a href='...'>Careers</a></li>
@@ -54,8 +54,8 @@ function Footer() {
 
 
               <div className='flex flex-col gap-[1.4vw]'>
-                <h4 className='font-medium text-[1.3rem]'>Contact Us</h4>
-                <ul className='leading-[2.2vw] items-center text-[#222222]'>
+                <h4 className='font-medium text-[1.3rem] text-[#222222]'>Contact Us</h4>
+                <ul className='leading-[2.2vw] items-center text-[#686868]'>
                 <li><a href='...'>Email</a></li>
                 <li><a href='...'>Phone</a></li>
                 <li><a href='...'>Location</a></li>
@@ -64,9 +64,9 @@ function Footer() {
 
             </div>  
 
-            <div className='flex flex-col gap-[2vw]'>
+            <div className='flex flex-col gap-[2vw] ju'>
               <div> 
-                <h4 className='font-medium text-[1.3rem]'>Find Us on:</h4>
+                <h4 className='font-medium text-[1.3rem] text-[#222222]'>Find Us on:</h4>
               </div>
 
               <div className='flex gap-[1vw] text-[#222222]'>
