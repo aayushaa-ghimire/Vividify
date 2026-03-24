@@ -3,10 +3,10 @@ import React from 'react'
 function Marketing() {
   return (
     <>
-      <div className='flex bg-[#ccdfff] gap-[4vw] pb-[12vw] pt-[10vw] justify-around'>
+      <div className='flex bg-[#ccdfff] gap-[4vw] pb-[8vw] pt-[8vw] justify-around'>
         <div className='w-40vw'>
-            <img src="../../public/about-thum11.png" alt="img" className='w-[40vw]' />
-            <img src="../../public/home-team.png" alt="img" className='absolute' />
+            <img src="../../public/about-thum11.png" alt="img" className='w-[35vw]' />
+            {/* <img src="../../public/home-team.png" alt="img" className='absolute' /> */}
         </div>
 
         <div className='flex flex-col gap-[2vw] w-[40vw]'>
