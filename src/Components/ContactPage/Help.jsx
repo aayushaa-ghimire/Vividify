@@ -15,7 +15,7 @@ function Help() {
 
             <div className='flex-col leading-loose'>
                 <ul className='text-[#686868]'>
-                    <li className='flex gap-[1vw] items-center'><span className='text-[#504D4D]'><FaEnvelope/></span>vividifysolutions@gmail.com</li>
+                    <li className='flex gap-[1vw] items-center'><span className='text-[#2a2929]'><FaEnvelope/></span>vividifysolutions@gmail.com</li>
                     <li className='flex gap-[1vw] items-center'><span className='text-[#504D4D]'><FaPhone/></span>+977-9708763889</li>
                     <li className='flex gap-[1vw] items-center'><span className='text-[#504D4D]'><FaClock/></span>8.00 AM to 5.00 PM</li>
                 </ul>
