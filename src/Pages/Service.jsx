@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import OurServices from '../Components/ServicesPage/OurServices';
+import AllServices from '../Components/ServicesPage/AllServices';
 
 function Service() {
   return (
     <>
-      <h1>This is Service page</h1>
+      <OurServices />
     </>
-  )
+  );
 }
 
-export default Service
+export default Service;
