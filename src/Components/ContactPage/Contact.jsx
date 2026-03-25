@@ -4,7 +4,7 @@ function Contact() {
   return (
     <>
       {/* Main Container*/}
-      <div className="flex flex-col gap-[3vw] p-6 lg:p-[3vw]">
+      <div className="flex flex-col gap-[2vw] p-6 lg:p-[3vw]">
         {/* Header Section */}
         <div className="flex flex-col gap-4">
           <div className="flex">
@@ -41,9 +41,12 @@ function Contact() {
             </p>
 
             <div className="mt-2 flex justify-center lg:mt-0">
-              <button className="rounded-full bg-[#0c5adb] px-6 py-2 text-white transition-all hover:bg-[#2045d6] lg:rounded-[1.8vw] lg:px-[1.2vw] lg:py-[0.7vw]">
+              <a
+                href="...."
+                className="rounded-full bg-[#0c5adb] px-6 py-2 text-white transition-all hover:bg-[#2045d6] lg:rounded-[1.8vw] lg:px-[1.2vw] lg:py-[0.7vw]"
+              >
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
 
@@ -58,9 +61,12 @@ function Contact() {
             </p>
 
             <div className="mt-2 flex justify-center lg:mt-0">
-              <button className="rounded-full bg-[#0c5adb] px-6 py-2 text-white transition-all hover:bg-[#2045d6] lg:rounded-[1.8vw] lg:px-[1.2vw] lg:py-[0.7vw]">
+              <a
+                href="..."
+                className="rounded-full bg-[#0c5adb] px-6 py-2 text-white transition-all hover:bg-[#2045d6] lg:rounded-[1.8vw] lg:px-[1.2vw] lg:py-[0.7vw]"
+              >
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
 
@@ -75,9 +81,12 @@ function Contact() {
             </p>
 
             <div className="mt-2 flex justify-center lg:mt-0">
-              <button className="rounded-full bg-[#0c5adb] px-6 py-2 text-white transition-all hover:bg-[#2045d6] lg:rounded-[1.8vw] lg:px-[1.2vw] lg:py-[0.7vw]">
+              <a
+                href="..."
+                className="rounded-full bg-[#0c5adb] px-6 py-2 text-white transition-all hover:bg-[#2045d6] lg:rounded-[1.8vw] lg:px-[1.2vw] lg:py-[0.7vw]"
+              >
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
         </div>

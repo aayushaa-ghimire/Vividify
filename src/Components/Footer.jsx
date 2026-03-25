@@ -10,7 +10,7 @@ function Footer() {
   return (
     <>
       {/* Main Container */}
-      <div className="mt-[4vw] flex flex-col gap-[2vw] border-t-[0.1vw] border-t-[#686868]/30 bg-[#f8fafc] px-[8vw] py-[5vw]">
+      <div className="mt-[4vw] flex flex-col gap-[2vw] border-t-[0.1vw] border-t-[#686868]/30 bg-[#ccdfff] px-[8vw] py-[5vw]">
         {/* Top Section */}
         <div className="flex flex-col items-center justify-between gap-[4vw] lg:flex-row lg:gap-0">
           <div>
