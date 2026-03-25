@@ -1,23 +1,22 @@
-import React from 'react'
-import Hero from '../Components/Homepage/Hero'
-import WhatWeDo from '../Components/Homepage/WhatWeDo'
-import OurServices from '../Components/Homepage/OurServices'
-import AnimatedText from '../Components/Homepage/AnimatedText'
-import Marketing from '../Components/Homepage/Marketing'
+import React from 'react';
+import Hero from '../Components/Homepage/Hero';
+import WhatWeDo from '../Components/Homepage/WhatWeDo';
+import OurServices from '../Components/Homepage/OurServices';
+import AnimatedText from '../Components/Homepage/AnimatedText';
+import Marketing from '../Components/Homepage/Marketing';
 
 function Home() {
   return (
-    <> 
-    <div className='mt-[8vw]'>
-      <Hero/>
-      <AnimatedText/>
-      <WhatWeDo/>
-      <OurServices/>
-      <Marketing/>
-      
-    </div>     
+    <>
+      <div className="mt-[8vw]">
+        <Hero />
+        <AnimatedText />
+        <WhatWeDo />
+        <OurServices />
+        <Marketing />
+      </div>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
