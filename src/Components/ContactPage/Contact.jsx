@@ -31,7 +31,7 @@ function Contact() {
         {/* Cards Section */}
         <div className="mt-8 flex flex-col justify-center gap-8 lg:flex-row lg:gap-[4.5vw]">
           {/* Card 1 */}
-          <div className="flex w-full flex-col gap-4 rounded-3xl bg-white p-8 shadow-lg lg:w-[25vw] lg:gap-[1vw] lg:p-[2vw]">
+          <div className="flex w-full flex-col gap-4 rounded-3xl border-b-4 border-[#0c5adb] bg-[#f4f8ff] p-8 shadow-lg transition-transform duration-150 ease-in-out hover:scale-105 hover:shadow-xl lg:w-[25vw] lg:gap-[1vw] lg:p-[2vw]">
             <h4 className="text-center text-[1.3rem] font-medium lg:text-left">
               What We Do
             </h4>
@@ -51,7 +51,7 @@ function Contact() {
           </div>
 
           {/* Card 2 */}
-          <div className="flex w-full flex-col gap-4 rounded-3xl bg-white p-8 shadow-lg lg:w-[25vw] lg:gap-[1vw] lg:p-[2vw]">
+          <div className="flex w-full flex-col gap-4 rounded-3xl border-b-4 border-[#0c5adb] bg-[#f4f8ff] p-8 shadow-lg transition-transform duration-150 ease-in-out hover:scale-105 hover:shadow-xl lg:w-[25vw] lg:gap-[1vw] lg:p-[2vw]">
             <h4 className="text-center text-[1.3rem] font-medium lg:text-left">
               Let’s Build Together
             </h4>
@@ -71,7 +71,7 @@ function Contact() {
           </div>
 
           {/* Card 3 */}
-          <div className="flex w-full flex-col gap-4 rounded-3xl bg-white p-8 shadow-lg lg:w-[25vw] lg:gap-[1vw] lg:p-[2vw]">
+          <div className="flex w-full flex-col gap-4 rounded-3xl border-b-4 border-[#0c5adb] bg-[#f4f8ff] p-8 shadow-lg transition-transform duration-150 ease-in-out hover:scale-105 hover:shadow-xl lg:w-[25vw] lg:gap-[1vw] lg:p-[2vw]">
             <h4 className="text-center text-[1.3rem] font-medium lg:text-left">
               Start a Project
             </h4>
