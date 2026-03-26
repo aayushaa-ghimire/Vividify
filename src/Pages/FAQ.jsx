@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import FAQBanner from '../Components/FAQPage/FAQBanner';
+import Dropdown from '../Components/FAQPage/Dropdown';
 
 function FAQ() {
   return (
     <>
-      <h1>This is FAQ page</h1>
+      <FAQBanner />
+      <Dropdown />
     </>
-  )
+  );
 }
 
-export default FAQ
+export default FAQ;

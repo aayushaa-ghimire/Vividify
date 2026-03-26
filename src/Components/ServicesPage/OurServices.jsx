@@ -3,7 +3,7 @@ import React from 'react';
 function OurServices() {
   return (
     <>
-      <div className="flex flex-col justify-center gap-[2vw] rounded-[3rem] bg-[#c0d3f3ac] p-6 pt-[7vw] shadow-lg md:flex-row">
+      <div className="flex flex-col justify-center gap-[2vw] rounded-[3rem] bg-gradient-to-r from-[#ffffff] via-[#f4f8ff] to-[#e1edff] p-6 pt-[7vw] shadow-lg md:flex-row">
         <div className="lg: flex flex-col gap-[4vw] p-[4vw] lg:w-[45vw] lg:gap-[2vw] lg:p-[1vw]">
           <div>
             <h1 className="text-[2rem] leading-tight font-bold text-[#111] lg:text-[2.4rem]">
