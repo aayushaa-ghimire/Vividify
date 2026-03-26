@@ -18,7 +18,7 @@ function ServiceBanner() {
         <div>
           <a
             href="#"
-            className="inline-block rounded-full bg-white px-10 py-5 text-xl font-bold text-[#0c5adb] shadow-lg transition-all duration-300 hover:bg-[#0c5adb] hover:text-white active:scale-95"
+            className="inline-block rounded-full bg-white px-10 py-5 text-xl font-medium text-[#0c5adb] shadow-lg transition-all duration-300 hover:bg-[#0c5adb] hover:text-white active:scale-95"
           >
             Drop us a Text
           </a>
