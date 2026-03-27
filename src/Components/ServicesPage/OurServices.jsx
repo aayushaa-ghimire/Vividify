@@ -1,6 +1,8 @@
 import React from 'react';
-
+import { useCountUp } from 'react-countup';
 function OurServices() {
+   useCountUp({ ref: 'counter', end: 1234567 });
+   useCountUp({ref:"counter2",end:200})
   return (
     <>
       <div className="flex flex-col items-center justify-center gap-[2vw] bg-gradient-to-r from-[#ffffff] via-[#f4f8ff] to-[#e1edff] p-4 pt-[7vw] shadow-lg md:flex-row">
@@ -11,6 +13,9 @@ function OurServices() {
             className="w-full items-center object-cover mix-blend-multiply lg:w-[30vw]"
           />
         </div>
+        <span id="counter" />
+         <span id="counter2" />
+    
 
         <div className="lg: flex flex-col gap-[4vw] p-[4vw] lg:w-[45vw] lg:gap-[2vw] lg:p-[1vw]">
           <div>

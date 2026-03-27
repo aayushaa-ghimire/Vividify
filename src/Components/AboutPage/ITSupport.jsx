@@ -8,7 +8,7 @@ function ITSupport() {
           <img src="../../public/about-page.png" alt="img" />
         </div>
 
-        <div className="flec w-[50vw] flex-col">
+        <div className="flex w-[50vw] flex-col gap-[200px]">
           {/* heading */}
           <div className="flex flex-col">
             <h4 className="text-[1rem] font-medium text-[#0c5adb]">
