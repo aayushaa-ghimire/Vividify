@@ -3,12 +3,12 @@ import React from 'react';
 function OurServices() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center gap-[2vw] rounded-[3rem] bg-gradient-to-r from-[#ffffff] via-[#f4f8ff] to-[#e1edff] p-6 pt-[7vw] shadow-lg md:flex-row">
-        <div>
+      <div className="flex flex-col items-center justify-center gap-[2vw] bg-gradient-to-r from-[#ffffff] via-[#f4f8ff] to-[#e1edff] p-4 pt-[7vw] shadow-lg md:flex-row">
+        <div className="flex items-center">
           <img
             src="../../public/Servicebanner.png"
             alt="IT Solutions Team"
-            className="w-full items-center mix-blend-multiply lg:w-[30vw]"
+            className="w-full items-center object-cover mix-blend-multiply lg:w-[30vw]"
           />
         </div>
 
@@ -31,7 +31,7 @@ function OurServices() {
           <div>
             <a
               href="...."
-              className="inline-block rounded-full bg-[#0c5adb] px-8 py-3 font-semibold text-white shadow-[0_10px_20px_rgba(12,90,219,0.3)] transition-all hover:scale-105 hover:bg-[#0842a3] active:scale-95 lg:rounded-[1.8vw] lg:px-[2.5vw] lg:py-[1vw] lg:text-[1.1vw]"
+              className="inline-block rounded-full bg-[#0c5adb] px-8 py-3 font-semibold text-white shadow-[0_10px_20px_rgba(12,90,219,0.3)] transition-all hover:scale-105 lg:rounded-[1.8vw] lg:px-[2.5vw] lg:py-[1vw] lg:text-[1.1vw]"
             >
               Learn More
             </a>
