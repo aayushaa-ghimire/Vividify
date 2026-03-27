@@ -1,12 +1,12 @@
 import React from 'react';
 import AboutUs from '../Components/AboutPage/AboutUs';
-// import OurApproach from '../Components/AboutPage/OurApproach';
+import GuidingPrinciples from '../Components/AboutPage/GuidingPrinciples';
 
 function About() {
   return (
     <>
       <AboutUs />
-      {/* <OurApproach /> */}
+      <GuidingPrinciples />
     </>
   );
 }

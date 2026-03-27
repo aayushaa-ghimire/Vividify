@@ -3,7 +3,15 @@ import React from 'react';
 function OurServices() {
   return (
     <>
-      <div className="flex flex-col justify-center gap-[2vw] rounded-[3rem] bg-gradient-to-r from-[#ffffff] via-[#f4f8ff] to-[#e1edff] p-6 pt-[7vw] shadow-lg md:flex-row">
+      <div className="flex flex-col items-center justify-center gap-[2vw] rounded-[3rem] bg-gradient-to-r from-[#ffffff] via-[#f4f8ff] to-[#e1edff] p-6 pt-[7vw] shadow-lg md:flex-row">
+        <div>
+          <img
+            src="../../public/Servicebanner.png"
+            alt="IT Solutions Team"
+            className="w-full items-center mix-blend-multiply lg:w-[30vw]"
+          />
+        </div>
+
         <div className="lg: flex flex-col gap-[4vw] p-[4vw] lg:w-[45vw] lg:gap-[2vw] lg:p-[1vw]">
           <div>
             <h1 className="text-[2rem] leading-tight font-bold text-[#111] lg:text-[2.4rem]">
@@ -30,13 +38,13 @@ function OurServices() {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <img
-            src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&auto=format&fit=crop"
+            src="../../public/Servicebanner.png"
             alt="IT Solutions Team"
-            className="w-full rounded-3xl opacity-90 mix-blend-multiply lg:w-[35vw]"
+            className="w-full items-center mix-blend-multiply lg:w-[50vw]"
           />
-        </div>
+        </div> */}
       </div>
     </>
   );
