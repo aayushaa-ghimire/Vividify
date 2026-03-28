@@ -3,18 +3,23 @@ import AllServicesCard from './AllServicesCard';
 
 function AllServices() {
   const [open, setOpen] = useState(null);
-
   const toggle = (id) => setOpen(open === id ? null : id);
 
   return (
-    <div className="bg-white px-[5vw] py-20 lg:px-[10vw]">
+    <div className="bg-white px-[8vw] py-16">
+      {/* Simple, Clean Heading */}
       <div className="mb-16 text-center">
-        <h1 className="text-[#111]px-[2vw] inline-block rounded-full border-b-4 border-[#0c5adb] px-[1.5vw] pb-[1vw] text-4xl font-bold">
+        <h2 className="text-xs font-bold uppercase tracking-widest text-[#0c5adb] mb-2">
+          Solutions
+        </h2>
+        <h1 className="text-4xl font-bold text-[#111]">
           Our Services
         </h1>
+        <div className="mx-auto mt-4 h-1 w-16 bg-[#0c5adb]"></div>
       </div>
 
-      <div className="grid grid-cols-1 items-stretch gap-10 md:grid-cols-2">
+      {/* Standard Responsive Grid */}
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
         <AllServicesCard
           number="01"
           title="Web Development"
@@ -62,7 +67,7 @@ function AllServices() {
         />
         <AllServicesCard
           number="06"
-          title="SEO"
+          title="SEO Optimization"
           image="../../public/service6.jpg"
           isOpen={open === 'seo'}
           onToggle={() => toggle('seo')}
