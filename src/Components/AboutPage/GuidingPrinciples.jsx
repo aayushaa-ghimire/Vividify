@@ -3,7 +3,7 @@ import { Lightbulb, Rocket, HeartHandshake, ShieldCheck } from 'lucide-react';
 
 function GuidingPrinciples() {
   return (
-    <div className="mt-[6vw] flex flex-col justify-center overflow-hidden bg-white p-[5vw]">
+    <div className=" flex flex-col justify-center overflow-hidden bg-white p-[5vw]">
       {/*  Heading */}
       <div className="mb-10 text-center">
         <div className="mx-auto mb-3 h-1.5 w-12 rounded-full bg-[#0c5adb]"></div>
@@ -12,7 +12,6 @@ function GuidingPrinciples() {
         </h1>
       </div>
 
-      {/* Cards Container */}
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6">
         {/* Row 1 */}
         <div className="flex flex-col gap-6 md:flex-row">

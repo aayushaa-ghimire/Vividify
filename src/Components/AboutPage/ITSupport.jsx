@@ -3,7 +3,7 @@ import { FaLightbulb, FaRocket, FaQuoteLeft } from 'react-icons/fa';
 
 function ITSupport() {
   return (
-    <div className="mx-auto max-w-7xl px-[8vw] py-16 mb-20">
+    <div className="mx-[4vw] max-w-7xl px-[5vw] py-10 mb-10">
       <div className="flex flex-col items-center justify-between gap-16 lg:flex-row lg:items-center">
         
         <div className="relative w-full lg:w-[40%]">

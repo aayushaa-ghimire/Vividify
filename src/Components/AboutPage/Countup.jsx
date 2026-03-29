@@ -9,7 +9,7 @@ function Countup() {
    useCountUp({ref:"counter4",end:99})
   return (
     <>
-      <div className='flex gap-[12vw] px-[3vw] py-[4vw] rounded-3xl mt-[8vw] justify-center bg-gradient-to-r from-[#0b1f8f] to-[#1b83bf]'>
+      <div className='flex gap-[12vw] px-[3vw] py-[4vw] rounded-3xl mt-[5vw] mb-[5vw] justify-center bg-gradient-to-r from-[#0b1f8f] to-[#1b83bf]'>
         <div >
           <div className='font-bold text-[5rem] text-[#ffffff]'><span id="counter1" />+</div>
           <div className='text-[#ffffff]'>Active Coustomer</div>
