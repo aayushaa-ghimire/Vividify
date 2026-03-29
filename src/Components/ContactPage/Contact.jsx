@@ -2,96 +2,67 @@ import React from 'react';
 
 function Contact() {
   return (
-    <>
-      {/* Main Container*/}
-      <div className="flex flex-col gap-[2vw] p-6 lg:p-[3vw]">
-        {/* Header Section */}
-        <div className="flex flex-col gap-4">
-          <div className="flex">
-            <span className="w-fit rounded-3xl border border-[#504D4D]/20 p-3 shadow-md lg:p-[1vw]">
-              <p className="font-medium text-[#0c5adb]">Contact Us</p>
-            </span>
-          </div>
+    <div className="bg-white px-[8vw] py-16">
+      <div className="flex flex-col items-center text-center">
+        <h2 className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-[#0c5adb]">
+          Contact Us
+        </h2>
+        <h1 className="mb-6 max-w-[800px] text-[2.2rem] font-bold leading-tight text-[#111] lg:text-[3rem]">
+          We’re here to build with you.
+        </h1>
+        <p className="max-w-[600px] text-[1.05rem] font-normal leading-relaxed text-[#686868]">
+          Explore our services and discover the right solutions for your
+          needs—from expert consultation to project collaboration.
+        </p>
+      </div>
 
-          <div>
-            <h1 className="text-[2rem] leading-tight font-bold lg:text-[2.4rem]">
-              We’re here to build with you.
-            </h1>
-          </div>
-
-          <div>
-            <p className="w-full leading-relaxed text-[#686868] lg:w-[50vw] lg:leading-loose">
-              Explore our services and discover the right solutions for your
-              needs—from expert consultation to project collaboration and
-              development.
-            </p>
-          </div>
+      <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="flex flex-col items-center rounded-[2rem] bg-[#f4f8ff] p-10 text-center transition-all hover:bg-[#eef4ff] hover:shadow-md">
+          <h4 className="mb-4 text-xl font-bold text-[#222]">
+            What We Do
+          </h4>
+          <p className="mb-8 text-sm font-normal leading-relaxed text-[#555]">
+            Discover how we transform ideas into real-world digital solutions with precision and care.
+          </p>
+          <a
+            href="#"
+            className="rounded-full bg-[#0c5adb] px-10 py-3.5 text-sm font-bold text-white transition-all hover:bg-[#0948b3] hover:shadow-lg active:scale-95"
+          >
+            Learn More
+          </a>
         </div>
 
-        {/* Cards Section */}
-        <div className="mt-8 flex flex-col justify-center gap-8 lg:flex-row lg:gap-[4.5vw]">
-          {/* Card 1 */}
-          <div className="flex w-full flex-col gap-4 rounded-3xl border-b-4 border-[#0c5adb] bg-[#f4f8ff] p-8 shadow-lg transition-transform duration-150 ease-in-out hover:scale-105 hover:shadow-xl lg:w-[25vw] lg:gap-[1vw] lg:p-[2vw]">
-            <h4 className="text-center text-[1.3rem] font-medium lg:text-left">
-              What We Do
-            </h4>
+        <div className="flex flex-col items-center rounded-[2rem] bg-[#f4f8ff] p-10 text-center transition-all hover:bg-[#eef4ff] hover:shadow-md">
+          <h4 className="mb-4 text-xl font-bold text-[#222]">
+            Let’s Build Together
+          </h4>
+          <p className="mb-8 text-sm font-normal leading-relaxed text-[#555]">
+            Have an idea? Let’s collaborate and bring it to life using the latest technology.
+          </p>
+          <a
+            href="#"
+            className="rounded-full bg-[#0c5adb] px-10 py-3.5 text-sm font-bold text-white transition-all hover:bg-[#0948b3] hover:shadow-lg active:scale-95"
+          >
+            Collaborate
+          </a>
+        </div>
 
-            <p className="w-full text-center leading-relaxed text-[#454545] lg:w-[16vw] lg:text-left lg:leading-loose">
-              Discover how we transform ideas into real-world digital solutions.
-            </p>
-
-            <div className="mt-2 flex justify-center lg:mt-0">
-              <a
-                href="...."
-                className="rounded-full bg-[#0c5adb] px-6 py-2 text-white transition-all hover:bg-[#2045d6] lg:rounded-[1.8vw] lg:px-[1.2vw] lg:py-[0.7vw]"
-              >
-                Learn More
-              </a>
-            </div>
-          </div>
-
-          {/* Card 2 */}
-          <div className="flex w-full flex-col gap-4 rounded-3xl border-b-4 border-[#0c5adb] bg-[#f4f8ff] p-8 shadow-lg transition-transform duration-150 ease-in-out hover:scale-105 hover:shadow-xl lg:w-[25vw] lg:gap-[1vw] lg:p-[2vw]">
-            <h4 className="text-center text-[1.3rem] font-medium lg:text-left">
-              Let’s Build Together
-            </h4>
-
-            <p className="w-full text-center leading-relaxed text-[#454545] lg:w-[16vw] lg:text-left lg:leading-loose">
-              Have an idea? Let’s collaborate and bring it to life.
-            </p>
-
-            <div className="mt-2 flex justify-center lg:mt-0">
-              <a
-                href="..."
-                className="rounded-full bg-[#0c5adb] px-6 py-2 text-white transition-all hover:bg-[#2045d6] lg:rounded-[1.8vw] lg:px-[1.2vw] lg:py-[0.7vw]"
-              >
-                Learn More
-              </a>
-            </div>
-          </div>
-
-          {/* Card 3 */}
-          <div className="flex w-full flex-col gap-4 rounded-3xl border-b-4 border-[#0c5adb] bg-[#f4f8ff] p-8 shadow-lg transition-transform duration-150 ease-in-out hover:scale-105 hover:shadow-xl lg:w-[25vw] lg:gap-[1vw] lg:p-[2vw]">
-            <h4 className="text-center text-[1.3rem] font-medium lg:text-left">
-              Start a Project
-            </h4>
-
-            <p className="w-full text-center leading-relaxed text-[#454545] lg:w-[16vw] lg:text-left lg:leading-loose">
-              Ready to begin? Reach out and let’s create something impactful.
-            </p>
-
-            <div className="mt-2 flex justify-center lg:mt-0">
-              <a
-                href="..."
-                className="rounded-full bg-[#0c5adb] px-6 py-2 text-white transition-all hover:bg-[#2045d6] lg:rounded-[1.8vw] lg:px-[1.2vw] lg:py-[0.7vw]"
-              >
-                Learn More
-              </a>
-            </div>
-          </div>
+        <div className="flex flex-col items-center rounded-[2rem] bg-[#f4f8ff] p-10 text-center transition-all hover:bg-[#eef4ff] hover:shadow-md">
+          <h4 className="mb-4 text-xl font-bold text-[#222]">
+            Start a Project
+          </h4>
+          <p className="mb-8 text-sm font-normal leading-relaxed text-[#555]">
+            Ready to begin? Reach out and let’s create something impactful for your business.
+          </p>
+          <a
+            href="#"
+            className="rounded-full bg-[#0c5adb] px-10 py-3.5 text-sm font-bold text-white transition-all hover:bg-[#0948b3] hover:shadow-lg active:scale-95"
+          >
+            Get Started
+          </a>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaChevronDown } from 'react-icons/fa';
 
 const Dropdown = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -46,92 +47,65 @@ const Dropdown = () => {
   };
 
   return (
-    <>
-      <div>
-        <div className="bg-gray-50 py-10 sm:py-16 lg:py-24">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl text-center">
-              <h2 className="text-3xl leading-tight font-bold text-black sm:text-4xl lg:text-5xl">
-                Explore Common <br />{' '}
-                <span className="text-[#0c5adb]">Questions</span>
-              </h2>
-            </div>
+    <div className="bg-gray-50 py-16 lg:py-24">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+            Explore Common <br />
+            <span className="text-[#0c5adb]">Questions</span>
+          </h2>
+        </div>
 
-            <div className="mx-auto mt-8 max-w-3xl space-y-4 md:mt-16">
-              {faqData.map((item, index) => (
-                <div
-                  key={index}
-                  className="cursor-pointer overflow-hidden rounded-3xl border border-b-4 border-gray-200 bg-white shadow-lg transition-all duration-200 hover:bg-gray-50"
+        <div className="mx-auto mt-12 max-w-3xl space-y-4">
+          {faqData.map((item, index) => {
+            const isOpen = openIndex === index;
+            return (
+              <div
+                key={index}
+                className={`overflow-hidden rounded-2xl border transition-all duration-300 ${
+                  isOpen 
+                  ? 'border-[#0c5adb] bg-white shadow-md' 
+                  : 'border-gray-200 bg-white hover:bg-gray-50'
+                }`}
+              >
+                <button
                   onClick={() => toggleAccordion(index)}
+                  className="flex w-full items-center justify-between p-5 text-left sm:p-6"
                 >
-                  <button
-                    type="button"
-                    className="flex w-full items-center justify-between px-4 py-5 sm:p-6"
-                  >
-                    <div className="flex items-center text-left">
-                      {/* <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="22"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="mr-3 flex-shrink-0  text-amber-300 opacity-70"
-                  >
-                    <polyline points="9 10 4 15 9 20"></polyline>
-                    <path d="M20 4v7a4 4 0 0 1-4 4H4"></path>
-                  </svg> */}
-                      <span className="text-lg font-semibold text-black transition-all hover:text-[#0c5adb]">
-                        {item.question}
-                      </span>
-                    </div>
+                  <span className={`text-lg font-semibold transition-colors ${isOpen ? 'text-[#0c5adb]' : 'text-black'}`}>
+                    {item.question}
+                  </span>
+                  <FaChevronDown 
+                    className={`h-5 w-5 text-[#0c5adb] transition-transform duration-300 ${
+                      isOpen ? 'rotate-180' : 'rotate-0'
+                    }`} 
+                  />
+                </button>
 
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      className={`h-6 w-6 flex-shrink-0 font-bold text-[#0c5adb] transition-transform duration-200 ${
-                        openIndex === index ? 'rotate-180' : 'rotate-0'
-                      }`}
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M19 9l-7 7-7-7"
-                      />
-                    </svg>
-                  </button>
-
-                  <div
-                    className={`overflow-hidden transition-all duration-200 ${
-                      openIndex === index
-                        ? 'max-h-96 opacity-100'
-                        : 'max-h-0 opacity-0'
-                    }`}
-                  >
-                    <div className="rounded-b-3xl border-b-5 border-l-[0.1rem] border-[#0c5adb] px-4 pb-5 sm:px-6 sm:pb-6">
-                      <p className="ml-8 text-gray-600">{item.answer}</p>
-                    </div>
+                <div
+                  className={`transition-all duration-300 ease-in-out ${
+                    isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                  }`}
+                >
+                  <div className="border-t border-gray-100 px-5 pb-6 pt-2 sm:px-6">
+                    <p className="text-[0.95rem] leading-relaxed text-gray-600">
+                      {item.answer}
+                    </p>
                   </div>
                 </div>
-              ))}
-            </div>
-
-            <p className="mt-9 text-center text-base text-gray-600">
-              Still have questions?{' '}
-              <span className="cursor-pointer font-medium text-blue-600 transition-all duration-200 hover:underline">
-                Contact our support
-              </span>
-            </p>
-          </div>
+              </div>
+            );
+          })}
         </div>
+
+        <p className="mt-12 text-center text-gray-600">
+          Still have questions?{' '}
+          <button className="font-bold text-[#0c5adb] hover:underline">
+            Contact our support
+          </button>
+        </p>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -7,8 +7,8 @@ function About() {
   return (
     <>
       <AboutUs />
-      <GuidingPrinciples />
       <ITSupport />
+      <GuidingPrinciples />
     </>
   );
 }
