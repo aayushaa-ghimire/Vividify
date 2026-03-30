@@ -1,99 +1,104 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Quote, Star, ChevronLeft, ChevronRight, User } from 'lucide-react';
 
-// Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 import './styles.css';
 
-import { Parallax, Pagination, Navigation } from 'swiper/modules';
+import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 
-export default function Reviews() {
+const testimonialData = [
+  {
+    text: "Can't recommend Vividify enough! Their expertise has transformed our operations and enhanced our efficiency. The team's responsiveness and commitment to our success make them a reliable partner. We've seen remarkable improvements in our processes and outcomes since we started working with them. They truly go above and beyond!",
+    name: "Bedanshi Subedi"
+  },
+  {
+    text: "Completely extend leveraged customer service rather than performance based imperatives. magnetic relationships rather than leveraged e-markets. Rapidiously transform timely niches technology. Enthusiastically e-enable global e-markets for cooperative e-business. Authoritatively deliver highly efficient expertise",
+    name: "Suman Shrestha"
+  },
+  {
+    text: "As a small business, we were looking for a partner who truly understood our needs. Vividify exceeded our expectations. Their team is always available and ready to help us navigate challenges. We've noticed a significant boost in our operations since we started working together!",
+    name: "Niraj Maharjan"
+  },
+  {
+    text: "Vividify has been a breath of fresh air for our business. Their expertise and dedication shine through in every interaction. We feel more confident tackling our projects knowing we have such a reliable partner by our side!",
+    name: "Rachana Dhakal"
+  }
+];
+
+export default function App() {
   return (
-    <>
-      <Swiper
-        style={{
-          '--swiper-navigation-color': '#fff',
-          '--swiper-pagination-color': '#fff',
-        }}
-        speed={600}
-        parallax={true}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Parallax, Pagination, Navigation]}
-        className="mySwiper"
-      >
-        <div
-          slot="container-start"
-          className="parallax-bg"
-          style={{
-            'background-image':
-              'url(https://swiperjs.com/demos/images/nature-1.jpg)',
+    <div className="py-16 bg-[#F8FAFF]">
+      <div className="max-w-4xl mx-auto px-6">
+        
+        <div className="flex justify-between items-end mb-8">
+          <div>
+            <h2 className="text-3xl font-bold text-gray-900 mb-1">
+              What <span className="text-blue-600">Our Clients</span> Say
+            </h2>
+            <p className="text-gray-500 text-sm">Hear Directly Our Satisfied Partners</p>
+          </div>
+          
+          <div className="flex gap-2">
+            <button className="prev-btn w-10 h-10 flex items-center justify-center rounded-full border border-gray-200 bg-white text-blue-600 hover:bg-gray-50 transition-colors">
+              <ChevronLeft size={20} />
+            </button>
+            <button className="next-btn w-10 h-10 flex items-center justify-center rounded-full bg-blue-600 text-white hover:bg-blue-700 transition-colors">
+              <ChevronRight size={20} />
+            </button>
+          </div>
+        </div>
+
+        <Swiper
+          spaceBetween={30}
+          effect={'fade'}
+          fadeEffect={{ crossFade: true }}
+          navigation={{
+            nextEl: '.next-btn',
+            prevEl: '.prev-btn',
           }}
-          data-swiper-parallax="-23%"
-        ></div>
-        <SwiperSlide>
-          <div className="title" data-swiper-parallax="-300">
-            Slide 1
-          </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
-          </div>
-          <div className="text" data-swiper-parallax="-100">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
-            </p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="title" data-swiper-parallax="-300">
-            Slide 2
-          </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
-          </div>
-          <div className="text" data-swiper-parallax="-100">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
-            </p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="title" data-swiper-parallax="-300">
-            Slide 3
-          </div>
-          <div className="subtitle" data-swiper-parallax="-200">
-            Subtitle
-          </div>
-          <div className="text" data-swiper-parallax="-100">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
-            </p>
-          </div>
-        </SwiperSlide>
-      </Swiper>
-    </>
+          pagination={{
+            clickable: true,
+            el: '.custom-pagination'
+          }}
+          modules={[EffectFade, Navigation, Pagination]}
+          className="mySwiper"
+        >
+          {testimonialData.map((item, idx) => (
+            <SwiperSlide key={idx}>
+              <div className="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-blue-50 flex flex-col items-start">
+                <div className="flex w-full justify-between items-start mb-6">
+                  <Quote size={32} className="text-blue-100 rotate-180" />
+                  <div className="flex gap-0.5 text-orange-400">
+                    <Star size={16} fill="currentColor" stroke="none" />
+                    <Star size={16} fill="currentColor" stroke="none" />
+                    <Star size={16} fill="currentColor" stroke="none" />
+                    <Star size={16} fill="currentColor" stroke="none" />
+                    <Star size={16} fill="currentColor" stroke="none" />
+                  </div>
+                </div>
+
+                <p className="text-gray-600 text-lg leading-relaxed mb-8">
+                  {item.text}
+                </p>
+
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-400 border border-gray-200">
+                    <User size={20} />
+                  </div>
+                  <h3 className="font-bold text-gray-900">{item.name}</h3>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+
+        <div className="custom-pagination flex justify-center mt-8 gap-2"></div>
+      </div>
+    </div>
   );
 }

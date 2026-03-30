@@ -1,0 +1,68 @@
+.mySwiper {
+  width: 100%;
+  padding-bottom: 50px !important;
+}
+
+.parallax-bg-wrapper {
+  position: absolute;
+  inset: 0;
+  width: 130%;
+  height: 100%;
+  z-index: 0;
+}
+
+.bg-gradient-fill {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #f8fbff 0%, #eef6ff 100%);
+}
+
+.bg-dots-overlay {
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+  background-image: radial-gradient(#0c5adb 1.2px, transparent 1.2px);
+  background-size: 32px 32px;
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* Cleaner, smaller Navigation Buttons */
+.swiper-button-next, 
+.swiper-button-prev {
+  background: white;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(12, 90, 219, 0.08);
+  color: #0c5adb !important;
+  top: 62% !important;
+}
+
+.swiper-button-next:after, 
+.swiper-button-prev:after {
+  font-size: 16px !important;
+  font-weight: 900;
+}
+
+/* Pagination Dots */
+.swiper-pagination-bullet {
+  background: #0c5adb !important;
+  opacity: 0.2;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  width: 30px !important;
+  border-radius: 10px !important;
+}
+
+@media (max-width: 1024px) {
+  .swiper-button-next, .swiper-button-prev {
+    display: none !important;
+  }
+}

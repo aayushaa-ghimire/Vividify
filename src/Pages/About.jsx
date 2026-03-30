@@ -6,6 +6,7 @@ import Countup from '../Components/AboutPage/Countup';
 import OurTeam from '../Components/AboutPage/OurTeam';
 import WhyChooseUs from '../Components/AboutPage/WhyChooseUs';
 import Reviews from '../Components/AboutPage/Reviews';
+import LinearWithValueLabel from '../Components/AboutPage/LinearWithValueLabel';
 
 function About() {
   return (
@@ -16,7 +17,9 @@ function About() {
       <Countup/>
       <OurTeam/>
       <WhyChooseUs/>
+      <LinearWithValueLabel/>
       <Reviews/>
+
     </>
   );
 }

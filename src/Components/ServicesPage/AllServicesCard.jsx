@@ -1,48 +1,66 @@
 import React from 'react';
-import { FaChevronDown } from 'react-icons/fa';
 
-const AllServicesCard = ({ title, shortDesc, longDesc, image, isOpen, onToggle, number }) => {
+const AllServicesCard = ({ title, shortDesc, longDesc, image, number }) => {
   return (
-    <div className="rounded-2xl border border-blue-50 bg-[#f4f8ff] p-6 shadow-sm">
+    <div className="mx-auto w-[95%] max-w-6xl overflow-hidden rounded-[3.5rem] border border-white/60 bg-white/80 backdrop-blur-xl shadow-[0_32px_80px_rgba(12,90,219,0.1)] flex flex-col md:flex-row min-h-[520px] transition-all duration-500 hover:shadow-[0_40px_100px_rgba(12,90,219,0.15)]">
       
-      {/* Simple Grid: Image on top for mobile, Side-by-side for desktop */}
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-[100px_1fr] items-start">
-        
-        {/* Image Box */}
-        <div className="h-24 w-24 overflow-hidden rounded-xl mx-auto sm:mx-0">
-          <img src={image} alt={title} className="h-full w-full object-cover" />
-        </div>
-
-        {/* Text Area */}
-        <div className="text-center sm:text-left">
-          <span className="text-[10px] font-bold tracking-widest text-[#0c5adb] uppercase">
-            Service {number}
-          </span>
-          <h3 className="mb-2 text-xl font-bold text-[#222]">
-            {title}
-          </h3>
-          <p className="mb-4 text-sm font-normal leading-relaxed text-[#686868]">
-            {shortDesc}
-          </p>
-
-          <button
-            onClick={onToggle}
-            className="flex items-center justify-center sm:justify-start gap-2 text-xs font-bold text-[#0c5adb] uppercase"
-          >
-            {isOpen ? 'Close' : 'Learn More'}
-            <FaChevronDown className={isOpen ? 'rotate-180' : ''} />
-          </button>
+      {/* Left Section: Image with Inset Shadow */}
+      <div 
+        className="w-full md:w-[45%] min-h-[400px] md:min-h-[520px] overflow-hidden relative shrink-0"
+        data-swiper-parallax="-400"
+      >
+        <div className="absolute inset-0 p-8">
+          <div className="h-full w-full rounded-[3rem] overflow-hidden shadow-inner border border-white/20">
+            <img 
+              src={image} 
+              alt={title} 
+              className="h-full w-full object-cover transform scale-105 hover:scale-100 transition-transform duration-700" 
+            />
+          </div>
         </div>
       </div>
 
-      {/* Expandable Section - Very basic transition */}
-      {isOpen && (
-        <div className="mt-6 border-l-4 border-[#0c5adb] bg-white p-4">
-          <p className="text-sm font-normal leading-relaxed text-[#555]">
-            {longDesc}
+      {/* Right Section: Content */}
+      <div className="flex flex-col justify-center p-12 md:p-20 text-left w-full relative">
+        {/* Decorative Background Number */}
+        <div 
+          className="absolute top-10 right-10 text-9xl font-black text-blue-500/5 select-none"
+          data-swiper-parallax="-500"
+        >
+          {number}
+        </div>
+
+        <div data-swiper-parallax="-350">
+          <span className="inline-flex items-center px-4 py-1.5 rounded-full bg-[#0c5adb]/10 text-[#0c5adb] text-[11px] font-bold tracking-[0.4em] uppercase mb-6">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#0c5adb] mr-2 animate-pulse"></span>
+            Service {number}
+          </span>
+        </div>
+        
+        <h3 
+          className="text-4xl md:text-6xl font-black text-[#111] tracking-tight leading-[1.1]"
+          data-swiper-parallax="-250"
+        >
+          {title}
+        </h3>
+        
+        <p 
+          className="mt-4 mb-10 text-xl md:text-2xl font-medium text-[#444] leading-relaxed"
+          data-swiper-parallax="-180"
+        >
+          {shortDesc}
+        </p>
+
+        {/* Description Box with Glass Effect */}
+        <div 
+          className="relative border-l-8 border-[#0c5adb] bg-gradient-to-r from-blue-50/50 to-transparent p-8 rounded-r-[2rem]"
+          data-swiper-parallax="-120"
+        >
+          <p className="text-base md:text-lg leading-relaxed text-[#555] font-normal italic">
+            "{longDesc}"
           </p>
         </div>
-      )}
+      </div>
     </div>
   );
 };

@@ -4,6 +4,7 @@ import WhatWeDo from '../Components/Homepage/WhatWeDo';
 import OurServices from '../Components/Homepage/OurServices';
 import AnimatedText from '../Components/Homepage/AnimatedText';
 import Marketing from '../Components/Homepage/Marketing';
+import Reviews from '../Components/Homepage/Reviews';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
         <WhatWeDo />
         <OurServices />
         <Marketing />
+        <Reviews/>
       </div>
     </>
   );

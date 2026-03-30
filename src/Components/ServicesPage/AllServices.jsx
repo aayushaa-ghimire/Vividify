@@ -1,100 +1,93 @@
-import React, { useState } from 'react';
-import AllServicesCard from './AllServicesCard';
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Parallax, Pagination, Navigation, Autoplay } from 'swiper/modules';
 
-function AllServices() {
-  const [open, setOpen] = useState(null);
-  const toggle = (id) => setOpen(open === id ? null : id);
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import './Swiper-style.css';
 
-  return (
-    <div className="bg-white px-[8vw] py-16">
-      {/* Simple, Clean Heading */}
-      <div className="mb-16 text-center">
-        <h2 className="text-xs font-bold uppercase tracking-widest text-[#0c5adb] mb-2">
-          Solutions
-        </h2>
-        <h1 className="text-4xl font-bold text-[#111]">
-          Our Services
-        </h1>
-        <div className="mx-auto mt-4 h-1 w-16 bg-[#0c5adb]"></div>
+const servicesData = [
+  { id: 'web', number: '01', title: 'Web Development', shortDesc: 'High-performance websites.', longDesc: 'Our expert team focuses on delivering responsive, user-friendly sites that engage and convert visitors effectively.', image: '/service1.jpg' },
+  { id: 'soft', number: '02', title: 'Software Development', shortDesc: 'Driving innovation.', longDesc: 'We deliver tailored software solutions that enhance efficiency and drive innovation across all platforms.', image: '/service2.jpg' },
+  { id: 'app', number: '03', title: 'App Development', shortDesc: 'Impactful mobile experiences.', longDesc: 'Our app development services focus on designing user-friendly applications that boost user engagement.', image: '/service3.jpg' },
+  { id: 'marketing', number: '04', title: 'Digital Marketing', shortDesc: 'Strategic online visibility.', longDesc: 'Utilize strategic campaigns to enhance online visibility and drive conversions through data-driven marketing.', image: '/service4.jpg' },
+];
+
+const ServiceCard = ({ title, shortDesc, longDesc, image, number }) => (
+  <div className="flex flex-col md:flex-row items-center justify-between w-full gap-10 py-4">
+    {/* Image Section */}
+    <div className="w-full md:w-[42%] h-[280px] md:h-[350px] shrink-0 relative" data-swiper-parallax="-300">
+      <img 
+        src={image} 
+        alt={title} 
+        className="h-full w-full object-cover rounded-[2.5rem] shadow-lg shadow-blue-900/5" 
+      />
+    </div>
+
+    {/* Content Section */}
+    <div className="flex flex-col justify-center text-left w-full md:max-w-[50%]">
+      <div data-swiper-parallax="-250">
+        <span className="text-[10px] font-bold tracking-[0.4em] text-[#0c5adb] uppercase bg-blue-50/80 px-3 py-1 rounded-full inline-block mb-4">
+          Service {number}
+        </span>
       </div>
+      
+      <h3 className="text-3xl md:text-4xl font-extrabold text-[#111] leading-tight mb-2" data-swiper-parallax="-200">
+        {title}
+      </h3>
+      
+      <p className="text-lg font-semibold text-[#444] mb-5" data-swiper-parallax="-150">
+        {shortDesc}
+      </p>
 
-      {/* Standard Responsive Grid */}
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-        <AllServicesCard
-          number="01"
-          title="Web Development"
-          image="../../public/service1.jpg"
-          isOpen={open === 'web'}
-          onToggle={() => toggle('web')}
-          shortDesc="High-performance, custom-built websites."
-          longDesc="Our expert team focuses on delivering responsive, user-friendly sites that engage and convert visitors effectively."
-        />
-        <AllServicesCard
-          number="02"
-          title="Software Development"
-          image="../../public/service2.jpg"
-          isOpen={open === 'soft'}
-          onToggle={() => toggle('soft')}
-          shortDesc="Tailored solutions that drive innovation."
-          longDesc="We deliver tailored software solutions that enhance efficiency and drive innovation across all platforms."
-        />
-        <AllServicesCard
-          number="03"
-          title="App Development"
-          image="../../public/service3.jpg"
-          isOpen={open === 'app'}
-          onToggle={() => toggle('app')}
-          shortDesc="Impactful mobile experiences for iOS and Android."
-          longDesc="Our app development services focus on designing user-friendly applications that boost user engagement."
-        />
-        <AllServicesCard
-          number="04"
-          title="Digital Marketing"
-          image="../../public/service4.jpg"
-          isOpen={open === 'marketing'}
-          onToggle={() => toggle('marketing')}
-          shortDesc="Strategic campaigns for online visibility."
-          longDesc="Utilize strategic campaigns to enhance online visibility and drive conversions through data-driven marketing."
-        />
-        <AllServicesCard
-          number="05"
-          title="IT Consulting"
-          image="../../public/service5.jpg"
-          isOpen={open === 'consult'}
-          onToggle={() => toggle('consult')}
-          shortDesc="Optimize technology with expert guidance."
-          longDesc="We offer expert guidance to streamline processes and enhance performance through system audits."
-        />
-        <AllServicesCard
-          number="06"
-          title="SEO Optimization"
-          image="../../public/service6.jpg"
-          isOpen={open === 'seo'}
-          onToggle={() => toggle('seo')}
-          shortDesc="Improve search rankings and organic traffic."
-          longDesc="Employ targeted strategies to boost search rankings and attract organic traffic through keyword optimization."
-        />
-        <AllServicesCard
-          number="07"
-          title="Data Management"
-          image="../../public/service7.jpg"
-          isOpen={open === 'data'}
-          onToggle={() => toggle('data')}
-          shortDesc="Maximize value from your business data."
-          longDesc="Ensure accuracy, security, and accessibility of your data to drive informed business decisions."
-        />
-        <AllServicesCard
-          number="08"
-          title="Social Media"
-          image="../../public/service8.jpg"
-          isOpen={open === 'social'}
-          onToggle={() => toggle('social')}
-          shortDesc="Engage audiences through strategic campaigns."
-          longDesc="Elevate your brand with strategic campaigns to enhance visibility and engagement across platforms."
-        />
+      <div className="relative border-l-4 border-[#0c5adb] bg-blue-50/30 p-6 rounded-r-2xl" data-swiper-parallax="-100">
+        <p className="text-sm md:text-base text-[#555] leading-relaxed">
+          {longDesc}
+        </p>
       </div>
     </div>
+  </div>
+);
+
+export default function AllServices() {
+  return (
+    <section className="relative w-full py-16 overflow-hidden bg-[#f8fbff]">
+      {/* Parallax Background */}
+      <div className="parallax-bg-wrapper" data-swiper-parallax="-20%">
+        <div className="bg-gradient-fill"></div>
+        <div className="bg-dots-overlay"></div>
+      </div>
+
+      <div className="relative z-10 mx-auto max-w-5xl px-6">
+        {/* Main Unitary Frame */}
+        <div className="rounded-[3.5rem] border border-white bg-white/90 backdrop-blur-md shadow-[0_20px_60px_rgba(12,90,219,0.06)] p-10 md:p-14">
+          
+          <div className="mb-12 text-center">
+            <h2 className="text-[10px] font-bold uppercase tracking-[0.5em] text-[#0c5adb] mb-2">Expertise</h2>
+            <h1 className="text-3xl md:text-4xl font-extrabold text-[#111] tracking-tight">Our Specialized Services</h1>
+            <div className="mx-auto mt-5 h-1 w-16 rounded-full bg-[#0c5adb]"></div>
+          </div>
+
+          <Swiper
+            speed={1000}
+            parallax={true}
+            loop={true}
+            centeredSlides={true}
+            autoplay={{ delay: 5000, disableOnInteraction: false }}
+            pagination={{ clickable: true }}
+            navigation={true}
+            modules={[Parallax, Pagination, Navigation, Autoplay]}
+            className="mySwiper"
+          >
+            {servicesData.map((service) => (
+              <SwiperSlide key={service.id} className="!bg-transparent px-2">
+                <ServiceCard {...service} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      </div>
+    </section>
   );
 }
-
-export default AllServices;
