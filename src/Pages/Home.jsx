@@ -6,6 +6,7 @@ import AnimatedText from '../Components/Homepage/AnimatedText';
 import Marketing from '../Components/Homepage/Marketing';
 import Reviews from '../Components/Homepage/Reviews';
 import SuccessStories from '../Components/Homepage/SuccessStories';
+import TrustedService from '../Components/Homepage/TrustedService';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
         <Hero />
         <AnimatedText />
         <WhatWeDo />
+        <TrustedService/>
         <OurServices />
         <Marketing />
         <SuccessStories/>
