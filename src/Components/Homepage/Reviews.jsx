@@ -12,7 +12,7 @@ function Reviews() {
                 </p>
             </div>
             <div>
-                <h1 className="text-4xl lg:text-5xl font-bold leading-tight text-[#111]">
+                <h1 className="text-4xl lg:text-5xl font-semibold leading-tight text-[#111]">
                     Driving digital revenue for <br/> our 50+ satisfied customers
                 </h1>
             </div>
@@ -22,7 +22,7 @@ function Reviews() {
                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
                 </div>
                 <div>
-                    <h2 className="text-4xl lg:text-5xl font-black text-[#111]">60%</h2>
+                    <h2 className="text-4xl lg:text-5xl font-semibold text-[#111]">60%</h2>
                 </div>
                 <div>
                     <p className='text-[#686868] text-sm font-semibold leading-tight'>
