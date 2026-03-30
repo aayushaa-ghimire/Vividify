@@ -55,11 +55,14 @@ export default function LinearWithValueLabel() {
   }, []);
 
   return (
-    <div className='flex justify-center items-center w-full bg-amber-800'>
-    <Box sx={{ width: '100%' }}>
+    <div className='flex flex-col w-full px-[15vw] justify-center mb-[6vw] '>
+      <div>
+        <h1>Our ....</h1>
+      </div>
+    <Box sx={{ width: '100%' }} className='flex flex-col gap-[2vw] w-fit px-[4vw] py-[3vw] border-1 border-[#dce5f5] bg-[#f4f8ff] shadow-lg rounded-3xl hover:scale-105 duration-100 ease-in-out transition-transform'>
+      <div className='flex flex-col gap-[2vw]  '>
 
-      <div className='flex flex-col gap-[2vw] justify-center items-center align-middle'>
-        <div className='grid grid-cols-2 '>
+        <div className='grid grid-cols-2 gap-[2vw]'>
           <div><h4 className="text-sm font-bold tracking-[0.2em] uppercase">Scalable Web Solutions</h4></div>
           <div>
             <LinearProgressWithLabel value={progress1}  />
@@ -67,16 +70,16 @@ export default function LinearWithValueLabel() {
         </div>
         
         
-        <div className='grid grid-cols-2' >
+        <div className='grid grid-cols-2 gap-[2vw]' >
           <h4 className="text-sm font-bold tracking-[0.2em] uppercase">Search Visibility Growth</h4>
           <LinearProgressWithLabel value={progress2} />
         
         </div>
-        <div className='grid grid-cols-2'>
+        <div className='grid grid-cols-2 gap-[2vw]'>
           <div><h4 className="text-sm font-bold tracking-[0.2em] uppercase">Online Brand Presence</h4></div>
           <LinearProgressWithLabel value={progress3} />
         </div>
-        <div className='grid grid-cols-3'>
+        <div className='grid grid-cols-2 gap-[2vw]'>
           <div><h4 className="text-sm font-bold tracking-[0.2em] uppercase">Performance & Speed Enhancement </h4></div>
           <LinearProgressWithLabel value={progress4} />
         </div>
