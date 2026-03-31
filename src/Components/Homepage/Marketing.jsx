@@ -1,39 +1,93 @@
+// import React from 'react';
+
+// function Marketing() {
+//   return (
+//     <>
+//       <div className="flex flex-col items-center justify-around gap-10 bg-[#ccdfff] px-6 pt-[15vw] pb-[15vw] lg:flex-row lg:gap-[4vw] lg:px-0 lg:pt-[8vw] lg:pb-[8vw]">
+//         <div className="flex w-full justify-center lg:w-[40vw]">
+//           <img
+//             src="../../public/about-thum11.png"
+//             alt="img"
+//             className="w-[80vw] lg:w-[35vw]"
+//           />
+//         </div>
+
+//         <div className="flex w-full flex-col gap-6 lg:w-[40vw] lg:gap-[2vw]">
+//           <p className="text-[1.1rem] font-semibold text-[#0c5adb] lg:text-[1.2rem] lg:font-normal">
+//             Marketing
+//           </p>
+//           <h1 className="text-[1.8rem] leading-tight font-medium lg:text-[2.19rem]">
+//             Why you need digital marketing
+//           </h1>
+//           <p className="text-[1rem] leading-relaxed text-[#616161] lg:text-[1.3vw]">
+//             As a highly-rated holistic digital marketing agency, we serve
+//             thousands of clients with a full spectrum of services. Our expertise
+//             includes SEO, social media management, website design, web
+//             development, and app development.
+//           </p>
+//           <a
+//             href="..."
+//             className="flex w-max items-center rounded-4xl text-[1.2rem] font-medium underline"
+//           >
+//             Discover More
+//           </a>
+//         </div>
+//       </div>
+//     </>
+//   );
+// }
+
+// export default Marketing;
+
+
 import React from 'react';
 
 function Marketing() {
   return (
-    <>
-      <div className="flex flex-col items-center justify-around gap-10 bg-[#ccdfff] px-6 pt-[15vw] pb-[15vw] lg:flex-row lg:gap-[4vw] lg:px-0 lg:pt-[8vw] lg:pb-[8vw]">
-        <div className="flex w-full justify-center lg:w-[40vw]">
-          <img
-            src="../../public/about-thum11.png"
-            alt="img"
-            className="w-[80vw] lg:w-[35vw]"
-          />
+    <section className="bg-[#f0f5ff] py-16 px-6 lg:py-24 lg:px-20 overflow-hidden font-sans">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-20">
+        
+        <div className="w-full lg:w-1/2 flex justify-center">
+          <div className="relative group">
+            <div className="absolute -inset-4 bg-blue-200/30 rounded-full blur-3xl group-hover:bg-blue-300/40 transition-all duration-500"></div>
+            <img
+              src="/about-thum11.png"
+              alt="Marketing"
+              className="relative w-full max-w-[500px] h-auto object-contain transition-transform duration-500 ease-out group-hover:scale-105"
+            />
+          </div>
         </div>
 
-        <div className="flex w-full flex-col gap-6 lg:w-[40vw] lg:gap-[2vw]">
-          <p className="text-[1.1rem] font-semibold text-[#0c5adb] lg:text-[1.2rem] lg:font-normal">
-            Marketing
-          </p>
-          <h1 className="text-[1.8rem] leading-tight font-medium lg:text-[2.19rem]">
-            Why you need digital marketing
-          </h1>
-          <p className="text-[1rem] leading-relaxed text-[#616161] lg:text-[1.3vw]">
+        <div className="w-full lg:w-1/2 flex flex-col gap-6 lg:gap-8">
+          <div className="space-y-3">
+            <p className="text-[#0c5adb] font-bold uppercase tracking-widest text-sm">
+              Marketing
+            </p>
+            <h1 className="text-3xl lg:text-[2.2rem] font-bold text-[#333] leading-tight">
+              Why you need <br className="hidden md:block" /> digital marketing
+            </h1>
+          </div>
+
+          <p className="text-lg text-[#555] leading-relaxed max-w-xl">
             As a highly-rated holistic digital marketing agency, we serve
             thousands of clients with a full spectrum of services. Our expertise
             includes SEO, social media management, website design, web
             development, and app development.
           </p>
-          <a
-            href="..."
-            className="flex w-max items-center rounded-4xl text-[1.2rem] font-medium underline"
-          >
-            Discover More
-          </a>
+
+          <div className="pt-2">
+            <a
+              href="#"
+              className="group inline-flex items-center text-[#333] font-bold text-lg border-b-2 border-[#0c5adb] pb-1 hover:text-[#0c5adb] transition-all duration-300"
+            >
+              Discover More
+              <span className="ml-2 transition-transform duration-300 group-hover:translate-x-2">→</span>
+            </a>
+          </div>
         </div>
+
       </div>
-    </>
+    </section>
   );
 }
 
