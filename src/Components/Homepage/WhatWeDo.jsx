@@ -8,17 +8,15 @@ import {
 
 function WhatWeDo() {
   return (
-    <section className="bg-[#f0f5ff] py-16 px-6 lg:py-24 lg:px-20 font-sans text-center lg:text-left">
+    <section className="bg-[#f0f5ff] py-16 px-6 lg:py-24 lg:px-20 md:py-18 md:px-15 font-sans text-center lg:text-left">
       <div className="max-w-7xl mx-auto">
-        
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-10 mb-20">
           <div className="w-full lg:w-1/2 space-y-4">
             <p className="text-sm font-bold tracking-[0.2em] text-[#0c5adb] uppercase">
               What We Do
             </p>
             <h1 className="text-3xl lg:text-[2.5rem] leading-tight font-bold text-[#333]">
-              Take the lead in modern Web, <br className="hidden lg:block" /> 
-              App and Software Development
+              Take the lead in modern Web, App and Software Development
             </h1>
           </div>
 
@@ -39,7 +37,6 @@ function WhatWeDo() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
-          
           <div className="group bg-white p-10 rounded-[2.5rem] shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-2 flex flex-col items-center text-center">
             <div className="mb-8 flex items-center justify-center w-16 h-16 rounded-2xl bg-[#f0f5ff] text-[#0c5adb] group-hover:bg-[#0c5adb] group-hover:text-white transition-colors">
               <LuMegaphone size={30} />
@@ -74,18 +71,18 @@ function WhatWeDo() {
               Search Engine Optimization
             </h4>
             <p className="text-[#666] leading-relaxed">
-              Effective reporting in SEO involves tracking key performance metrics and providing actionable insights.
+              Effective reporting in SEO involves tracking key performance
+              metrics and providing actionable insights.
             </p>
           </div>
-
         </div>
 
         <div className="flex justify-center">
           <div className="relative w-full max-w-5xl rounded-[3rem] overflow-hidden shadow-2xl">
             <img
-              src="/home-img.png"
+              src="../../public/HomePageimg.jpg"
               alt="Showcase"
-              className="w-full h-auto object-cover transition-transform duration-700 hover:scale-105"
+              className="w-full h-auto object-cover aspect-[16/5] transition-transform duration-700 hover:scale-105"
             />
           </div>
         </div>

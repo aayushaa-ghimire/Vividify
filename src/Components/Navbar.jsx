@@ -1,24 +1,129 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import MediaQuery from 'react-responsive';
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
-      <nav className="flex items-center  bg-[white] sticky top-0 justify-around w-full h-auto text-[1.1rem] shadow">
-        <img src="../../public/vividify-logo.png" alt="logo" className="w-45" />
-        <div className="hidden md:flex gap-8 items-center text-[#686868] font-500">
-          <Link to="/" className="p-5">
-            Home
+      <nav className="flex py-[1vw] items-center bg-[#f4f8ff] border-b border-[#e0ecff] sticky top-0 justify-around w-full h-auto text-[1.1rem] z-500 shadow ">
+        <div className="">
+          <img
+            src="../../public/vividify-logo.png"
+            alt="logo"
+            className="w-45"
+          />
+        </div>
+
+        {/* Sm Navbar */}
+        <MediaQuery minWidth={0} maxWidth={1000}>
+          <button onClick={() => setIsOpen(!isOpen)} className="relative">
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+
+            <div
+              className={`${
+                isOpen ? 'block' : 'hidden'
+              } absolute flex flex-col text-[#545353]bg-[#f4f8ff] border-b border-[#e0ecff] shadow-sm `}
+            >
+              <Link
+                to="/"
+                className="p-3 md:px-10 md:py-2 border-1 border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#aca9a95f]"
+              >
+                Home
+              </Link>
+              <Link
+                to="/about"
+                className="p-3 md:px-10 md:py-2 border-1 border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#aca9a95f]"
+              >
+                About
+              </Link>
+              <Link
+                to="/service"
+                className="p-3 md:px-10 md:py-2 border-1 border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#aca9a95f]"
+              >
+                Service
+              </Link>
+              <Link
+                to="/faq"
+                className="p-3 md:px-10 md:py-2 border-1 border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#aca9a95f]"
+              >
+                FAQ
+              </Link>
+
+              <Link
+                to="/contacts"
+                className="p-3 md:px-10 md:py-2 border-1 border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#aca9a95f]"
+              >
+                Contacts
+              </Link>
+
+              <Link
+                to="/contacts"
+                className="p-3 md:px-10 md:py-2 border-1 border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#aca9a95f]"
+              >
+                Free Website Audit
+              </Link>
+            </div>
+          </button>
+        </MediaQuery>
+
+        {/* Lg Navbar */}
+
+        <MediaQuery minWidth={1000}>
+          <div className=" gap-8  items-center justify-between text-[#686868] font-500 ">
+            <Link
+              to="/"
+              className="px-4 py-6  hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
+            >
+              Home
+            </Link>
+            <Link
+              to="/about"
+              className="px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
+            >
+              About
+            </Link>
+            <Link
+              to="/service"
+              className="px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92] hover:border-blue-500"
+            >
+              Service
+            </Link>
+            <Link
+              to="/faq"
+              className="px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
+            >
+              FAQ
+            </Link>
+            <Link
+              to="/contacts"
+              className="px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
+            >
+              Contacts
+            </Link>
+          </div>
+          {/* <div className="p-3 mr-4 bg-[#0c5adb] text-white  rounded-2xl hover:bg-blue-700 transition-all"> */}
+          <Link
+            to="/contacts"
+            className="p-3 lg:p-3   mr-4 text-center bg-[#0c5adb] justify-center text-white text-[1rem] md:text-[0.8rem] md:max-w-max  rounded-2xl hover:bg-blue-700 transition-all   "
+          >
+            Free Website Audit
           </Link>
-          <Link to="/about">About</Link>
-          <Link to="/service">Service</Link>
-          <Link to="/faq">FAQ</Link>
-          <Link to="/contacts">Contacts</Link>
-          <Link to="/tools">Tools</Link>
-        </div>
-        <div className="p-4 mr-6 bg-[#0c5adb] text-white  rounded-4xl  hover:bg-blue-700 transition-all">
-          <span className="px-8">Free Website Audit</span>
-        </div>
+          {/* </div> */}
+        </MediaQuery>
       </nav>
     </>
   );

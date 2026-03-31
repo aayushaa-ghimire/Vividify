@@ -11,15 +11,15 @@ import TrustedService from '../Components/Homepage/TrustedService';
 function Home() {
   return (
     <>
-      <div className="mt-[8vw]">
+      <div>
         <Hero />
         <AnimatedText />
         <WhatWeDo />
-        <TrustedService/>
+        <TrustedService />
         <OurServices />
         <Marketing />
-        <SuccessStories/>
-        <Reviews/>
+        <SuccessStories />
+        <Reviews />
       </div>
     </>
   );
