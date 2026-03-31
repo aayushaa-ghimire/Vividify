@@ -1,76 +1,259 @@
+// import React from 'react';
+// import { ChevronRight, Layers, Globe, Cpu, Cloud } from 'lucide-react';
 
+// function TrustedService() {
+//   return (
+//     <section className="bg-white py-10 px-6 lg:px-20 font-sans">
+//       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center">
+//         <div className="w-full lg:w-3/5">
+//           <div className="max-w-xl mb-8">
+//             <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 leading-tight mb-4">
+//               Trusted solutions{' '}
+//               <span className="text-[#0c5adb]">for your digital needs</span>
+//             </h2>
+//             <p className="text-sm text-gray-500 mb-6 leading-relaxed">
+//               We provide scalable technology solutions tailored to your business
+//               goals. Our team ensures high performance from strategy to
+//               deployment.
+//             </p>
+//             <button className="bg-[#0c5adb] text-white px-8 py-3 rounded-xl font-bold hover:bg-[#094bb3] transition-all text-xs">
+//               Get in touch
+//             </button>
+//           </div>
+
+//           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+//             <div className="flex items-start gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
+//               <div className="w-12 h-12 flex-shrink-0 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
+//                 <Layers size={22} />
+//               </div>
+//               <div>
+//                 <h4 className="text-base font-bold text-gray-900">
+//                   Custom Software
+//                 </h4>
+//                 <p className="text-xs text-gray-400 mt-1 mb-2">
+//                   Tailored built applications
+//                 </p>
+//                 <a
+//                   href="#"
+//                   className="flex items-center gap-1 text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider"
+//                 >
+//                   Learn <ChevronRight size={12} />
+//                 </a>
+//               </div>
+//             </div>
+
+//             <div className="flex items-start gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
+//               <div className="w-12 h-12 flex-shrink-0 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
+//                 <Globe size={22} />
+//               </div>
+//               <div>
+//                 <h4 className="text-base font-bold text-gray-900">
+//                   Web Platforms
+//                 </h4>
+//                 <p className="text-xs text-gray-400 mt-1 mb-2">
+//                   High-speed digital hubs
+//                 </p>
+//                 <a
+//                   href="#"
+//                   className="flex items-center gap-1 text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider"
+//                 >
+//                   Learn <ChevronRight size={12} />
+//                 </a>
+//               </div>
+//             </div>
+
+//             <div className="flex items-start gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
+//               <div className="w-12 h-12 flex-shrink-0 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
+//                 <Cpu size={22} />
+//               </div>
+//               <div>
+//                 <h4 className="text-base font-bold text-gray-900">
+//                   Automation
+//                 </h4>
+//                 <p className="text-xs text-gray-400 mt-1 mb-2">
+//                   Streamline your workflow
+//                 </p>
+//                 <a
+//                   href="#"
+//                   className="flex items-center gap-1 text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider"
+//                 >
+//                   Learn <ChevronRight size={12} />
+//                 </a>
+//               </div>
+//             </div>
+
+//             <div className="flex items-start gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
+//               <div className="w-12 h-12 flex-shrink-0 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
+//                 <Cloud size={22} />
+//               </div>
+//               <div>
+//                 <h4 className="text-base font-bold text-gray-900">
+//                   Cloud Systems
+//                 </h4>
+//                 <p className="text-xs text-gray-400 mt-1 mb-2">
+//                   Scalable remote storage
+//                 </p>
+//                 <a
+//                   href="#"
+//                   className="flex items-center gap-1 text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider"
+//                 >
+//                   Learn <ChevronRight size={12} />
+//                 </a>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+
+//         <div className="w-full lg:w-2/5">
+//           <div className="relative rounded-2xl overflow-hidden aspect-[4/4.5] shadow-xl">
+//             <img
+//               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
+//               alt="Team"
+//               className="w-full h-full object-cover"
+//             />
+//             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+//             <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-sm p-4 rounded-xl border border-white/20">
+//               <p className="text-[#0c5adb] font-bold text-[9px] uppercase tracking-wider mb-1">
+//                 Success Rate
+//               </p>
+//               <p className="text-xl font-black text-gray-900 leading-none">
+//                 99.9% Satisfaction
+//               </p>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
+
+// export default TrustedService;
 
 import React from 'react';
+import { ChevronRight, ShieldCheck, Zap, Gauge, HardDrive } from 'lucide-react';
 
 function TrustedService() {
   return (
-    <section className="bg-white py-12 px-6 lg:py-20 lg:px-16 font-sans">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 items-stretch">
-        
-        {/* LEFT COLUMN */}
-        <div className="flex-1 flex flex-col w-[30vw]">
-          
-          {/* Header Section */}
-          <div className="mb-12">
-            <h1 className="text-[2.2rem] lg:text-[2.8rem] font-bold leading-tight text-[#333] mb-8">
-              Trusted solutions <span className="text-[#0c5adb]">for your <br />digital needs </span>
-            </h1>
-            <button className="rounded-full bg-[#0c5adb] text-white px-10 py-4 text-sm font-bold transition-all duration-200 hover:bg-[#0a4bb3] active:scale-95">
+    <section className="bg-white py-10 px-6 lg:px-20 font-sans">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center">
+        <div className="w-full lg:w-3/5">
+          <div className="max-w-xl mb-8">
+            <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 leading-tight mb-4">
+              Uncompromising{' '}
+              <span className="text-[#0c5adb]">quality in every line</span> of
+              code
+            </h2>
+            <p className="text-sm text-gray-500 mb-6 leading-relaxed">
+              We don't just deliver projects; we build high-performance digital
+              assets. Our rigorous testing and quality-first architecture ensure
+              your platforms are secure, fast, and ready to scale.
+            </p>
+            <button className="bg-[#0c5adb] text-white px-8 py-3 rounded-xl font-bold hover:bg-[#094bb3] transition-all text-xs">
               Get in touch
             </button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-            
-            {/* Card 01 */}
-            <div className="group flex flex-col border border-gray-100 rounded-[2.5rem] p-8 min-h-[220px] bg-white transition-all duration-300 hover:border-[#0c5adb] hover:shadow-md">
-              <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-[#0c5adb]">01</p>
-              <h4 className="mb-6 text-xl font-bold text-[#444]">Custom Software Solutions</h4>
-              <a href="#" className="w-fit text-sm font-bold underline underline-offset-8 text-[#666] group-hover:text-[#0c5adb] transition-colors">
-                Learn More
-              </a>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="flex items-start gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
+              <div className="w-12 h-12 flex-shrink-0 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
+                <ShieldCheck size={22} />
+              </div>
+              <div>
+                <h4 className="text-base font-bold text-gray-900">
+                  Clean Code Standards
+                </h4>
+                <p className="text-xs text-gray-400 mt-1 mb-2">
+                  Maintainable, readable, and bug-free from day one.
+                </p>
+                <a
+                  href="#"
+                  className="flex items-center gap-1 text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider"
+                >
+                  Learn <ChevronRight size={12} />
+                </a>
+              </div>
             </div>
 
-            {/* Card 02 */}
-            <div className="group flex flex-col border border-gray-100 rounded-[2.5rem] p-10 min-h-[220px] bg-white transition-all duration-300 hover:border-[#0c5adb] hover:shadow-md">
-              <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-[#0c5adb]">02</p>
-              <h4 className="mb-6 text-xl font-bold text-[#444]">Business Web Platforms</h4>
-              <a href="#" className="w-fit text-sm font-bold underline underline-offset-8 text-[#666] group-hover:text-[#0c5adb] transition-colors">
-                Learn More
-              </a>
+            <div className="flex items-start gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
+              <div className="w-12 h-12 flex-shrink-0 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
+                <Zap size={22} />
+              </div>
+              <div>
+                <h4 className="text-base font-bold text-gray-900">
+                  Optimized Speed
+                </h4>
+                <p className="text-xs text-gray-400 mt-1 mb-2">
+                  Maximum loading speed and smooth interactions.
+                </p>
+                <a
+                  href="#"
+                  className="flex items-center gap-1 text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider"
+                >
+                  Learn <ChevronRight size={12} />
+                </a>
+              </div>
             </div>
 
-            {/* Card 03 */}
-            <div className="group flex flex-col border border-gray-100 rounded-[2.5rem] p-10 min-h-[220px] bg-white transition-all duration-300 hover:border-[#0c5adb] hover:shadow-md">
-              <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-[#0c5adb]">03</p>
-              <h4 className="mb-6 text-xl font-bold text-[#444]">Smart Automation Systems</h4>
-              <a href="#" className="w-fit text-sm font-bold underline underline-offset-8 text-[#666] group-hover:text-[#0c5adb] transition-colors">
-                Learn More
-              </a>
+            <div className="flex items-start gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
+              <div className="w-12 h-12 flex-shrink-0 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
+                <Gauge size={22} />
+              </div>
+              <div>
+                <h4 className="text-base font-bold text-gray-900">
+                  Scalable Architecture
+                </h4>
+                <p className="text-xs text-gray-400 mt-1 mb-2">
+                  Built to handle 10x traffic without a rebuild.
+                </p>
+                <a
+                  href="#"
+                  className="flex items-center gap-1 text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider"
+                >
+                  Learn <ChevronRight size={12} />
+                </a>
+              </div>
             </div>
 
-            {/* Card 04 */}
-            <div className="group flex flex-col border border-gray-100 rounded-[2.5rem] p-10 min-h-[220px] bg-white transition-all duration-300 hover:border-[#0c5adb] hover:shadow-md">
-              <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-[#0c5adb]">04</p>
-              <h4 className="mb-6 text-xl font-bold text-[#444]">Scalable Cloud Infrastructure</h4>
-              <a href="#" className="w-fit text-sm font-bold underline underline-offset-8 text-[#666] group-hover:text-[#0c5adb] transition-colors">
-                Learn More
-              </a>
+            <div className="flex items-start gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
+              <div className="w-12 h-12 flex-shrink-0 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
+                <HardDrive size={22} />
+              </div>
+              <div>
+                <h4 className="text-base font-bold text-gray-900">
+                  Data Protection
+                </h4>
+                <p className="text-xs text-gray-400 mt-1 mb-2">
+                  Top-tier encryption and security protocols.
+                </p>
+                <a
+                  href="#"
+                  className="flex items-center gap-1 text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider"
+                >
+                  Learn <ChevronRight size={12} />
+                </a>
+              </div>
             </div>
-
           </div>
         </div>
 
-        <div className="w-full lg:w-[42%] flex">
-          <div className="w-full min-h-[400px] overflow-hidden rounded-[3rem] shadow-sm flex-grow">
-            <img 
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop" 
-              alt="Digital solutions team" 
-              className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+        <div className="w-full lg:w-2/5">
+          <div className="relative rounded-2xl overflow-hidden aspect-[4/4.5] shadow-xl">
+            <img
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
+              alt="Quality Assurance Team"
+              className="w-full h-full object-cover"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+            <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-sm p-4 rounded-xl border border-white/20">
+              <p className="text-[#0c5adb] font-bold text-[9px] uppercase tracking-wider mb-1">
+                Quality Assurance
+              </p>
+              <p className="text-xl font-black text-gray-900 leading-none">
+                99.9% Satisfaction
+              </p>
+            </div>
           </div>
         </div>
-
       </div>
     </section>
   );
