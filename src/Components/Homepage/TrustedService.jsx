@@ -8,7 +8,7 @@ function TrustedService() {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 items-stretch">
         
         {/* LEFT COLUMN */}
-        <div className="flex-1 flex flex-col">
+        <div className="flex-1 flex flex-col w-[30vw]">
           
           {/* Header Section */}
           <div className="mb-12">
@@ -20,11 +20,10 @@ function TrustedService() {
             </button>
           </div>
 
-          {/* 2x2 Grid - Original Sizes */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             
             {/* Card 01 */}
-            <div className="group flex flex-col border border-gray-100 rounded-[2.5rem] p-10 min-h-[220px] bg-white transition-all duration-300 hover:border-[#0c5adb] hover:shadow-md">
+            <div className="group flex flex-col border border-gray-100 rounded-[2.5rem] p-8 min-h-[220px] bg-white transition-all duration-300 hover:border-[#0c5adb] hover:shadow-md">
               <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-[#0c5adb]">01</p>
               <h4 className="mb-6 text-xl font-bold text-[#444]">Custom Software Solutions</h4>
               <a href="#" className="w-fit text-sm font-bold underline underline-offset-8 text-[#666] group-hover:text-[#0c5adb] transition-colors">
@@ -62,7 +61,6 @@ function TrustedService() {
           </div>
         </div>
 
-        {/* RIGHT COLUMN - Fixed height matching the Left Column */}
         <div className="w-full lg:w-[42%] flex">
           <div className="w-full min-h-[400px] overflow-hidden rounded-[3rem] shadow-sm flex-grow">
             <img 
