@@ -16,8 +16,8 @@ function Home() {
         <AnimatedText />
         <WhatWeDo />
         <TrustedService />
-        <OurServices />
         <Marketing />
+        <OurServices />
         <SuccessStories />
         <Reviews />
       </div>
