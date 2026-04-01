@@ -11,12 +11,28 @@ function SuccessStories() {
               <p className="text-sm font-bold tracking-[0.2em] text-[#0c5adb] uppercase">
                 Success Stories
               </p>
-              <h1 className="text-4xl lg:text-[2.8rem] font-bold text-[#333] leading-tight">
+              <h1
+                data-aos="fade"
+                data-aos-offset="200"
+                data-aos-delay="180"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                className="text-4xl lg:text-[2.8rem] font-bold text-[#333] leading-tight"
+              >
                 Our work propels
                 <br />
                 businesses forward
               </h1>
-              <p className="text-[#666] text-lg leading-relaxed max-w-sm">
+              <p
+                data-aos="fade-right"
+                data-aos-offset="100"
+                data-aos-delay="100"
+                data-aos-duration="1200"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                className="text-[#666] text-lg leading-relaxed max-w-sm"
+              >
                 As a five-star-rated, holistic full-service digital agency, we
                 proudly serve thousands of clients with expertise across SEO and
                 development.
@@ -26,6 +42,12 @@ function SuccessStories() {
             <div className="mt-10">
               <a
                 href="..."
+                data-aos="fade"
+                data-aos-offset="200"
+                data-aos-delay="180"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
                 className="rounded-[1vw] bg-[#0c5adb] text-white px-10 py-4 text-sm font-bold transition-all duration-300 hover:bg-[#0a4bb3] active:scale-95 shadow-md hover:shadow-blue-200"
               >
                 Discover More
@@ -34,7 +56,15 @@ function SuccessStories() {
           </div>
 
           {/* Column 2: Right Path Education */}
-          <div className="group relative overflow-hidden rounded-[2.5rem] min-h-[550px] flex flex-col justify-between p-10 transition-all duration-500 hover:shadow-2xl">
+          <div
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="group relative overflow-hidden rounded-[2.5rem] min-h-[550px] flex flex-col justify-between p-10 transition-all duration-500 hover:shadow-2xl"
+          >
             {/* Background Image & Overlay */}
             <div className="absolute inset-0 bg-[url('/RightPathEdu.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/30 group-hover:from-black/90 transition-colors"></div>
@@ -70,7 +100,15 @@ function SuccessStories() {
           </div>
 
           {/* Column 3: Ripple Engineering */}
-          <div className="group relative overflow-hidden rounded-[2.5rem] min-h-[550px] flex flex-col justify-between p-10 transition-all duration-500 hover:shadow-2xl">
+          <div
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-delay="200"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="group relative overflow-hidden rounded-[2.5rem] min-h-[550px] flex flex-col justify-between p-10 transition-all duration-500 hover:shadow-2xl"
+          >
             {/* Background Image & Overlay */}
             <div className="absolute inset-0 bg-[url('/RippleEngineering.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/30 group-hover:from-black/90 transition-colors"></div>

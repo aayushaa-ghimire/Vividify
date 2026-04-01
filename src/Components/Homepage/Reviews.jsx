@@ -12,12 +12,28 @@ function Reviews() {
             </p>
           </div>
           <div>
-            <h1 className="text-[2.25rem] lg:text-5xl font-medium leading-tight text-[#111]">
+            <h1
+              data-aos="fade"
+              data-aos-offset="200"
+              data-aos-delay="180"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="text-[2.25rem] lg:text-5xl font-medium leading-tight text-[#111]"
+            >
               Driving digital revenue for <br /> our 50+ satisfied customers
             </h1>
           </div>
 
-          <div className="flex gap-[2vw] mt-[1.5vw] items-center bg-white shadow-[0_20px_40px_rgba(12,90,219,0.08)] rounded-3xl w-fit px-[5vw] lg:px-[2vw] py-[3vw] lg:py-[1.5vw] transition-all hover:shadow-[0_20px_40px_rgba(12,90,219,0.15)]">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-delay="100"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="flex gap-[2vw] mt-[1.5vw] items-center bg-white shadow-[0_20px_40px_rgba(12,90,219,0.08)] rounded-3xl w-fit px-[5vw] lg:px-[2vw] py-[3vw] lg:py-[1.5vw] transition-all hover:shadow-[0_20px_40px_rgba(12,90,219,0.15)]"
+          >
             <div className="text-[#0c5adb]">
               <svg
                 width="32"
@@ -49,7 +65,15 @@ function Reviews() {
             <span className="absolute -top-6 -left-4 text-6xl text-blue-100 font-serif select-none">
               “
             </span>
-            <p className="relative z-10 w-full leading-relaxed font-normal text-[#464646] lg:leading-loose text-[1.125rem]">
+            <p
+              data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-delay="100"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="relative z-10 w-full leading-relaxed font-normal text-[#464646] lg:leading-loose text-[1.125rem]"
+            >
               Collaborating with Vividify IT solutions gave us the expert
               insights we needed to elevate our company's online presence and
               web development strategy. Early in the process, we introduced an
@@ -58,7 +82,15 @@ function Reviews() {
           </div>
 
           <div className="flex flex-wrap justify-between items-end pt-[2vw] border-t border-gray-100 gap-4">
-            <div className="flex gap-[1vw] items-center">
+            <div
+              data-aos="fade-down"
+              data-aos-offset="100"
+              data-aos-delay="200"
+              data-aos-duration="600"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="flex gap-[1vw] items-center"
+            >
               <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-400 border border-gray-200">
                 <User size={20} />
               </div>
@@ -72,7 +104,15 @@ function Reviews() {
               </div>
             </div>
 
-            <div className="flex flex-col items-end">
+            <div
+              data-aos="fade-down"
+              data-aos-offset="100"
+              data-aos-delay="200"
+              data-aos-duration="600"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="flex flex-col items-end"
+            >
               <div className="flex items-center gap-2">
                 <h4 className="text-[2rem] lg:text-4xl font-normal text-[#111]">
                   4.7

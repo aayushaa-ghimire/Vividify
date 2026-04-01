@@ -11,12 +11,29 @@ function AboutUs() {
             </span>
           </div>
 
-          <h1 className="text-[2.5rem] lg:text-[4.5rem] font-extrabold leading-[1.1] text-[#0c2946] tracking-tight">
+          <h1
+            data-aos="fade"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="text-[2.5rem] lg:text-[4.5rem] font-extrabold leading-[1.1] text-[#0c2946] tracking-tight"
+          >
             Driving Digital <span className="text-[#0c5adb]">Innovation.</span>
           </h1>
 
           <div className="mt-2 flex justify-center">
-            <p className="max-w-3xl text-[1.1rem] leading-relaxed text-[#64748b] font-normal">
+            <p
+              href="#"
+              data-aos="fade-down"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="max-w-3xl text-[1.1rem] leading-relaxed text-[#64748b] font-normal"
+            >
               We are a modern IT agency focused on building smart, scalable, and
               efficient digital solutions. Our goal is to help businesses
               leverage technology to solve real-world problems and achieve
@@ -27,6 +44,12 @@ function AboutUs() {
 
           <div className="mt-4">
             <a
+              data-aos="fade"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
               href="#contact"
               className="inline-block rounded-xl bg-[#0c5adb] px-10 py-4 text-[0.9rem] font-bold text-white transition-all hover:bg-[#0a4cbd] hover:shadow-xl hover:shadow-[#0c5adb]/20 active:scale-95"
             >
@@ -38,6 +61,12 @@ function AboutUs() {
         <div className="w-full relative group">
           <div className="absolute -inset-1 bg-gradient-to-r from-[#0c5adb] to-blue-400 rounded-[2rem] lg:rounded-[3rem] opacity-5 blur-2xl transition duration-1000"></div>
           <img
+            data-aos="fade"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
             src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1200"
             alt="Vividify Team Office"
             className="relative h-[350px] lg:h-[600px] w-full rounded-[2rem] lg:rounded-[3rem] object-cover shadow-2xl border-4 border-white transition-transform duration-500 group-hover:scale-[1.02]"
