@@ -5,17 +5,18 @@ function ITSupport() {
   return (
     <div className="mx-[4vw] max-w-7xl px-[5vw] py-10 mb-10">
       <div className="flex flex-col items-center justify-between gap-16 lg:flex-row lg:items-center">
-        
         <div className="relative w-full lg:w-[40%]">
           <div className="relative rounded-[2.5rem] bg-gray-50 p-6 shadow-sm">
-            <img 
-              src="/about-page.png" 
-              alt="IT Support" 
+            <img
+              src="/about-page.png"
+              alt="IT Support"
               className="rounded-[2rem] shadow-lg w-full object-cover h-[400px] lg:h-[450px]"
             />
             <div className="absolute -bottom-6 -right-4 rounded-2xl bg-[#0c5adb] p-7 text-white shadow-xl">
               <p className="text-3xl font-bold">100%</p>
-              <p className="text-[10px] uppercase tracking-widest opacity-90 font-bold">Satisfaction</p>
+              <p className="text-[10px] uppercase tracking-widest opacity-90 font-bold">
+                Satisfaction
+              </p>
             </div>
           </div>
         </div>
@@ -27,7 +28,7 @@ function ITSupport() {
               IT Support for Business
             </h4>
             <h1 className="text-[2rem] font-bold leading-tight text-[#111] lg:text-[2.6rem]">
-              Empowering Business with <br /> 
+              Empowering Business with <br />
               <span className="text-[#0c5adb]">IT Solutions.</span>
             </h1>
           </div>
@@ -35,8 +36,8 @@ function ITSupport() {
           {/* paragraphs */}
           <p className="text-[1rem] leading-relaxed text-[#686868]">
             At Vividify Solutions, we are passionate about transforming
-            businesses through innovative technology solutions. We provide a 
-            comprehensive range of IT and digital services that drive growth, 
+            businesses through innovative technology solutions. We provide a
+            comprehensive range of IT and digital services that drive growth,
             enhance efficiency, and elevate customer experiences.
           </p>
 
@@ -46,7 +47,9 @@ function ITSupport() {
                 <FaRocket size={18} />
               </div>
               <div>
-                <p className="text-[0.95rem] font-bold text-[#222]">Innovate Smarter</p>
+                <p className="text-[0.95rem] font-bold text-[#222]">
+                  Innovate Smarter
+                </p>
                 <p className="text-[11px] text-[#686868]">Advanced Tech</p>
               </div>
             </div>
@@ -57,7 +60,9 @@ function ITSupport() {
               </div>
               <div>
                 {/* icon */}
-                <p className="text-[0.95rem] font-bold text-[#222]">Solution Oriented</p>
+                <p className="text-[0.95rem] font-bold text-[#222]">
+                  Solution Oriented
+                </p>
                 <p className="text-[11px] text-[#686868]">Result Driven</p>
               </div>
             </div>
@@ -65,7 +70,10 @@ function ITSupport() {
 
           <div className="flex items-start gap-4 rounded-2xl bg-[#eff6fd] p-6">
             {/* icon */}
-            <FaQuoteLeft className="mt-1 flex-shrink-0 text-[#0c5adb] opacity-50" size={20} />
+            <FaQuoteLeft
+              className="mt-1 flex-shrink-0 text-[#0c5adb] opacity-50"
+              size={20}
+            />
             <p className="text-[0.95rem] font-medium leading-relaxed text-[#444]">
               If your business faces technical challenges, you deserve the very
               best IT solutions by your side.

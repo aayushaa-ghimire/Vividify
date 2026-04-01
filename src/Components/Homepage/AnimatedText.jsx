@@ -1,59 +1,22 @@
 import React from 'react';
-import { LuCheck } from 'react-icons/lu';
+import { Zap } from 'lucide-react';
+
 function AnimatedText() {
   return (
-    <>
-      <div className="bg-gradient-to-b from-[#ffff] via-[#f0f5ff] to-[#f0f5ff] border-b-2 border-[#e6edfb] mb-[0.5vw] mt-[10vw]">
-        <div className="flex justify-between items-center py-[2.48vw] px-2">
-          {/* <img
-            src="../../public/marquee-star.png"
-            alt="star"
-            className="w-[3vw] min-w-[15px]"
-          /> */}
-          <LuCheck className=" text-[2rem] text-[#0c5adb] font-extrabold" />
+    <section className="bg-[#0c5adb] py-6 border-y-2 border-[#0a4bb3] flex justify-center">
+      <div className="flex items-center text-white text-lg lg:text-xl font-bold italic uppercase tracking-wider">
+        <span className="mx-6">Website Development</span>
+        <Zap size={16} className="text-blue-300 fill-blue-300" />
 
-          <p className=" text-[2vw] text-[#0c2946] md:text-[1.5rem] whitespace-nowrap">
-            Website Development
-          </p>
-          {/* <img
-            src="../../public/marquee-star.png"
-            alt="star"
-            className="w-[3vw] min-w-[15px]"
-          /> */}
-          <LuCheck className=" text-[2rem] text-[#0c5adb] font-extrabold" />
+        <span className="mx-6">Software Development</span>
+        <Zap size={16} className="text-blue-300 fill-blue-300" />
 
-          <p className=" text-[2vw] md:text-[1.5rem] whitespace-nowrap">
-            Software Development
-          </p>
-          {/* <img
-            src="../../public/marquee-star.png"
-            alt="star"
-            className="w-[3vw] min-w-[15px]"
-          /> */}
-          <LuCheck className=" text-[2rem] text-[#0c5adb] font-bold" />
+        <span className="mx-6">SEO Agency</span>
+        <Zap size={16} className="text-blue-300 fill-blue-300" />
 
-          <p className=" text-[2vw] md:text-[1.5rem] whitespace-nowrap">
-            SEO Agency
-          </p>
-          {/* <img
-            src="../../public/marquee-star.png"
-            alt="star"
-            className="w-[3vw] min-w-[15px]"
-          /> */}
-          <LuCheck className=" text-[2rem] text-[#0c5adb] font-extrabold" />
-
-          <p className=" text-[2vw] md:text-[1.5rem] whitespace-nowrap">
-            Digital Marketing
-          </p>
-          {/* <img
-            src="../../public/marquee-star.png"
-            alt="star"
-            className="w-[3vw] min-w-[15px]"
-          /> */}
-          <LuCheck className=" text-[2rem] text-[#0c5adb] font-extrabold" />
-        </div>
+        <span className="mx-6">Digital Marketing</span>
       </div>
-    </>
+    </section>
   );
 }
 

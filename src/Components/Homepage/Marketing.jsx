@@ -26,7 +26,7 @@ function Marketing() {
         </div>
 
         <div className="w-full lg:w-1/2">
-          <div className="bg-blue-50 inline-block px-4 py-1 rounded-md mb-6">
+          <div className="inline-block px-4 py-1 rounded-md mb-6">
             <span className="text-[#0c5adb] font-bold uppercase tracking-widest text-xs">
               About Our Agency
             </span>

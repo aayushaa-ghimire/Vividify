@@ -1,55 +1,72 @@
-import React from 'react'
-import { useCountUp } from 'react-countup'
+import React from 'react';
+import { useCountUp } from 'react-countup';
+import { Users, Briefcase, Heart, Globe } from 'lucide-react';
 
 function Countup() {
-  useCountUp({ ref: 'counter1', end: 10, duration: 3, enableScrollSpy:true, scrollSpyDelay:200 })
-  useCountUp({ ref: 'counter2', end: 10, duration: 3, enableScrollSpy:true, scrollSpyDelay:200 })
-  useCountUp({ ref: 'counter3', end: 15, duration: 3, enableScrollSpy:true, scrollSpyDelay:200 })
-  useCountUp({ ref: 'counter4', end: 99, duration: 3, enableScrollSpy:true, scrollSpyDelay:200 })
+  useCountUp({ ref: 'counter1', end: 10, duration: 3, enableScrollSpy: true });
+  useCountUp({ ref: 'counter2', end: 10, duration: 3, enableScrollSpy: true });
+  useCountUp({ ref: 'counter3', end: 15, duration: 3, enableScrollSpy: true });
+  useCountUp({ ref: 'counter4', end: 99, duration: 3, enableScrollSpy: true });
+
+  const stats = [
+    {
+      id: 'counter1',
+      label: 'Active Customers',
+      icon: <Users size={16} />,
+      suffix: '+',
+    },
+    {
+      id: 'counter2',
+      label: 'Expert Members',
+      icon: <Briefcase size={16} />,
+      suffix: '+',
+    },
+    {
+      id: 'counter3',
+      label: 'Satisfied Clients',
+      icon: <Heart size={16} />,
+      suffix: '+',
+    },
+    {
+      id: 'counter4',
+      label: 'Success Rate',
+      icon: <Globe size={16} />,
+      suffix: '%',
+    },
+  ];
 
   return (
-    <div className="py-24 px-10 bg-white">
-      <div className="max-w-7xl mx-auto grid grid-cols-4 gap-6 bg-gradient-to-r from-[#0b1f8f] to-[#1b83bf] p-12 rounded-[2rem] shadow-xl">
-        
-        <div className="flex flex-col items-center p-6 rounded-xl border border-white/10 transition-all hover:bg-white/5 group">
-          <div className="text-6xl font-bold text-white tracking-tighter transition-transform group-hover:scale-110">
-            <span id="counter1"  />+
-          </div>
-          <div className="mt-3 text-blue-100 font-normal text-sm uppercase tracking-wide">
-            Active Customers
-          </div>
-        </div>
+    <div className="py-24 px-6 bg-white font-sans">
+      <div className="max-w-7xl mx-auto bg-[#0c5adb] rounded-[3rem] p-16 lg:p-24 relative overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-16 lg:gap-y-0">
+          {stats.map((stat, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-start px-8 border-l border-white/10 first:border-l-0"
+            >
+              <div className="mb-10 text-blue-200 opacity-50 group-hover:opacity-100 transition-opacity">
+                {stat.icon}
+              </div>
 
-        <div className="flex flex-col items-center p-6 rounded-xl border border-white/10 transition-all hover:bg-white/5 group">
-          <div className="text-6xl font-bold text-white tracking-tighter transition-transform group-hover:scale-110">
-            <span id="counter2" />+
-          </div>
-          <div className="mt-3 text-blue-100 font-normal text-sm uppercase tracking-wide">
-            Expert Members
-          </div>
-        </div>
+              <div className="flex items-baseline text-white">
+                <span
+                  id={stat.id}
+                  className="text-7xl lg:text-9xl font-black tracking-tighter leading-none"
+                />
+                <span className="text-2xl font-bold text-blue-300 ml-1">
+                  {stat.suffix}
+                </span>
+              </div>
 
-        <div className="flex flex-col items-center p-6 rounded-xl border border-white/10 transition-all hover:bg-white/5 group">
-          <div className="text-6xl font-bold text-white tracking-tighter transition-transform group-hover:scale-110">
-            <span id="counter3" />+
-          </div>
-          <div className="mt-3 text-blue-100 font-normal text-sm uppercase tracking-wide">
-            Satisfied Clients
-          </div>
+              <p className="mt-8 text-[10px] font-bold text-white/40 uppercase tracking-[0.5em] leading-tight">
+                {stat.label}
+              </p>
+            </div>
+          ))}
         </div>
-
-        <div className="flex flex-col items-center p-6 rounded-xl border border-white/10 transition-all hover:bg-white/5 group">
-          <div className="text-6xl font-bold text-white tracking-tighter transition-transform group-hover:scale-110">
-            <span id="counter4" />%
-          </div>
-          <div className="mt-3 text-blue-100 font-normal text-sm uppercase tracking-wide">
-            Success Rate
-          </div>
-        </div>
-
       </div>
     </div>
-  )
+  );
 }
 
-export default Countup
+export default Countup;

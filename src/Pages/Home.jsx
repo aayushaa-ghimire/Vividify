@@ -7,6 +7,8 @@ import Marketing from '../Components/Homepage/Marketing';
 import Reviews from '../Components/Homepage/Reviews';
 import SuccessStories from '../Components/Homepage/SuccessStories';
 import TrustedService from '../Components/Homepage/TrustedService';
+import HomeBanner from '../Components/Homepage/HomeBanner';
+import HomeBanner2 from '../Components/Homepage/HomeBanner2';
 
 function Home() {
   return (
@@ -16,8 +18,10 @@ function Home() {
         <AnimatedText />
         <WhatWeDo />
         <TrustedService />
+        <HomeBanner />
         <Marketing />
         <OurServices />
+        <HomeBanner2 />
         <SuccessStories />
         <Reviews />
       </div>

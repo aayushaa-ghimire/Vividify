@@ -18,11 +18,10 @@ function Contact() {
 
       <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         <div className="flex flex-col items-center rounded-[2rem] bg-[#f4f8ff] p-10 text-center transition-all hover:bg-[#eef4ff] hover:shadow-md">
-          <h4 className="mb-4 text-xl font-bold text-[#222]">
-            What We Do
-          </h4>
+          <h4 className="mb-4 text-xl font-bold text-[#222]">What We Do</h4>
           <p className="mb-8 text-sm font-normal leading-relaxed text-[#555]">
-            Discover how we transform ideas into real-world digital solutions with precision and care.
+            Discover how we transform ideas into real-world digital solutions
+            with precision and care.
           </p>
           <a
             href="#"
@@ -37,7 +36,8 @@ function Contact() {
             Let’s Build Together
           </h4>
           <p className="mb-8 text-sm font-normal leading-relaxed text-[#555]">
-            Have an idea? Let’s collaborate and bring it to life using the latest technology.
+            Have an idea? Let’s collaborate and bring it to life using the
+            latest technology.
           </p>
           <a
             href="#"
@@ -52,7 +52,8 @@ function Contact() {
             Start a Project
           </h4>
           <p className="mb-8 text-sm font-normal leading-relaxed text-[#555]">
-            Ready to begin? Reach out and let’s create something impactful for your business.
+            Ready to begin? Reach out and let’s create something impactful for
+            your business.
           </p>
           <a
             href="#"

@@ -63,22 +63,24 @@ const Dropdown = () => {
               <div
                 key={index}
                 className={`overflow-hidden rounded-2xl border transition-all duration-300 ${
-                  isOpen 
-                  ? 'border-[#0c5adb] bg-white shadow-md' 
-                  : 'border-gray-200 bg-white hover:bg-gray-50'
+                  isOpen
+                    ? 'border-[#0c5adb] bg-white shadow-md'
+                    : 'border-gray-200 bg-white hover:bg-gray-50'
                 }`}
               >
                 <button
                   onClick={() => toggleAccordion(index)}
                   className="flex w-full items-center justify-between p-5 text-left sm:p-6"
                 >
-                  <span className={`text-lg font-semibold transition-colors ${isOpen ? 'text-[#0c5adb]' : 'text-black'}`}>
+                  <span
+                    className={`text-lg font-semibold transition-colors ${isOpen ? 'text-[#0c5adb]' : 'text-black'}`}
+                  >
                     {item.question}
                   </span>
-                  <FaChevronDown 
+                  <FaChevronDown
                     className={`h-5 w-5 text-[#0c5adb] transition-transform duration-300 ${
                       isOpen ? 'rotate-180' : 'rotate-0'
-                    }`} 
+                    }`}
                   />
                 </button>
 

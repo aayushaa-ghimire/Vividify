@@ -12,7 +12,6 @@ function Help() {
   return (
     <div className="mb-30 bg-[#f8faff] px-[8vw] py-12 lg:py-20">
       <div className="mx-auto flex flex-col items-center justify-around gap-[12vw] lg:flex-row lg:items-start lg:gap-0">
-        
         <div className="flex w-full flex-col gap-[8vw] lg:w-[40vw] lg:gap-[3vw]">
           <div className="flex flex-col leading-relaxed">
             <span className="w-fit rounded-3xl border border-[#0c5adb]/20 bg-white px-6 py-2 shadow-sm">

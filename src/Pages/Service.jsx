@@ -1,13 +1,14 @@
 import React from 'react';
 import OurServices from '../Components/ServicesPage/OurServices';
 import AllServices from '../Components/ServicesPage/AllServices';
-import Quality from '../Components/ServicesPage/Quality';
+import ServiceFeatures from '../Components/ServicesPage/ServiceFeatures';
+import ServicesCards from '../Components/ServicesPage/ServicesCards';
 function Service() {
   return (
     <>
-      <OurServices />
       <AllServices />
-      <Quality />
+      <ServiceFeatures />
+      <ServicesCards />
     </>
   );
 }
