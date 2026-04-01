@@ -104,7 +104,7 @@ const ServiceCard = ({ title, longDesc, image, number }) => (
           {longDesc}
         </p>
 
-        <button className="bg-[#0c5adb] text-white font-bold py-4 px-10 rounded-full flex items-center gap-3 hover:bg-[#0a4bb3] transition-all shadow-lg shadow-blue-100 uppercase tracking-wider text-sm">
+        <button className="bg-[#0c5adb] text-white font-bold py-4 px-10 rounded-2xl flex items-center gap-3 hover:bg-[#0a4bb3] transition-all shadow-lg shadow-blue-100 uppercase tracking-wider text-sm">
           Contact Us
           <span className="text-xl">→</span>
         </button>
