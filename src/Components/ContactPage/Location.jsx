@@ -19,24 +19,56 @@ function Location() {
 
         <div className="flex w-full flex-col justify-center gap-[6vw] lg:w-auto lg:gap-[1.5vw]">
           <div className="flex justify-start">
-            <span className="w-fit rounded-3xl border-1 border-[#504D4D]/19 p-[3vw] shadow-lg lg:p-[1vw]">
+            <span
+              data-aos="fade-down"
+              data-aos-offset="100"
+              data-aos-delay="100"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="w-fit rounded-3xl border-1 border-[#504D4D]/19 p-[3vw] shadow-lg lg:p-[1vw]"
+            >
               <p className="font-medium text-[#0c5adb]">Our Location</p>
             </span>
           </div>
 
           <div className="flex flex-col gap-[5vw] lg:gap-[2vw]">
             <div className="flex flex-col gap-[3vw] lg:gap-[1vw]">
-              <h1 className="text-[2rem] font-bold lg:text-[2.2rem]">
+              <h1
+                data-aos="fade"
+                data-aos-offset="200"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                className="text-[2rem] font-bold lg:text-[2.2rem]"
+              >
                 Find Our Office
               </h1>
-              <p className="w-full leading-loose text-[#686868] lg:w-[30vw]">
+              <p
+                data-aos="fade-right"
+                data-aos-offset="100"
+                data-aos-delay="100"
+                data-aos-duration="1200"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                className="w-full leading-loose text-[#686868] lg:w-[30vw]"
+              >
                 Where ideas turn into innovation. Visit us at our Jwagal,
                 Lalitpur office to see our work in action, or connect with us
                 online anytime, from anywhere.
               </p>
             </div>
 
-            <div className="flex items-start gap-[4vw] lg:gap-[0.6vw]">
+            <div
+              data-aos="fade-down"
+              data-aos-offset="100"
+              data-aos-delay="100"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="flex items-start gap-[4vw] lg:gap-[0.6vw]"
+            >
               <span className="mt-1 flex items-center text-[1.7rem] text-[#504D4D]">
                 <FaMapMarkerAlt />
               </span>

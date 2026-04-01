@@ -118,12 +118,12 @@ function Footer() {
                 {/* Phone */}
                 <li className="group flex items-center gap-3 transition-colors duration-300 hover:text-[#0c5adb]">
                   <FaPhoneAlt className="text-lg" />
-                  <a href="tel:+1234567890">+1 234 567 890</a>
+                  <a href>9708763889</a>
                 </li>
                 {/* Location */}
                 <li className="group flex items-center gap-3 transition-colors duration-300 hover:text-[#0c5adb]">
                   <FaMapMarkerAlt className="text-lg" />
-                  <span>Global Solutions Center</span>
+                  <span>Jwagal Madhu Marg, Lalitpur</span>
                 </li>
               </ul>
             </div>

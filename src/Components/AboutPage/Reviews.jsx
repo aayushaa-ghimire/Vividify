@@ -112,12 +112,12 @@ export default function App() {
                 </p>
 
                 <div
-                  data-aos="fade-down"
-                  data-aos-offset="200"
-                  data-aos-delay="100"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
+                  // data-aos="fade-down"
+                  // data-aos-offset="200"
+                  // data-aos-delay="100"
+                  // data-aos-duration="1000"
+                  // data-aos-easing="ease-in-out"
+                  // data-aos-mirror="true"
                   className="flex items-center gap-3"
                 >
                   <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-400 border border-gray-200">

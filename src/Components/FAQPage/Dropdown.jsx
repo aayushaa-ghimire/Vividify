@@ -50,13 +50,29 @@ const Dropdown = () => {
     <div className="bg-gray-50 py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+          <h2
+            data-aos="fade"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
+          >
             Explore Common <br />
             <span className="text-[#0c5adb]">Questions</span>
           </h2>
         </div>
 
-        <div className="mx-auto mt-12 max-w-3xl space-y-4">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="100"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          className="mx-auto mt-12 max-w-3xl space-y-4"
+        >
           {faqData.map((item, index) => {
             const isOpen = openIndex === index;
             return (

@@ -71,12 +71,28 @@ export default function ServicesCards() {
           <h2 className="text-xs font-bold uppercase tracking-[0.3em] text-[#0c5adb] mb-3">
             Expertise
           </h2>
-          <h3 className="text-4xl font-black text-gray-900 tracking-tight">
+          <h3
+            data-aos="fade"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="text-4xl font-black text-gray-900 tracking-tight"
+          >
             Our Services
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12">
+        <div
+          data-aos="fade-down"
+          data-aos-offset="100"
+          data-aos-delay="200"
+          data-aos-duration="900"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12"
+        >
           {services.map((service, index) => (
             <div
               key={index}

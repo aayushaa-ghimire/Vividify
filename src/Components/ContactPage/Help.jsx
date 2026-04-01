@@ -14,20 +14,52 @@ function Help() {
       <div className="mx-auto flex flex-col items-center justify-around gap-[12vw] lg:flex-row lg:items-start lg:gap-0">
         <div className="flex w-full flex-col gap-[8vw] lg:w-[40vw] lg:gap-[3vw]">
           <div className="flex flex-col leading-relaxed">
-            <span className="w-fit rounded-3xl border border-[#0c5adb]/20 bg-white px-6 py-2 shadow-sm">
+            <span
+              data-aos="fade-down"
+              data-aos-offset="100"
+              data-aos-delay="100"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="w-fit rounded-3xl border border-[#0c5adb]/20 bg-white px-6 py-2 shadow-sm"
+            >
               <p className="font-medium text-[#0c5adb]">Contact Us</p>
             </span>
-            <h1 className="mt-[4vw] text-[2rem] font-bold text-[#111] lg:mt-6 lg:text-[2.2rem]">
+            <h1
+              data-aos="fade"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="mt-[4vw] text-[2rem] font-bold text-[#111] lg:mt-6 lg:text-[2.2rem]"
+            >
               Ready to Achieve Business Success?
             </h1>
-            <p className="mt-[2vw] w-full text-[#686868] lg:mt-4 lg:w-[30vw]">
+            <p
+              data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-delay="100"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="mt-[2vw] w-full text-[#686868] lg:mt-4 lg:w-[30vw]"
+            >
               Partner with us for expert solutions and support tailored to your
               needs. Let’s turn your goals into reality together!
             </p>
           </div>
 
           <div className="flex flex-col gap-5">
-            <ul className="space-y-4 text-[#686868]">
+            <ul
+              data-aos="fade-down"
+              data-aos-offset="100"
+              data-aos-delay="100"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="space-y-4 text-[#686868]"
+            >
               <li className="flex items-center gap-4">
                 <span className="text-[#0c5adb]">
                   <FaEnvelope />
@@ -51,16 +83,40 @@ function Help() {
         </div>
 
         <form
+          data-aos="fade"
+          data-aos-offset="200"
+          data-aos-delay="90"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
           onSubmit={handleSubmit(onSubmit)}
           className="flex w-full flex-col gap-[6vw] rounded-2xl bg-white p-[8vw] shadow-xl shadow-blue-900/5 lg:w-auto lg:gap-[1.5vw] lg:p-[2.5vw]"
         >
-          <h1 className="text-center text-[1.8rem] font-bold text-[#111] lg:text-left lg:text-[1.5rem]">
+          <h1
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-delay="100"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="text-center text-[1.8rem] font-bold text-[#111] lg:text-left lg:text-[1.5rem]"
+          >
             Lets talk
           </h1>
 
           <div className="flex flex-col gap-[6vw] lg:flex-row lg:gap-[1vw]">
             <div className="flex flex-col gap-[3vw] lg:gap-[0.5vw]">
-              <p className="font-medium text-[#474444]">First name</p>
+              <p
+                data-aos="fade-right"
+                data-aos-offset="100"
+                data-aos-delay="100"
+                data-aos-duration="1200"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                className="font-medium text-[#474444]"
+              >
+                First name
+              </p>
               <input
                 {...register('firstName', { required: true })}
                 type="text"
@@ -70,7 +126,17 @@ function Help() {
             </div>
 
             <div className="flex flex-col gap-[3vw] lg:gap-[0.5vw]">
-              <p className="font-medium text-[#474444]">Last name</p>
+              <p
+                data-aos="fade-right"
+                data-aos-offset="100"
+                data-aos-delay="100"
+                data-aos-duration="1200"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                className="font-medium text-[#474444]"
+              >
+                Last name
+              </p>
               <input
                 {...register('lastName', { required: true })}
                 type="text"
@@ -81,7 +147,17 @@ function Help() {
           </div>
 
           <div className="flex flex-col gap-[3vw] lg:gap-[0.5vw]">
-            <p className="font-medium text-[#474444]">Email</p>
+            <p
+              data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-delay="100"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="font-medium text-[#474444]"
+            >
+              Email
+            </p>
             <input
               {...register('email', { required: true })}
               type="email"
@@ -91,7 +167,17 @@ function Help() {
           </div>
 
           <div className="flex flex-col gap-[3vw] lg:gap-[0.5vw]">
-            <p className="font-medium text-[#474444]">Phone number</p>
+            <p
+              data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-delay="100"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="font-medium text-[#474444]"
+            >
+              Phone number
+            </p>
             <input
               {...register('phone', { required: true })}
               type="number"
@@ -101,7 +187,17 @@ function Help() {
           </div>
 
           <div className="flex flex-col gap-[3vw] lg:gap-[0.5vw]">
-            <p className="font-medium text-[#474444]">Message</p>
+            <p
+              data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-delay="100"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="font-medium text-[#474444]"
+            >
+              Message
+            </p>
             <textarea
               {...register('message', { required: true })}
               placeholder="Enter your message"
