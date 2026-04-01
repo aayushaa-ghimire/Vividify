@@ -6,17 +6,41 @@ function OurTeam() {
       <div className="flex flex-col gap-[4vw] p-[7vw] bg-[#f9f9f9]">
         <div className="flex flex-col items-center text-center w-full gap-[1vw] leading-loose ">
           <div>
-            <p className="text-[18px] font-semibold tracking-[0.2em] text-[#0c5adb] uppercase">
+            <p
+              data-aos="fade-down"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="text-[18px] font-semibold tracking-[0.2em] text-[#0c5adb] uppercase"
+            >
               Our Team
             </p>
           </div>
           <div>
-            <h1 className="text-[2.5rem] font-bold leading-tight text-[#111] lg:text-[3rem]">
+            <h1
+              data-aos="fade"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="text-[2.5rem] font-bold leading-tight text-[#111] lg:text-[3rem]"
+            >
               Meet the talented people <br /> behind Vividify
             </h1>
           </div>
           <div>
-            <p className="max-w-[700px] text-[1.1rem] leading-relaxed text-[#686868]">
+            <p
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="max-w-[700px] text-[1.1rem] leading-relaxed text-[#686868]"
+            >
               Our team of experts brings together diverse skills and experience
               to deliver exceptional digital solutions for your business needs.
             </p>
@@ -25,7 +49,15 @@ function OurTeam() {
 
         {/* image section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[2vw]">
-          <div className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out">
+          <div
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-delay="200"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
+          >
             <div className="aspect-[4/5] overflow-hidden">
               <img
                 src="https://vividifysolutions.com//storage/team-members/March2025/Z2RXVcBhvahxckBUgKaj.webp"
@@ -43,7 +75,15 @@ function OurTeam() {
             </div>
           </div>
 
-          <div className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out">
+          <div
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-delay="250"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
+          >
             <div className="aspect-[4/5] overflow-hidden">
               <img
                 src="https://vividifysolutions.com//storage/team-members/March2025/gCuQQFSNdW9NNTZc71fH.webp"
@@ -61,7 +101,15 @@ function OurTeam() {
             </div>
           </div>
 
-          <div className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out">
+          <div
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-delay="300"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
+          >
             <div className="aspect-[4/5] overflow-hidden">
               <img
                 src="https://vividifysolutions.com//storage/team-members/March2025/o6K97Y1k4KWqUAYCC8eR.png"
@@ -79,7 +127,15 @@ function OurTeam() {
             </div>
           </div>
 
-          <div className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out">
+          <div
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-delay="350"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
+          >
             <div className="aspect-[4/5] overflow-hidden">
               <img
                 src="https://vividifysolutions.com//storage/team-members/March2025/3zHijch57IOA5Fo4ywBK.png"
@@ -97,7 +153,15 @@ function OurTeam() {
             </div>
           </div>
 
-          <div className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out">
+          <div
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-delay="200"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
+          >
             <div className="aspect-[4/5] overflow-hidden">
               <img
                 src="https://vividifysolutions.com//storage/team-members/April2025/IatAPYlLomxZYUcrdzvS.jpg"
@@ -115,7 +179,15 @@ function OurTeam() {
             </div>
           </div>
 
-          <div className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out">
+          <div
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-delay="250"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
+          >
             <div className="aspect-[4/5] overflow-hidden">
               <img
                 src="https://vividifysolutions.com//storage/team-members/April2025/lR77Kib9pf0yfUlAn6OM.jpg"
@@ -133,7 +205,15 @@ function OurTeam() {
             </div>
           </div>
 
-          <div className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out">
+          <div
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-delay="300"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
+          >
             <div className="aspect-[4/5] overflow-hidden">
               <img
                 src="https://vividifysolutions.com//storage/team-members/April2025/5ttq8Bg41UxfqqWUWwDM.jpeg"
@@ -151,7 +231,15 @@ function OurTeam() {
             </div>
           </div>
 
-          <div className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out">
+          <div
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-delay="350"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
+          >
             <div className="aspect-[4/5] overflow-hidden">
               <img
                 src="https://vividifysolutions.com//storage/team-members/July2025/YC8or8TM3avvzfqCxNZy.jpeg"

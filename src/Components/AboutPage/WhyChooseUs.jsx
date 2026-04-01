@@ -16,14 +16,30 @@ function WhyChooseUs() {
         </div>
 
         <div className="flex flex-col gap-4">
-          <div className="rounded-2xl border border-blue-50 bg-[#f4f8ff] p-5 shadow-sm transition-all duration-300 hover:shadow-md">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="rounded-2xl border border-blue-50 bg-[#f4f8ff] p-5 shadow-sm transition-all duration-300 hover:shadow-md"
+          >
             <p className="text-base leading-relaxed text-[#403f3f]">
               <span className="font-bold text-[#111]">Expert Team:</span> Our
               team of skilled professionals delivers smart, result-driven
               solutions with precision and expertise.
             </p>
           </div>
-          <div className="rounded-2xl border border-blue-50 bg-[#f4f8ff] p-5 shadow-sm transition-all duration-300 hover:shadow-md">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="rounded-2xl border border-blue-50 bg-[#f4f8ff] p-5 shadow-sm transition-all duration-300 hover:shadow-md"
+          >
             <p className="text-base leading-relaxed text-[#403f3f]">
               <span className="font-bold text-[#111]">
                 Customized Solutions:
@@ -32,7 +48,15 @@ function WhyChooseUs() {
               unique business goals.
             </p>
           </div>
-          <div className="rounded-2xl border border-blue-50 bg-[#f4f8ff] p-5 shadow-sm transition-all duration-300 hover:shadow-md">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="rounded-2xl border border-blue-50 bg-[#f4f8ff] p-5 shadow-sm transition-all duration-300 hover:shadow-md"
+          >
             <p className="text-base leading-relaxed text-[#403f3f]">
               <span className="font-bold text-[#111]">
                 End-to-End Services:
@@ -41,7 +65,15 @@ function WhyChooseUs() {
               to final execution.
             </p>
           </div>
-          <div className="rounded-2xl border border-blue-50 bg-[#f4f8ff] p-5 shadow-sm transition-all duration-300 hover:shadow-md">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="rounded-2xl border border-blue-50 bg-[#f4f8ff] p-5 shadow-sm transition-all duration-300 hover:shadow-md"
+          >
             <p className="text-base leading-relaxed text-[#403f3f]">
               <span className="font-bold text-[#111]">
                 Long-Term Partnership:
@@ -56,7 +88,15 @@ function WhyChooseUs() {
       {/* Right Pricing Cards Side */}
       <div className="flex flex-wrap lg:flex-nowrap gap-6 w-full lg:w-1/2 justify-center">
         {/* Light Card */}
-        <div className="flex flex-col w-full sm:w-[280px] p-10 items-center text-center bg-white rounded-3xl border border-gray-100 shadow-xl transition-all duration-300 hover:-translate-y-2">
+        <div
+          data-aos="fade-down"
+          data-aos-offset="100"
+          data-aos-delay="200"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          className="flex flex-col w-full sm:w-[280px] p-10 items-center text-center bg-white rounded-3xl border border-gray-100 shadow-xl transition-all duration-300 hover:-translate-y-2"
+        >
           <div className="mb-6 p-4 bg-blue-50 rounded-2xl">
             <img
               src="../../public/pricing-icon.png"
@@ -83,7 +123,15 @@ function WhyChooseUs() {
         </div>
 
         {/* Dark Card */}
-        <div className="flex flex-col w-full sm:w-[280px] p-10 items-center text-center bg-[#000049] text-white rounded-3xl shadow-xl transition-all duration-300 hover:-translate-y-2">
+        <div
+          data-aos="fade-down"
+          data-aos-offset="100"
+          data-aos-delay="290"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          className="flex flex-col w-full sm:w-[280px] p-10 items-center text-center bg-[#000049] text-white rounded-3xl shadow-xl transition-all duration-300 hover:-translate-y-2"
+        >
           <div className="mb-6 p-4 bg-white/10 rounded-2xl">
             <img
               src="../../public/pricing-icon.png"

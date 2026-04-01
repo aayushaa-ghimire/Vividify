@@ -32,14 +32,30 @@ const testimonialData = [
 
 export default function App() {
   return (
-    <div className="py-16 bg-[#F8FAFF]">
+    <div className="py-16 mt-[4vw] bg-[#F8FAFF]">
       <div className="max-w-4xl mx-auto px-6">
         <div className="flex justify-between items-end mb-8">
           <div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-1">
+            <h2
+              data-aos="fade"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="text-3xl font-bold text-gray-900 mb-1"
+            >
               What <span className="text-blue-600">Our Clients</span> Say
             </h2>
-            <p className="text-gray-500 text-sm">
+            <p
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="text-gray-500 text-sm"
+            >
               Hear Directly Our Satisfied Partners
             </p>
           </div>
@@ -83,11 +99,27 @@ export default function App() {
                   </div>
                 </div>
 
-                <p className="text-gray-600 text-lg leading-relaxed mb-8">
+                <p
+                  data-aos="fade-right"
+                  data-aos-offset="200"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  className="text-gray-600 text-lg leading-relaxed mb-8"
+                >
                   {item.text}
                 </p>
 
-                <div className="flex items-center gap-3">
+                <div
+                  data-aos="fade-down"
+                  data-aos-offset="200"
+                  data-aos-delay="100"
+                  data-aos-duration="1000"
+                  data-aos-easing="ease-in-out"
+                  data-aos-mirror="true"
+                  className="flex items-center gap-3"
+                >
                   <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-400 border border-gray-200">
                     <User size={20} />
                   </div>
