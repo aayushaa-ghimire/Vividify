@@ -4,14 +4,14 @@ import {
   Cpu,
   Smartphone,
   BarChart3,
-  Users,
+  // Users,
   Search,
   Database,
   Share2,
   ArrowRight,
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+// import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 const services = [
   {
     icon: <Monitor className="text-gray-800" size={32} />,
@@ -37,12 +37,12 @@ const services = [
     description:
       'Elevate your brand with our digital marketing services, utilizing strategic campaigns to enhance online visibility, engage audiences, and drive conversions.',
   },
-  {
-    icon: <Users className="text-gray-800" size={32} />,
-    title: 'IT Consulting',
-    description:
-      'Optimize your technology investments with our IT consulting services, offering expert guidance to streamline processes, enhance performance, and drive business success.',
-  },
+  // {
+  //   icon: <Users className="text-gray-800" size={32} />,
+  //   title: 'IT Consulting',
+  //   description:
+  //     'Optimize your technology investments with our IT consulting services, offering expert guidance to streamline processes, enhance performance, and drive business success.',
+  // },
   {
     icon: <Search className="text-gray-800" size={32} />,
     title: 'SEO',
@@ -65,7 +65,7 @@ const services = [
 
 export default function ServicesCards() {
   return (
-    <section className="bg-[#f8fbff] py-24 font-sans">
+    <div className="bg-[#f8fbff] pt-24 font-sans">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-20">
           <h2 className="text-xs font-bold uppercase tracking-[0.3em] text-[#0c5adb] mb-3">
@@ -109,6 +109,6 @@ export default function ServicesCards() {
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 }

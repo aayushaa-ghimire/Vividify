@@ -5,7 +5,7 @@ function HomeBanner2() {
   return (
     <section className="my-12 px-6 lg:px-20">
       <div className="max-w-7xl mx-auto bg-[#0c5adb] rounded-3xl p-10 lg:p-16 text-white flex flex-col lg:flex-row items-center gap-10">
-        {/* Left Side: Bold Text */}
+        {/* Left Side*/}
         <div className="w-full lg:w-1/2">
           <h2 className="text-4xl lg:text-6xl font-black mb-6 leading-tight">
             Built for <br />
@@ -17,7 +17,7 @@ function HomeBanner2() {
           </p>
         </div>
 
-        {/* Right Side: Simple List */}
+        {/* Right Side*/}
         <div className="w-full lg:w-1/2 space-y-4">
           <div className="flex items-center gap-4">
             <Check size={24} className="text-blue-200" />

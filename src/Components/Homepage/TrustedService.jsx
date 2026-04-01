@@ -7,24 +7,56 @@ function TrustedService() {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center">
         <div className="w-full lg:w-3/5">
           <div className="max-w-xl mb-8">
-            <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 leading-tight mb-4">
+            <h2
+              data-aos="fade"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="1500"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="text-3xl lg:text-4xl font-extrabold text-gray-900 leading-tight mb-4"
+            >
               Uncompromising{' '}
               <span className="text-[#0c5adb]">quality in every line</span> of
               code
             </h2>
-            <p className="text-sm text-gray-500 mb-6 leading-relaxed">
+            <p
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="text-sm text-gray-500 mb-6 leading-relaxed"
+            >
               We don't just deliver projects; we build high-performance digital
               assets. Our rigorous testing and quality-first architecture ensure
               your platforms are secure, fast, and ready to scale.
             </p>
-            <button className="bg-[#0c5adb] text-white px-8 py-3 rounded-xl font-bold hover:bg-[#094bb3] transition-all text-xs">
+            <button
+              data-aos="fade"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="1500"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="bg-[#0c5adb] text-white px-8 py-3 rounded-xl font-bold hover:bg-[#094bb3] transition-all text-xs"
+            >
               Get in touch
             </button>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {/* Card 1 */}
-            <div className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
+            <div
+              data-aos="fade-down"
+              data-aos-offset="100"
+              data-aos-delay="120"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group"
+            >
               <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
                 <ShieldCheck size={22} />
               </div>
@@ -42,7 +74,15 @@ function TrustedService() {
             </div>
 
             {/* Card 2 */}
-            <div className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
+            <div
+              data-aos="fade-down"
+              data-aos-offset="100"
+              data-aos-delay="160"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group"
+            >
               <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
                 <Zap size={22} />
               </div>
@@ -60,7 +100,15 @@ function TrustedService() {
             </div>
 
             {/* Card 3 */}
-            <div className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
+            <div
+              data-aos="fade-down"
+              data-aos-offset="100"
+              data-aos-delay="180"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group"
+            >
               <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
                 <Gauge size={22} />
               </div>
@@ -78,7 +126,15 @@ function TrustedService() {
             </div>
 
             {/* Card 4 */}
-            <div className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
+            <div
+              data-aos="fade-down"
+              data-aos-offset="100"
+              data-aos-delay="220"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group"
+            >
               <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
                 <HardDrive size={22} />
               </div>
@@ -100,12 +156,26 @@ function TrustedService() {
         <div className="w-full lg:w-2/5">
           <div className="relative rounded-2xl overflow-hidden aspect-[4/4.5] shadow-xl">
             <img
+              data-aos="fade"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop"
               alt="Quality Team"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-            <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-sm p-4 rounded-xl border border-white/20">
+            <div
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-sm p-4 rounded-xl border border-white/20"
+            >
               <p className="text-[#0c5adb] font-bold text-[9px] uppercase tracking-wider mb-1">
                 Quality Assurance
               </p>

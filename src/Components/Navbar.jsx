@@ -64,18 +64,18 @@ function Navbar() {
                 FAQ
               </Link>
 
-              <Link
+              {/* <Link
                 to="/contacts"
                 className="p-3 md:px-10 md:py-2 border-b border-gray-100 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
               >
                 Contacts
-              </Link>
+              </Link> */}
 
               <Link
                 to="/contacts"
-                className="p-3 md:px-10 md:py-2 font-semibold text-[#0c5adb] hover:text-blue-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className="p-3 md:px-10 md:py-2 font-bold text-[#0c5adb] hover:text-blue-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
               >
-                Free Website Audit
+                Contacts
               </Link>
             </div>
           </button>
@@ -86,40 +86,40 @@ function Navbar() {
           <div className=" gap-8  items-center justify-between text-[#686868] font-500 ">
             <Link
               to="/"
-              className="px-4 py-6  hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
+              className="px-4 py-5  hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
+              className="px-4 py-5 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
             >
               About
             </Link>
             <Link
               to="/service"
-              className="px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92] hover:border-blue-500"
+              className="px-4 py-5 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92] hover:border-blue-500"
             >
               Service
             </Link>
             <Link
               to="/faq"
-              className="px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
+              className="px-4 py-5 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
             >
               FAQ
             </Link>
-            <Link
+            {/* <Link
               to="/contacts"
               className="px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
             >
               Contacts
-            </Link>
+            </Link> */}
           </div>
           <Link
             to="/contacts"
-            className="p-3 lg:p-3   mr-4 text-center bg-[#0c5adb] justify-center text-white text-[1rem] md:text-[0.8rem] md:max-w-max  rounded-2xl hover:bg-blue-700 transition-all   "
+            className="p-3 lg:p-3 font-bold  mr-4 text-center bg-[#0c5adb] justify-center text-white text-[1rem] md:text-[0.8rem] md:max-w-max  rounded-2xl hover:bg-blue-700 transition-all   "
           >
-            Free Website Audit
+            Contacts
           </Link>
         </MediaQuery>
       </nav>

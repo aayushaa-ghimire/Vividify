@@ -3,7 +3,7 @@ import { Search, Share2, Monitor, Smartphone } from 'lucide-react';
 
 function Marketing() {
   return (
-    <section className="bg-white py-20 px-6 lg:py-32 lg:px-20 font-sans overflow-hidden">
+    <section className="bg-white py-20 px-6 lg:py-32 lg:px-20  overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16 lg:gap-28">
         <div className="w-full lg:w-1/2 relative flex items-center justify-center">
           <div className="relative z-10 w-[80%] aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
