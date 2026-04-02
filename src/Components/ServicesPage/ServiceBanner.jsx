@@ -2,7 +2,7 @@ import React from 'react';
 
 function ServiceBanner() {
   return (
-    <div className="mt-15 mb-[15] px-[5vw] lg:px-[10vw] font-sans">
+    <div className="mt-15 mb-[15] px-[5vw] lg:px-[10vw] lg:mb-[8vw] font-sans">
       <div className="flex flex-col items-center justify-between gap-10 rounded-[3rem] bg-[#0c5adb] p-12 lg:flex-row lg:p-20">
         <div className="flex flex-col gap-5 text-center lg:text-left">
           <h2

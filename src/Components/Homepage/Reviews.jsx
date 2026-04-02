@@ -4,7 +4,7 @@ import { Star, User } from 'lucide-react';
 function Reviews() {
   return (
     <>
-      <div className="flex flex-wrap lg:flex-nowrap justify-center items-start gap-[8vw] px-[10vw] pt-[6vw] pb-[3vw] mt-[4vw] bg-white">
+      <div className="flex flex-wrap lg:flex-nowrap justify-center items-start gap-[8vw] px-[10vw] pt-[6vw] pb-[8vw] mt-[4vw] bg-white">
         <div className="flex flex-col w-full lg:w-[40vw] gap-[2vw]">
           <div>
             <p className="text-[0.75rem] font-bold tracking-[0.3em] text-[#0c5adb] uppercase">

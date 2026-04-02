@@ -11,7 +11,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="mt-20">
+    <footer>
       {/* Main Container */}
       <div className="flex flex-col gap-12 border-t border-gray-200 bg-[#f8f9fa] px-[8vw] py-12 lg:py-16">
         {/* Top Section*/}

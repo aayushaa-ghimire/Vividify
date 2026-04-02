@@ -39,7 +39,6 @@ function Navbar() {
                 isOpen ? 'block' : 'hidden'
               } absolute top-full  right-0 mt-2 flex flex-col text-[#545353] bg-[#f4f8ff] text-left md:text-center w-[50vw] border-[#e0ecff] shadow-xl min-w-[200px] z-50 transform transition-all duration-300`}
             >
-              {/* <div className="flex flex-col bg-white h-[100%] w-[50%]"> */}
               <Link
                 to="/"
                 className="p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold border-b   border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
@@ -84,7 +83,6 @@ function Navbar() {
               >
                 Contacts
               </Link>
-              {/* </div> */}
             </div>
           </button>
         </MediaQuery>

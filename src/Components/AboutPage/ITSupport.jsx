@@ -10,6 +10,12 @@ function ITSupport() {
             <img
               src="/about-page.png"
               alt="IT Support"
+              data-aos="fade"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
               className="rounded-[2rem] shadow-lg w-full object-cover h-[400px] lg:h-[450px]"
             />
             <div className="absolute -bottom-6 -right-4 rounded-2xl bg-[#0c5adb] p-7 text-white shadow-xl">
