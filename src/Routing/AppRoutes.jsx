@@ -7,6 +7,7 @@ import FAQ from '../Pages/FAQ';
 import Service from '../Pages/Service';
 import Blogs from '../Pages/Blogs';
 import MainLayout from '../Layouts/MainLayout';
+import Projects from '../Pages/Projects';
 
 function AppRoutes() {
   return (
@@ -19,6 +20,7 @@ function AppRoutes() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/blogs" element={<Blogs />} />
+          <Route path="/projects" element={<Projects />} />
         </Route>
       </Routes>
     </>

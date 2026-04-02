@@ -64,12 +64,18 @@ function Navbar() {
                 FAQ
               </Link>
 
-              {/* <Link
-                to="/tools"
+              <Link
+                to="/blogs"
                 className="p-3 md:px-10 md:py-2 border-b border-gray-100 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
               >
-                Tools
-              </Link> */}
+                Blogs
+              </Link>
+              <Link
+                to="/projects"
+                className="p-3 md:px-10 md:py-2 border-b border-gray-100 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+              >
+                Projects
+              </Link>
 
               <Link
                 to="/contacts"
@@ -108,16 +114,22 @@ function Navbar() {
             >
               FAQ
             </Link>
-            {/* <Link
-              to="/tools"
+            <Link
+              to="/blogs"
               className="px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
             >
-              Tools
-            </Link> */}
+              Blogs
+            </Link>
+            <Link
+              to="/projects"
+              className="px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
+            >
+              Projects
+            </Link>
           </div>
           <Link
             to="/contacts"
-            className="p-3 lg:p-3 font-bold  mr-4 text-center bg-[#0c5adb] justify-center text-white text-[1rem] md:text-[0.8rem] md:max-w-max  rounded-2xl hover:bg-blue-700 transition-all   "
+            className="rounded-[1vw] bg-[#0c5adb] text-white px-8 py-4 text-sm font-bold transition-all duration-300 hover:bg-[#0a4bb3] active:scale-95 shadow-md hover:shadow-blue-200"
           >
             Contacts
           </Link>
