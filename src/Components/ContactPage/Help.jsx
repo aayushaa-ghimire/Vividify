@@ -106,17 +106,7 @@ function Help() {
 
           <div className="flex flex-col gap-[6vw] lg:flex-row lg:gap-[1vw]">
             <div className="flex flex-col gap-[3vw] lg:gap-[0.5vw]">
-              <p
-                data-aos="fade-right"
-                data-aos-offset="100"
-                data-aos-delay="100"
-                data-aos-duration="1200"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                className="font-medium text-[#474444]"
-              >
-                First name
-              </p>
+              <p className="font-medium text-[#474444]">First name</p>
               <input
                 {...register('firstName', { required: true })}
                 type="text"
@@ -126,17 +116,7 @@ function Help() {
             </div>
 
             <div className="flex flex-col gap-[3vw] lg:gap-[0.5vw]">
-              <p
-                data-aos="fade-right"
-                data-aos-offset="100"
-                data-aos-delay="100"
-                data-aos-duration="1200"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
-                className="font-medium text-[#474444]"
-              >
-                Last name
-              </p>
+              <p className="font-medium text-[#474444]">Last name</p>
               <input
                 {...register('lastName', { required: true })}
                 type="text"
@@ -147,17 +127,7 @@ function Help() {
           </div>
 
           <div className="flex flex-col gap-[3vw] lg:gap-[0.5vw]">
-            <p
-              data-aos="fade-right"
-              data-aos-offset="100"
-              data-aos-delay="100"
-              data-aos-duration="1200"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              className="font-medium text-[#474444]"
-            >
-              Email
-            </p>
+            <p className="font-medium text-[#474444]">Email</p>
             <input
               {...register('email', { required: true })}
               type="email"
@@ -167,17 +137,7 @@ function Help() {
           </div>
 
           <div className="flex flex-col gap-[3vw] lg:gap-[0.5vw]">
-            <p
-              data-aos="fade-right"
-              data-aos-offset="100"
-              data-aos-delay="100"
-              data-aos-duration="1200"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              className="font-medium text-[#474444]"
-            >
-              Phone number
-            </p>
+            <p className="font-medium text-[#474444]">Phone number</p>
             <input
               {...register('phone', { required: true })}
               type="number"
@@ -187,17 +147,7 @@ function Help() {
           </div>
 
           <div className="flex flex-col gap-[3vw] lg:gap-[0.5vw]">
-            <p
-              data-aos="fade-right"
-              data-aos-offset="100"
-              data-aos-delay="100"
-              data-aos-duration="1200"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              className="font-medium text-[#474444]"
-            >
-              Message
-            </p>
+            <p className="font-medium text-[#474444]">Message</p>
             <textarea
               {...register('message', { required: true })}
               placeholder="Enter your message"

@@ -15,14 +15,22 @@ function WhyChooseUs() {
           </h1>
         </div>
 
-        <div className="flex flex-col gap-4">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="100"
+          data-aos-delay="200"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          className="flex flex-col gap-4"
+        >
           <div
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
+            // data-aos="fade-right"
+            // data-aos-offset="100"
+            // data-aos-delay="200"
+            // data-aos-duration="800"
+            // data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
             className="rounded-2xl border border-blue-50 bg-[#f4f8ff] p-5 shadow-sm transition-all duration-300 hover:shadow-md"
           >
             <p className="text-base leading-relaxed text-[#403f3f]">
@@ -32,12 +40,12 @@ function WhyChooseUs() {
             </p>
           </div>
           <div
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
+            // data-aos="fade-right"
+            // data-aos-offset="100"
+            // data-aos-delay="200"
+            // data-aos-duration="800"
+            // data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
             className="rounded-2xl border border-blue-50 bg-[#f4f8ff] p-5 shadow-sm transition-all duration-300 hover:shadow-md"
           >
             <p className="text-base leading-relaxed text-[#403f3f]">
@@ -49,12 +57,12 @@ function WhyChooseUs() {
             </p>
           </div>
           <div
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
+            // data-aos="fade-right"
+            // data-aos-offset="100"
+            // data-aos-delay="200"
+            // data-aos-duration="800"
+            // data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
             className="rounded-2xl border border-blue-50 bg-[#f4f8ff] p-5 shadow-sm transition-all duration-300 hover:shadow-md"
           >
             <p className="text-base leading-relaxed text-[#403f3f]">
@@ -66,12 +74,12 @@ function WhyChooseUs() {
             </p>
           </div>
           <div
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
+            // data-aos="fade-right"
+            // data-aos-offset="100"
+            // data-aos-delay="200"
+            // data-aos-duration="800"
+            // data-aos-easing="ease-in-out"
+            // data-aos-mirror="true"
             className="rounded-2xl border border-blue-50 bg-[#f4f8ff] p-5 shadow-sm transition-all duration-300 hover:shadow-md"
           >
             <p className="text-base leading-relaxed text-[#403f3f]">

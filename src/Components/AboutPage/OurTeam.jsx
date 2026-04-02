@@ -78,7 +78,7 @@ function OurTeam() {
           <div
             data-aos="fade-down"
             data-aos-offset="100"
-            data-aos-delay="250"
+            data-aos-delay="100"
             data-aos-duration="900"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -104,7 +104,7 @@ function OurTeam() {
           <div
             data-aos="fade-down"
             data-aos-offset="100"
-            data-aos-delay="300"
+            data-aos-delay="100"
             data-aos-duration="900"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -130,7 +130,7 @@ function OurTeam() {
           <div
             data-aos="fade-down"
             data-aos-offset="100"
-            data-aos-delay="350"
+            data-aos-delay="100"
             data-aos-duration="900"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -156,7 +156,7 @@ function OurTeam() {
           <div
             data-aos="fade-down"
             data-aos-offset="100"
-            data-aos-delay="200"
+            data-aos-delay="100"
             data-aos-duration="900"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -182,7 +182,7 @@ function OurTeam() {
           <div
             data-aos="fade-down"
             data-aos-offset="100"
-            data-aos-delay="250"
+            data-aos-delay="100"
             data-aos-duration="900"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -208,7 +208,7 @@ function OurTeam() {
           <div
             data-aos="fade-down"
             data-aos-offset="100"
-            data-aos-delay="300"
+            data-aos-delay="100"
             data-aos-duration="900"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
@@ -234,7 +234,7 @@ function OurTeam() {
           <div
             data-aos="fade-down"
             data-aos-offset="100"
-            data-aos-delay="350"
+            data-aos-delay="100"
             data-aos-duration="900"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"

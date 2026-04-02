@@ -5,7 +5,7 @@ import About from '../Pages/About';
 import Contacts from '../Pages/Contacts';
 import FAQ from '../Pages/FAQ';
 import Service from '../Pages/Service';
-import Tools from '../Pages/Tools';
+import Blogs from '../Pages/Blogs';
 import MainLayout from '../Layouts/MainLayout';
 
 function AppRoutes() {
@@ -18,7 +18,7 @@ function AppRoutes() {
           <Route path="/service" element={<Service />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route path="/tools" element={<Tools />} />
+          <Route path="/blogs" element={<Blogs />} />
         </Route>
       </Routes>
     </>

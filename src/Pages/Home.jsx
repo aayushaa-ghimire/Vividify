@@ -9,6 +9,7 @@ import TrustedService from '../Components/Homepage/TrustedService';
 import HomeBanner from '../Components/Homepage/HomeBanner';
 import HomeBanner2 from '../Components/Homepage/HomeBanner2';
 import MarqueeText from '../Components/Homepage/MarqueeText';
+import Blogs from '../Components/Homepage/Blogs';
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
         <OurServices />
         <HomeBanner2 />
         <SuccessStories />
+        <Blogs />
         <Reviews />
       </div>
     </>

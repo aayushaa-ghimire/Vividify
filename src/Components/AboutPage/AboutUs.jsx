@@ -58,18 +58,20 @@ function AboutUs() {
           </div>
         </div>
 
-        <div className="w-full relative group">
+        <div
+          data-aos="fade-down"
+          data-aos-offset="200"
+          data-aos-delay="10"
+          data-aos-duration="600"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          className="relative w-full max-w-5xl rounded-[3rem] overflow-hidden shadow-2xl"
+        >
           <div className="absolute -inset-1 bg-gradient-to-r from-[#0c5adb] to-blue-400 rounded-[2rem] lg:rounded-[3rem] opacity-5 blur-2xl transition duration-1000"></div>
           <img
-            data-aos="fade"
-            data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
             src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1200"
             alt="Vividify Team Office"
-            className="relative h-[350px] lg:h-[600px] w-full rounded-[2rem] lg:rounded-[3rem] object-cover shadow-2xl border-4 border-white transition-transform duration-500 group-hover:scale-[1.02]"
+            className="w-full h-auto object-cover aspect-[16/5] transition-transform duration-900 hover:scale-105"
           />
         </div>
       </div>

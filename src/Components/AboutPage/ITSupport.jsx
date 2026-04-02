@@ -4,7 +4,7 @@ import { FaLightbulb, FaRocket, FaQuoteLeft } from 'react-icons/fa';
 function ITSupport() {
   return (
     <div className="mx-[4vw] max-w-7xl px-[5vw] py-10 mt-[3vw] mb-10">
-      <div className="flex flex-col items-center justify-between gap-16 lg:flex-row lg:items-center">
+      <div className="flex flex-col items-center justify-between gap-14  lg:flex-row lg:items-center">
         <div className="relative w-full lg:w-[40%]">
           <div className="relative rounded-[2.5rem] bg-gray-50 p-6 shadow-sm">
             <img
@@ -21,7 +21,7 @@ function ITSupport() {
           </div>
         </div>
 
-        <div className="flex w-full flex-col gap-8 lg:w-[50%]">
+        <div className="flex w-full flex-col gap-4 lg:w-[50%]">
           {/* heading */}
           <div className="flex flex-col gap-3">
             <h4 className="text-[11px] font-bold uppercase tracking-[0.2em] text-[#0c5adb]">
@@ -30,8 +30,8 @@ function ITSupport() {
             <h1
               data-aos="fade"
               data-aos-offset="200"
-              data-aos-delay="100"
-              data-aos-duration="2000"
+              data-aos-delay="80"
+              data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="text-[2rem] font-bold leading-tight text-[#111] lg:text-[2.6rem]"
@@ -46,7 +46,7 @@ function ITSupport() {
             data-aos="fade-right"
             data-aos-offset="200"
             data-aos-delay="100"
-            data-aos-duration="1000"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="text-[1rem] leading-relaxed text-[#686868]"
@@ -61,7 +61,7 @@ function ITSupport() {
             <div
               data-aos="fade-down"
               data-aos-offset="100"
-              data-aos-delay="200"
+              data-aos-delay="80"
               data-aos-duration="600"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
@@ -81,7 +81,7 @@ function ITSupport() {
             <div
               data-aos="fade-down"
               data-aos-offset="100"
-              data-aos-delay="200"
+              data-aos-delay="80"
               data-aos-duration="600"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
@@ -107,7 +107,7 @@ function ITSupport() {
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
-            className="flex items-start gap-4 rounded-2xl bg-[#eff6fd] p-6"
+            className="flex items-start gap-2 rounded-2xl bg-[#eff6fd] p-4"
           >
             {/* icon */}
             <FaQuoteLeft
@@ -123,7 +123,7 @@ function ITSupport() {
             <p
               data-aos="fade-right"
               data-aos-offset="200"
-              data-aos-delay="100"
+              data-aos-delay="20"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
@@ -136,12 +136,12 @@ function ITSupport() {
 
           <div className="mt-2">
             <button
-              data-aos="fade"
-              data-aos-offset="200"
-              data-aos-delay="100"
-              data-aos-duration="1500"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
+              // data-aos="fade"
+              // data-aos-offset="200"
+              // data-aos-delay="80"
+              // data-aos-duration="1500"
+              // data-aos-easing="ease-in-out"
+              // data-aos-mirror="true"
               className="rounded-2xl bg-[#0c5adb] px-10 py-4 text-sm font-bold text-white transition-all hover:bg-[#0a4cbd] active:scale-95 shadow-lg shadow-blue-500/20"
             >
               Learn More

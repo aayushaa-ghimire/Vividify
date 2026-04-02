@@ -65,10 +65,10 @@ function Navbar() {
               </Link>
 
               {/* <Link
-                to="/contacts"
+                to="/tools"
                 className="p-3 md:px-10 md:py-2 border-b border-gray-100 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
               >
-                Contacts
+                Tools
               </Link> */}
 
               <Link
@@ -109,10 +109,10 @@ function Navbar() {
               FAQ
             </Link>
             {/* <Link
-              to="/contacts"
+              to="/tools"
               className="px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
             >
-              Contacts
+              Tools
             </Link> */}
           </div>
           <Link
