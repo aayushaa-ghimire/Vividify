@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BlogSection = () => {
+const BlogsHP = () => {
   const blogPosts = [
     {
       id: 1,
@@ -109,4 +109,4 @@ const BlogSection = () => {
   );
 };
 
-export default BlogSection;
+export default BlogsHP;

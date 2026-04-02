@@ -63,11 +63,11 @@ function AboutUs() {
           data-aos-offset="200"
           data-aos-delay="10"
           data-aos-duration="600"
-          data-aos-easing="ease-in-out"
+          data-aos-easing="ease-out"
           data-aos-mirror="true"
           className="relative w-full max-w-5xl rounded-[3rem] overflow-hidden shadow-2xl"
         >
-          <div className="absolute -inset-1 bg-gradient-to-r from-[#0c5adb] to-blue-400 rounded-[2rem] lg:rounded-[3rem] opacity-5 blur-2xl transition duration-1000"></div>
+          <div className=" bg-gradient-to-r from-[#0c5adb] to-blue-400 rounded-[2rem] lg:rounded-[3rem]  transition duration-1000"></div>
           <img
             src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=1200"
             alt="Vividify Team Office"
