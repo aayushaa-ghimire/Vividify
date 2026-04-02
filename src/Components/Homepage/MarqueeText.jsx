@@ -6,7 +6,7 @@ const MarqueeText = () => {
   console.log(Marquee);
   return (
     <div>
-      <Marquee autoFill speed={100}>
+      <Marquee autoFill speed={40}>
         <AnimatedText />
       </Marquee>
     </div>

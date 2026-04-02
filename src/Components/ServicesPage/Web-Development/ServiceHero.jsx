@@ -28,7 +28,7 @@ function ServiceHero() {
         <div className="relative group order-1 md:order-2">
           <div className="rounded-[2rem] overflow-hidden shadow-2xl border-white relative z-10 transition-all duration-500 group-hover:scale-[1.02] group-hover:shadow-blue-100/50 border-[6px] md:border-[10px] md:rounded-[2.5rem]">
             <img
-              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&q=80&w=800"
               alt="Web Engineering"
               className="w-full object-cover transition-transform duration-700 group-hover:scale-110 h-[280px] md:h-[380px]"
             />

@@ -115,7 +115,7 @@ export default function ServicesCards() {
                 to="/contact"
                 className="group flex items-center gap-2 text-[#0c5adb] font-bold text-xs uppercase tracking-widest hover:text-[#0947ad] transition-all"
               >
-                Contact Us
+                Learn More
                 <ArrowRight
                   size={14}
                   className="group-hover:translate-x-1 transition-transform"

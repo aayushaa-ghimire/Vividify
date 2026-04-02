@@ -120,30 +120,14 @@ function ITSupport() {
               className="mt-1 flex-shrink-0 text-[#0c5adb] opacity-50"
               size={20}
             />
-            <p
-              data-aos="fade-right"
-              data-aos-offset="200"
-              data-aos-delay="20"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              className="text-[0.95rem] font-medium leading-relaxed text-[#444]"
-            >
+            <p className="text-[0.95rem] font-medium leading-relaxed text-[#444]">
               If your business faces technical challenges, you deserve the very
               best IT solutions by your side.
             </p>
           </div>
 
           <div className="mt-2">
-            <button
-              // data-aos="fade"
-              // data-aos-offset="200"
-              // data-aos-delay="80"
-              // data-aos-duration="1500"
-              // data-aos-easing="ease-in-out"
-              // data-aos-mirror="true"
-              className="rounded-2xl bg-[#0c5adb] px-10 py-4 text-sm font-bold text-white transition-all hover:bg-[#0a4cbd] active:scale-95 shadow-lg shadow-blue-500/20"
-            >
+            <button className="rounded-2xl bg-[#0c5adb] px-10 py-4 text-sm font-bold text-white transition-all hover:bg-[#0a4cbd] active:scale-95 shadow-lg shadow-blue-500/20">
               Learn More
             </button>
           </div>

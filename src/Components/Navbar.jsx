@@ -7,18 +7,18 @@ function Navbar() {
 
   return (
     <>
-      <nav className="flex py-[1vw] items-center bg-[#f4f8ff] border-b border-[#e0ecff] sticky top-0 justify-around w-full h-auto text-[1.1rem] z-500 shadow ">
+      <nav className="flex py-[1vw] items-center bg-[#f4f8ff] border-b border-[#e0ecff] sticky top-0 justify-between w-full h-auto text-[1.1rem] z-500 shadow ">
         <div className="">
           <img
             src="../../public/vividify-logo.png"
             alt="logo"
-            className="w-45"
+            className="w-45 ml-[3vw]"
           />
         </div>
 
         {/* Sm Navbar */}
         <MediaQuery minWidth={0} maxWidth={1000}>
-          <button onClick={() => setIsOpen(!isOpen)} className="relative p-2">
+          <button onClick={() => setIsOpen(!isOpen)} className="relative p-2 ">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -37,52 +37,54 @@ function Navbar() {
             <div
               className={`${
                 isOpen ? 'block' : 'hidden'
-              } absolute top-full right-0 mt-2 flex flex-col text-[#545353] bg-[#f4f8ff] border border-[#e0ecff] shadow-lg rounded-md min-w-[200px] z-50`}
+              } absolute top-full  right-0 mt-2 flex flex-col text-[#545353] bg-[#f4f8ff] text-left md:text-center w-[50vw] border-[#e0ecff] shadow-xl min-w-[200px] z-50 transform transition-all duration-300`}
             >
+              {/* <div className="flex flex-col bg-white h-[100%] w-[50%]"> */}
               <Link
                 to="/"
-                className="p-3 md:px-10 md:py-2 border-b border-gray-100 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className="p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold border-b   border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
               >
                 Home
               </Link>
               <Link
                 to="/about"
-                className="p-3 md:px-10 md:py-2 border-b border-gray-100 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className="p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold  border-b border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
               >
                 About
               </Link>
               <Link
                 to="/service"
-                className="p-3 md:px-10 md:py-2 border-b border-gray-100 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className="p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold border-b border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
               >
                 Service
               </Link>
               <Link
                 to="/faq"
-                className="p-3 md:px-10 md:py-2 border-b border-gray-100 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className="p-3 md:px-10 md:py-2 border-b font-bold border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
               >
                 FAQ
               </Link>
 
               <Link
                 to="/blogs"
-                className="p-3 md:px-10 md:py-2 border-b border-gray-100 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className="p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold border-b border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
               >
                 Blogs
               </Link>
               <Link
                 to="/projects"
-                className="p-3 md:px-10 md:py-2 border-b border-gray-100 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className="p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold  border-b border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
               >
                 Projects
               </Link>
 
               <Link
                 to="/contacts"
-                className="p-3 md:px-10 md:py-2 font-bold text-[#0c5adb] hover:text-blue-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className="p-3 md:px-10 md:py-5 md:text-[1.2rem]  font-bold  hover:text-blue-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
               >
                 Contacts
               </Link>
+              {/* </div> */}
             </div>
           </button>
         </MediaQuery>
@@ -129,7 +131,7 @@ function Navbar() {
           </div>
           <Link
             to="/contacts"
-            className="rounded-[1vw] bg-[#0c5adb] text-white px-8 py-4 text-sm font-bold transition-all duration-300 hover:bg-[#0a4bb3] active:scale-95 shadow-md hover:shadow-blue-200"
+            className="rounded-[1vw] bg-[#0c5adb] text-white px-8 py-4 mr-[3vw] text-sm font-bold transition-all duration-300 hover:bg-[#0a4bb3] active:scale-95 shadow-md hover:shadow-blue-200"
           >
             Contacts
           </Link>

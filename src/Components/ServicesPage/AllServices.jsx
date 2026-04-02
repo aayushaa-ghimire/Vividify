@@ -196,17 +196,10 @@ const servicesData = [
       'Utilize strategic campaigns to enhance online visibility and drive conversions through data-driven marketing.',
     image: '/service4.jpg',
   },
-  {
-    id: 'consulting',
-    number: '05',
-    title: 'IT Consulting',
-    longDesc:
-      'Optimize your technology investments with our IT consulting services, offering expert guidance to streamline processes.',
-    image: '/service5.jpg',
-  },
+
   {
     id: 'seo',
-    number: '06',
+    number: '05',
     title: 'SEO',
     longDesc:
       'Improve your online visibility with our SEO services, employing targeted strategies to boost search rankings.',
@@ -214,7 +207,7 @@ const servicesData = [
   },
   {
     id: 'data',
-    number: '07',
+    number: '06',
     title: 'Data Management',
     longDesc:
       'Maximize the value of your data with our data management services, ensuring accuracy and security.',
@@ -222,7 +215,7 @@ const servicesData = [
   },
   {
     id: 'social',
-    number: '08',
+    number: '07',
     title: 'Social Media Management',
     longDesc:
       'Elevate your brand with our digital marketing services, utilizing strategic campaigns to engage audiences.',
