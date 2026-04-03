@@ -4,11 +4,10 @@ function BlogPosts() {
   const blogPosts = [
     {
       id: 1,
-      tag: 'Web Development',
-      title: 'How to Build Modern Web Experiences',
+      tag: 'Himalayan Mountaineering',
+      title: 'Mountaineering in Nepal: Where the Earth Touches the Sky',
       info: 'Mastering clean, high-performance architectures that handle scalability with ease and elegance.',
-      image:
-        'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa',
       path: '/blog/mountaineering-nepal',
     },
     {
@@ -39,7 +38,7 @@ function BlogPosts() {
       path: '/blog/mountaineering-nepal',
     },
     {
-      id: 1,
+      id: 4,
       tag: 'Web Development',
       title: 'How to Build Modern Web Experiences',
       info: 'Mastering clean, high-performance architectures that handle scalability with ease and elegance.',
