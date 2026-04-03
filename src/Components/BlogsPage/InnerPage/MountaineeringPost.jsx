@@ -5,10 +5,10 @@ import BlogSidebar from './BlogSidebar';
 
 function MountaineeringPost() {
   return (
-    <div className="max-w-[1200px] mx-auto p-10">
+    <div className="max-w-[1200px]  mx-auto p-10">
       <BlogHeader />
 
-      <div className="flex gap-20 mt-10">
+      <div className=" flex flex-col md:flex-row md:gap-[4vw] lg:gap-20 lg:mt-10 lg:flex-row">
         <div className="w-2/3">
           <BlogContent />
         </div>
