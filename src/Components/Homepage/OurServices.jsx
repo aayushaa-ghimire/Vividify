@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function OurServices() {
   return (
@@ -36,12 +37,12 @@ function OurServices() {
             Focused on business outcomes — we bring a unique set of expertise
             and skills to the party.
           </p>
-          <a
-            href="#"
+          <Link
+            to={'/service'}
             className="inline-block text-[#0c5adb] font-bold border-b-2 border-[#0c5adb] pb-1 hover:text-[#0a4bb3] hover:border-[#0a4bb3] transition-all"
           >
             Discover More
-          </a>
+          </Link>
         </div>
       </div>
 

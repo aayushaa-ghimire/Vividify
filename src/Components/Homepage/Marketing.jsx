@@ -1,20 +1,13 @@
 import React from 'react';
 import { Search, Share2, Monitor, Smartphone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 function Marketing() {
   return (
     <section className="bg-white py-20 px-6 lg:py-32 lg:px-20  overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16 lg:gap-28">
         <div className="w-full lg:w-1/2 relative flex items-center justify-center">
-          <div
-            // data-aos="fade"
-            // data-aos-offset="200"
-            // data-aos-delay="100"
-            // data-aos-duration="1000"
-            // data-aos-easing="ease-in-out"
-            // data-aos-mirror="true"
-            className="relative z-10 w-[80%] aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl"
-          >
+          <div className="relative z-10 w-[80%] aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
             <img
               data-aos="fade"
               data-aos-offset="200"
@@ -28,15 +21,7 @@ function Marketing() {
             />
           </div>
 
-          <div
-            // data-aos="fade"
-            // data-aos-offset="200"
-            // data-aos-delay="350"
-            // data-aos-duration="1000"
-            // data-aos-easing="ease-in-out"
-            // data-aos-mirror="true"
-            className="absolute -bottom-8 -left-4 z-20 w-[40%] aspect-square rounded-2xl overflow-hidden shadow-2xl border-[6px] border-white hidden md:block"
-          >
+          <div className="absolute -bottom-8 -left-4 z-20 w-[40%] aspect-square rounded-2xl overflow-hidden shadow-2xl border-[6px] border-white hidden md:block">
             <img
               data-aos="fade"
               data-aos-offset="200"
@@ -162,18 +147,13 @@ function Marketing() {
           </div>
 
           <div className="flex items-center gap-8">
-            <a
+            <Link
+              to={'/service'}
               href="#"
               className="bg-[#0c5adb] text-white px-10 py-4 rounded-xl font-bold hover:bg-[#094bb3] transition-colors"
             >
               Discover More
-            </a>
-            <a
-              href="#"
-              className="text-sm font-bold text-gray-900 border-b-2 border-gray-200 hover:border-[#0c5adb] transition-all pb-1"
-            >
-              View All Services
-            </a>
+            </Link>
           </div>
         </div>
       </div>

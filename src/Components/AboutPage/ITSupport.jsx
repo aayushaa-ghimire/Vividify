@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaLightbulb, FaRocket, FaQuoteLeft } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function ITSupport() {
   return (
@@ -133,9 +134,12 @@ function ITSupport() {
           </div>
 
           <div className="mt-2">
-            <button className="rounded-2xl bg-[#0c5adb] px-10 py-4 text-sm font-bold text-white transition-all hover:bg-[#0a4cbd] active:scale-95 shadow-lg shadow-blue-500/20">
+            <Link
+              to={'/service'}
+              className="rounded-2xl bg-[#0c5adb] px-10 py-4 text-sm font-bold text-white transition-all hover:bg-[#0a4cbd] active:scale-95 shadow-lg shadow-blue-500/20"
+            >
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </div>

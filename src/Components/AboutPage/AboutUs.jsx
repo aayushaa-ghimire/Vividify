@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function AboutUs() {
   return (
@@ -43,7 +44,8 @@ function AboutUs() {
           </div>
 
           <div className="mt-4">
-            <a
+            <Link
+              to={'/contacts'}
               data-aos="fade"
               data-aos-offset="200"
               data-aos-delay="100"
@@ -54,7 +56,7 @@ function AboutUs() {
               className="inline-block rounded-xl bg-[#0c5adb] px-10 py-4 text-[0.9rem] font-bold text-white transition-all hover:bg-[#0a4cbd] hover:shadow-xl hover:shadow-[#0c5adb]/20 active:scale-95"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
 

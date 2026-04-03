@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function SuccessStories() {
   return (
@@ -40,18 +41,12 @@ function SuccessStories() {
             </div>
 
             <div className="mt-10">
-              <a
-                href="..."
-                data-aos="fade"
-                data-aos-offset="200"
-                data-aos-delay="180"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out"
-                data-aos-mirror="true"
+              <Link
+                to={'/projects'}
                 className="rounded-[1vw] bg-[#0c5adb] text-white px-10 py-4 text-sm font-bold transition-all duration-300 hover:bg-[#0a4bb3] active:scale-95 shadow-md hover:shadow-blue-200"
               >
                 Discover More
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -66,21 +61,24 @@ function SuccessStories() {
             className="group relative overflow-hidden rounded-[2.5rem] min-h-[550px] flex flex-col justify-between p-10 transition-all duration-500 hover:shadow-2xl"
           >
             {/* Background Image & Overlay */}
-            <div className="absolute inset-0 bg-[url('/RightPathEdu.jpg')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"></div>
+            <div className="absolute inset-0 bg-[url('../public/DwarkaPalace.png')] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"></div>
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-black/30 group-hover:from-black/90 transition-colors"></div>
 
             <div className="relative z-10">
               <span className="text-white/80 font-bold text-sm tracking-widest uppercase">
                 Our Work
               </span>
-              <h3 className="text-white font-bold text-xl mt-1">
-                Right Path Education
-              </h3>
+              <a href="https://dwarkapalace.com.np/">
+                {' '}
+                <h3 className="text-white font-bold text-xl mt-1">
+                  Dwarka Palace
+                </h3>
+              </a>
             </div>
 
             <div className="relative z-10 text-white translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
               <div className="mb-6">
-                <h2 className="text-6xl font-bold mb-1">+80%</h2>
+                <h2 className="text-6xl font-bold mb-1">+100%</h2>
                 <p className="text-lg font-medium text-white/90">
                   Digital Presence
                 </p>
@@ -117,9 +115,11 @@ function SuccessStories() {
               <span className="text-white/80 font-bold text-sm tracking-widest uppercase">
                 Our Work
               </span>
-              <h3 className="text-white font-bold text-xl mt-1">
-                Ripple Engineering
-              </h3>
+              <a href="https://rippleengineering.com.np/">
+                <h3 className="text-white font-bold text-xl mt-1">
+                  Ripple Engineering
+                </h3>
+              </a>
             </div>
 
             <div className="relative z-10 text-white translate-y-4 group-hover:translate-y-0 transition-transform duration-500">

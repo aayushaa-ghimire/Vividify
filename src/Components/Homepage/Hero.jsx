@@ -2,6 +2,7 @@ import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -45,12 +46,18 @@ function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-2">
-              <a className="bg-[#0c5adb]  hover:bg-[#0a49b1] text-white px-8 py-3.5 rounded-xl font-bold transition-all duration-300 shadow-lg shadow-[#0c5adb]/20 active:scale-95">
+              <Link
+                to={'/contacts'}
+                className="bg-[#0c5adb]  hover:bg-[#0a49b1] text-white px-8 py-3.5 rounded-xl font-bold transition-all duration-300 shadow-lg shadow-[#0c5adb]/20 active:scale-95"
+              >
                 Start Your Project
-              </a>
-              <a className="bg-white text-[#0c2946] border border-gray-100 px-8 py-3.5 rounded-xl font-bold hover:bg-gray-50 transition-all duration-300">
+              </Link>
+              <Link
+                to={'/service'}
+                className="bg-white text-[#0c2946] border border-gray-100 px-8 py-3.5 rounded-xl font-bold hover:bg-gray-50 transition-all duration-300"
+              >
                 Our Services
-              </a>
+              </Link>
             </div>
           </div>
 

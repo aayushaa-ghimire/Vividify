@@ -5,6 +5,7 @@ import {
   LuSearchCheck,
   LuArrowRight,
 } from 'react-icons/lu';
+import { Link } from 'react-router-dom';
 
 function WhatWeDo() {
   return (
@@ -50,8 +51,8 @@ function WhatWeDo() {
               results. Focused on business outcomes — we bring a unique set of
               expertise and skills to the party.
             </p>
-            <a
-              href="#"
+            <Link
+              to={'/service'}
               data-aos="fade"
               data-aos-offset="100"
               data-aos-delay="100"
@@ -62,7 +63,7 @@ function WhatWeDo() {
             >
               Discover More
               <LuArrowRight className="transition-transform group-hover:translate-x-1" />
-            </a>
+            </Link>
           </div>
         </div>
 

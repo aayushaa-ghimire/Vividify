@@ -1,5 +1,6 @@
 import React from 'react';
 import { Send } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 function HomeBanner() {
   return (
@@ -49,13 +50,14 @@ function HomeBanner() {
               We usually respond within 24 hours
             </p>
 
-            <a
+            <Link
+              to={'/contacts'}
               href="/contact"
               className="inline-flex items-center justify-center gap-3 bg-white text-[#0c5adb] px-10 py-4 rounded-xl font-bold hover:bg-gray-900 hover:text-white transition-all w-full sm:w-auto"
             >
               Start a Conversation
               <Send size={18} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

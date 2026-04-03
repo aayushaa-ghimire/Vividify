@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChevronRight, ShieldCheck, Zap, Gauge, HardDrive } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 function TrustedService() {
   return (
@@ -33,7 +34,8 @@ function TrustedService() {
               assets. Our rigorous testing and quality-first architecture ensure
               your platforms are secure, fast, and ready to scale.
             </p>
-            <button
+            <Link
+              to={'/contacts'}
               data-aos="fade"
               data-aos-offset="200"
               data-aos-delay="100"
@@ -43,7 +45,7 @@ function TrustedService() {
               className="bg-[#0c5adb] text-white px-8 py-3 rounded-xl font-bold hover:bg-[#094bb3] transition-all text-xs"
             >
               Get in touch
-            </button>
+            </Link>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -67,9 +69,12 @@ function TrustedService() {
                 <p className="text-xs text-gray-400 mt-1 mb-2">
                   Maintainable, readable, and bug-free from day one.
                 </p>
-                <div className="text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider flex items-center gap-1">
+                <Link
+                  to={'/about'}
+                  className="text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider flex items-center gap-1"
+                >
                   Learn <ChevronRight size={12} />
-                </div>
+                </Link>
               </div>
             </div>
 
@@ -93,9 +98,12 @@ function TrustedService() {
                 <p className="text-xs text-gray-400 mt-1 mb-2">
                   Maximum loading speed and smooth interactions.
                 </p>
-                <div className="text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider flex items-center gap-1">
+                <Link
+                  to={'/about'}
+                  className="text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider flex items-center gap-1"
+                >
                   Learn <ChevronRight size={12} />
-                </div>
+                </Link>
               </div>
             </div>
 
@@ -119,9 +127,12 @@ function TrustedService() {
                 <p className="text-xs text-gray-400 mt-1 mb-2">
                   Built to handle 10x traffic without a rebuild.
                 </p>
-                <div className="text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider flex items-center gap-1">
+                <Link
+                  to={'/about'}
+                  className="text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider flex items-center gap-1"
+                >
                   Learn <ChevronRight size={12} />
-                </div>
+                </Link>
               </div>
             </div>
 
@@ -145,9 +156,12 @@ function TrustedService() {
                 <p className="text-xs text-gray-400 mt-1 mb-2">
                   Top-tier encryption and security protocols.
                 </p>
-                <div className="text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider flex items-center gap-1">
+                <Link
+                  to={'/about'}
+                  className="text-[10px] font-bold text-[#0c5adb] opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider flex items-center gap-1"
+                >
                   Learn <ChevronRight size={12} />
-                </div>
+                </Link>
               </div>
             </div>
           </div>

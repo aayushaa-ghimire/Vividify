@@ -5,6 +5,7 @@ import { Parallax, Pagination, Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import { Link } from 'react-router-dom';
 
 const servicesData = [
   {
@@ -81,7 +82,7 @@ const ServiceCard = ({ title, longDesc, image, number }) => (
 
     <div className="flex flex-col text-left w-full lg:w-[48%]">
       <div data-swiper-parallax="-250">
-        <span className="text-[0.75rem] font-normal tracking-[0.3em] text-[#0c5adb] uppercase mb-4 block">
+        <span className="text-[0.75rem] font-bold tracking-[0.3em] text-[#0c5adb] uppercase mb-4 block">
           Service {number}
         </span>
       </div>
@@ -98,10 +99,13 @@ const ServiceCard = ({ title, longDesc, image, number }) => (
           {longDesc}
         </p>
 
-        <button className="bg-[#0c5adb] text-white font-normal py-4 px-10 rounded-[1rem] flex items-center gap-3 hover:bg-[#0a4bb3] transition-all shadow-lg shadow-blue-100 uppercase tracking-wider text-[0.875rem]">
+        <Link
+          to={'/contacts'}
+          className="bg-[#0c5adb] w-fit text-white font-bold py-4 px-10 rounded-[1rem] flex items-center gap-3 hover:bg-[#0a4bb3] transition-all shadow-lg shadow-blue-100 uppercase tracking-wider text-[0.875rem]"
+        >
           Contact Us
           <span className="text-[1.25rem]">→</span>
-        </button>
+        </Link>
       </div>
     </div>
   </div>
@@ -112,7 +116,7 @@ export default function AllServices() {
     <div className="relative w-full h-[85vh] flex items-center bg-[#f8fbff] overflow-hidden font-sans">
       <div className="relative z-10 mx-auto max-w-7xl px-6 w-full">
         <Swiper
-          speed={1500}
+          speed={2000}
           parallax={true}
           loop={false}
           grabCursor={true}

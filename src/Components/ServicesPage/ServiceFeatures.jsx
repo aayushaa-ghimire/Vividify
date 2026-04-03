@@ -51,7 +51,7 @@ export default function WhyVividify() {
 
           <div className="flex flex-col items-start lg:items-end">
             <Link
-              to="/contact"
+              to="/contacts"
               className="group flex items-center gap-3 border-b-2 border-white pb-1 hover:text-blue-200 hover:border-blue-200 transition-all"
             >
               <span

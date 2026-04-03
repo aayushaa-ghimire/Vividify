@@ -29,7 +29,7 @@ function BlogPosts() {
       path: '/blog/mountaineering-nepal',
     },
     {
-      id: 2,
+      id: 5,
       tag: 'SEO',
       title: 'Why Content Authority Drives SEO Results',
       info: 'Topical authority is the new currency. Learn how to structure content that dominates rankings.',

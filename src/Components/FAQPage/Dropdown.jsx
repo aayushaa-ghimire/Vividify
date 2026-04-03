@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaChevronDown } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Dropdown = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -118,9 +119,12 @@ const Dropdown = () => {
 
         <p className="mt-12 text-center text-gray-600">
           Still have questions?{' '}
-          <button className="font-bold text-[#0c5adb] hover:underline">
+          <Link
+            to={'/contacts'}
+            className="font-bold text-[#0c5adb] hover:underline"
+          >
             Contact our support
-          </button>
+          </Link>
         </p>
       </div>
     </div>

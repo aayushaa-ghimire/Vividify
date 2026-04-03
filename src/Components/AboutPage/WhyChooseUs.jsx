@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function WhyChooseUs() {
   return (
@@ -90,12 +91,12 @@ function WhyChooseUs() {
             <br />
             24/7 Support
           </div>
-          <a
-            href="#"
+          <Link
+            to={'/contacts'}
             className="w-full rounded-xl bg-gray-100 text-black px-6 py-3.5 text-sm font-bold transition-all duration-300 hover:bg-[#0c5adb] hover:text-white hover:shadow-lg active:scale-95"
           >
             Purchase
-          </a>
+          </Link>
         </div>
 
         {/* Dark Card */}
@@ -125,12 +126,12 @@ function WhyChooseUs() {
             <br />
             24/7 Support
           </div>
-          <a
-            href="#"
+          <Link
+            to={'/contacts'}
             className="w-full rounded-xl bg-[#0c5adb] text-white px-6 py-3.5 text-sm font-bold transition-all duration-300 hover:bg-white hover:text-[#000049] hover:shadow-lg active:scale-95"
           >
             Purchase
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,12 +1,16 @@
 import React from 'react';
 import { User } from 'lucide-react';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 function BlogHeader() {
   return (
     <header className="mb-[3rem]">
-      <button className="text-gray-400 uppercase text-[0.75rem] tracking-widest mb-[1rem] hover:text-blue-600 transition-colors">
+      <Link
+        to={'/blogs'}
+        className="text-gray-400 uppercase text-[0.75rem] tracking-widest mb-[1rem] hover:text-blue-600 transition-colors"
+      >
         ← Back to Blog
-      </button>
+      </Link>
 
       <div className="flex items-center gap-[1rem] mb-[1.5rem]">
         <div className="inline-flex items-center bg-[#0c5adb]/5 border border-[#0c5adb]/10 px-5 py-2 rounded-full">
