@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 function BlogPosts() {
   const blogPosts = [
     {
       id: 1,
-      tag: 'Himalayan Mountaineering',
+      tag: 'Mountaineering',
       title: 'Mountaineering in Nepal: Where the Earth Touches the Sky',
       info: 'Mastering clean, high-performance architectures that handle scalability with ease and elegance.',
       image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa',
@@ -12,7 +12,7 @@ function BlogPosts() {
     },
     {
       id: 2,
-      tag: 'SEO & Growth',
+      tag: 'SEO',
       title: 'Why Content Authority Drives SEO Results',
       info: 'Topical authority is the new currency. Learn how to structure content that dominates rankings.',
       image:
@@ -30,7 +30,7 @@ function BlogPosts() {
     },
     {
       id: 2,
-      tag: 'SEO & Growth',
+      tag: 'SEO',
       title: 'Why Content Authority Drives SEO Results',
       info: 'Topical authority is the new currency. Learn how to structure content that dominates rankings.',
       image:
@@ -47,11 +47,21 @@ function BlogPosts() {
       path: '/blog/mountaineering-nepal',
     },
   ];
+
+  const tags = ['All', ...new Set(blogPosts.map((item) => item.tag))]; //A new array to hold tags only
+
+  const [activeTag, setActiveTag] = useState('All');
+
+  const filteredBlogs =
+    activeTag == 'All'
+      ? blogPosts
+      : blogPosts.filter((item) => item.tag === activeTag);
+
   return (
     <>
       <div className=" pt-20 px-15 pb-[8vw] md:px-12 ">
-        <div className="max-w-[1400px] mx-auto">
-          <div className="flex flex-col justify-center items-center mb-16">
+        <div className="max-w-[1400px] flex flex-col gap-[2vw] mx-auto">
+          <div className="flex flex-col justify-center items-center">
             <span className="text-blue-600 tracking-widest text-[15px] uppercase   font-medium">
               Insights & Blogs
             </span>
@@ -61,8 +71,22 @@ function BlogPosts() {
             </h2>
           </div>
 
+          <div className="flex gap-[2.2vw] mb-[3vw] justify-center">
+            {tags.map((tag) => (
+              <div
+                key={tag}
+                className="inline-flex items-center bg-[#0c5adb]/5 border border-[#0c5adb]/10 px-5 py-2 rounded-full"
+                onClick={() => setActiveTag(tag)}
+              >
+                <button className="text-[#0c5adb] text-[0.7rem] font-bold uppercase tracking-widest">
+                  {tag}
+                </button>
+              </div>
+            ))}
+          </div>
+
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10">
-            {blogPosts.map((item) => (
+            {filteredBlogs.map((item) => (
               <div
                 key={item.id}
                 className="group relative border bg-[#f4f8ff] shadow-2xl border-gray-100 rounded-[2.5rem] p-2 transition-all duration-500 hover:shadow-[0_25px_60px_rgba(59,130,246,0.12)] hover:-translate-y-4"
