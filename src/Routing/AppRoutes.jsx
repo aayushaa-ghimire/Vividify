@@ -8,7 +8,7 @@ import Service from '../Pages/Service';
 import Blogs from '../Pages/Blogs';
 import MainLayout from '../Layouts/MainLayout';
 import Projects from '../Pages/Projects';
-
+import MountaineeringPost from '../Components/BlogsPage/InnerPage/MountaineeringPost';
 function AppRoutes() {
   return (
     <>
@@ -21,6 +21,10 @@ function AppRoutes() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/projects" element={<Projects />} />
+          <Route
+            path="/blog/mountaineering-nepal"
+            element={<MountaineeringPost />}
+          />
         </Route>
       </Routes>
     </>

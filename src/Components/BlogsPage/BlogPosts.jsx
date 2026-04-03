@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 function BlogPosts() {
   const blogPosts = [
     {
@@ -9,6 +9,7 @@ function BlogPosts() {
       info: 'Mastering clean, high-performance architectures that handle scalability with ease and elegance.',
       image:
         'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop',
+      path: '/blog/mountaineering-nepal',
     },
     {
       id: 2,
@@ -17,6 +18,7 @@ function BlogPosts() {
       info: 'Topical authority is the new currency. Learn how to structure content that dominates rankings.',
       image:
         'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=800&auto=format&fit=crop',
+      path: '/blog/mountaineering-nepal',
     },
     {
       id: 3,
@@ -25,6 +27,7 @@ function BlogPosts() {
       info: 'Leveraging multi-channel automated funnels to ensure your brand reaches the right global audience.',
       image:
         'https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=800&auto=format&fit=crop',
+      path: '/blog/mountaineering-nepal',
     },
     {
       id: 2,
@@ -33,6 +36,7 @@ function BlogPosts() {
       info: 'Topical authority is the new currency. Learn how to structure content that dominates rankings.',
       image:
         'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=800&auto=format&fit=crop',
+      path: '/blog/mountaineering-nepal',
     },
     {
       id: 1,
@@ -41,6 +45,7 @@ function BlogPosts() {
       info: 'Mastering clean, high-performance architectures that handle scalability with ease and elegance.',
       image:
         'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop',
+      path: '/blog/mountaineering-nepal',
     },
   ];
   return (
@@ -86,12 +91,12 @@ function BlogPosts() {
                   </p>
 
                   <div className="flex items-center justify-between border-t border-gray-100 pt-4">
-                    <a
-                      href="#"
+                    <Link
+                      to={item.path}
                       className="rounded-[1vw] bg-[#0c5adb] text-white px-7 py-3 text-sm font-bold transition-all duration-300 hover:bg-[#0a4bb3] active:scale-95 shadow-md hover:shadow-blue-200"
                     >
                       Go to page
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
