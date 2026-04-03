@@ -16,24 +16,29 @@ const services = [
     title: 'Web Development',
     description:
       'Transform your online presence with our custom web development services, delivering responsive, user-friendly sites that engage and convert visitors effectively.',
+    path: '/service/web-development',
   },
   {
     icon: <Cpu className="text-gray-800" size={32} />,
     title: 'Software Development',
     description:
       'Unlock your business potential with our software development services, delivering tailored solutions that enhance efficiency and drive innovation across all platforms.',
+    path: '/service/web-development',
   },
+
   {
     icon: <Smartphone className="text-gray-800" size={32} />,
     title: 'App Development',
     description:
       'Create impactful mobile experiences with our app development services, designing user-friendly applications that engage customers and boost your business growth.',
+    path: '/service/web-development',
   },
   {
     icon: <BarChart3 className="text-gray-800" size={32} />,
     title: 'Digital Marketing',
     description:
       'Elevate your brand with our digital marketing services, utilizing strategic campaigns to enhance online visibility, engage audiences, and drive conversions.',
+    path: '/service/web-development',
   },
 
   {
@@ -41,18 +46,21 @@ const services = [
     title: 'SEO',
     description:
       'Improve your online visibility with our SEO services, employing targeted strategies to boost search rankings, attract organic traffic, and enhance user engagement.',
+    path: '/service/web-development',
   },
   {
     icon: <Database className="text-gray-800" size={32} />,
     title: 'Data Management',
     description:
       'Maximize the value of your data with our data management services, ensuring accuracy, security, and accessibility to drive informed business decisions.',
+    path: '/service/web-development',
   },
   {
     icon: <Share2 className="text-gray-800" size={32} />,
     title: 'Social Media Management',
     description:
       'Elevate your brand with our digital marketing services, utilizing strategic campaigns to enhance online visibility, engage audiences, and drive conversions.',
+    path: '/service/web-development',
   },
 ];
 
@@ -105,7 +113,7 @@ export default function ServicesCards() {
               </p>
 
               <Link
-                to="/contact"
+                to={service.path}
                 className="group flex items-center gap-2 text-[#0c5adb] font-bold text-xs uppercase tracking-widest hover:text-[#0947ad] transition-all"
               >
                 Learn More

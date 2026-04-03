@@ -9,6 +9,7 @@ import Blogs from '../Pages/Blogs';
 import MainLayout from '../Layouts/MainLayout';
 import Projects from '../Pages/Projects';
 import MountaineeringPost from '../Components/BlogsPage/InnerPage/MountaineeringPost';
+import ServiceTemplate from '../Components/ServicesPage/Service-innerpage/ServiceTemplate';
 function AppRoutes() {
   return (
     <>
@@ -21,9 +22,17 @@ function AppRoutes() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/projects" element={<Projects />} />
+
+          {/* Blogs page link */}
           <Route
             path="/blog/mountaineering-nepal"
             element={<MountaineeringPost />}
+          />
+
+          {/* Services page link */}
+          <Route
+            path="/service/web-development"
+            element={<ServiceTemplate />}
           />
         </Route>
       </Routes>

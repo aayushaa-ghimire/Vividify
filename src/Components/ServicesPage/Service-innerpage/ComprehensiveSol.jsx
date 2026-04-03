@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Cpu, Globe } from 'lucide-react';
 
-const ComprehensiceSol = () => {
+const ComprehensiveSol = () => {
   return (
     <section className="px-10 py-24 bg-white">
       <div className="max-w-[1400px] mx-auto">
@@ -88,4 +88,4 @@ const ComprehensiceSol = () => {
   );
 };
 
-export default ComprehensiceSol;
+export default ComprehensiveSol;
