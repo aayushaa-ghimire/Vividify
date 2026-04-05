@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Contact() {
   return (
@@ -55,12 +56,12 @@ function Contact() {
             Discover how we transform ideas into real-world digital solutions
             with precision and care.
           </p>
-          <a
-            href="#"
+          <Link
+            to={'/service'}
             className="rounded-full bg-[#0c5adb] px-10 py-3.5 text-sm font-bold text-white transition-all hover:bg-[#0948b3] hover:shadow-lg active:scale-95"
           >
             Learn More
-          </a>
+          </Link>
         </div>
 
         <div

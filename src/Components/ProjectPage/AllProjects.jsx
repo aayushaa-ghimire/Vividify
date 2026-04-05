@@ -116,7 +116,7 @@ function AllProjects() {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1   sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {filtered.map((project, index) => (
             <a
               key={index}
@@ -125,7 +125,7 @@ function AllProjects() {
               rel="noreferrer"
               className="group block"
             >
-              <div className="relative aspect-square overflow-hidden rounded-[2rem] bg-slate-100 mb-6">
+              <div className="relative aspect-square overflow-hidden rounded-[2rem]  bg-slate-100 mb-6">
                 <img
                   src={project.img}
                   alt={project.name}

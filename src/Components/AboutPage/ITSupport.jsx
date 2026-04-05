@@ -109,10 +109,10 @@ function ITSupport() {
 
           <div
             data-aos="fade"
-            data-aos-offset="200"
+            data-aos-offset="100"
             data-aos-delay="80"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+            data-aos-easing="ease-out"
             data-aos-mirror="true"
             className="flex items-start gap-2 rounded-2xl bg-[#eff6fd] p-4"
           >
@@ -133,7 +133,7 @@ function ITSupport() {
             </p>
           </div>
 
-          <div className="mt-2">
+          <div className="mt-4">
             <Link
               to={'/service'}
               className="rounded-2xl bg-[#0c5adb] px-10 py-4 text-sm font-bold text-white transition-all hover:bg-[#0a4cbd] active:scale-95 shadow-lg shadow-blue-500/20"

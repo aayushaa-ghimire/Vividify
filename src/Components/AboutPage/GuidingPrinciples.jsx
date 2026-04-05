@@ -8,7 +8,7 @@ function GuidingPrinciples() {
       <div className="mb-10 text-center">
         <div
           data-aos="fade-right"
-          data-aos-offset="200"
+          data-aos-offset="100"
           data-aos-delay="100"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
@@ -17,7 +17,7 @@ function GuidingPrinciples() {
         ></div>
         <h1
           data-aos="fade"
-          data-aos-offset="200"
+          data-aos-offset="100"
           data-aos-delay="80"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
@@ -30,7 +30,7 @@ function GuidingPrinciples() {
 
       <div
         data-aos="fade-up"
-        data-aos-offset="200"
+        data-aos-offset="100"
         data-aos-delay="100"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"

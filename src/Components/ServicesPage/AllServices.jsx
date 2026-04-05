@@ -68,7 +68,7 @@ const servicesData = [
 ];
 
 const ServiceCard = ({ title, longDesc, image, number }) => (
-  <div className="flex flex-col lg:flex-row items-center justify-between w-full gap-12 py-6 px-4">
+  <div className="flex flex-col  mt-[4vw] pt-[8vw]  lg:flex-row lg:pt-[3vw] items-center justify-around w-full gap-12 py-6 px-4">
     <div
       className="w-full lg:w-[45%] h-[300px] lg:h-[420px] shrink-0"
       data-swiper-parallax="-300"
@@ -113,7 +113,7 @@ const ServiceCard = ({ title, longDesc, image, number }) => (
 
 export default function AllServices() {
   return (
-    <div className="relative w-full h-[85vh] flex items-center bg-[#f8fbff] overflow-hidden font-sans">
+    <div className="relative w-full  mb-[5vw] pt-[5vw]  pb-[5vw] flex items-center bg-[#f8fbff] font-sans">
       <div className="relative z-10 mx-auto max-w-7xl px-6 w-full">
         <Swiper
           speed={2000}
@@ -122,9 +122,9 @@ export default function AllServices() {
           grabCursor={true}
           navigation={true}
           autoplay={{
-            delay: 800,
+            delay: 1000,
             disableOnInteraction: false,
-            pauseOnMouseEnter: true,
+            pauseOnMouseEnter: false,
           }}
           pagination={{ clickable: true, dynamicBullets: true }}
           modules={[Parallax, Pagination, Autoplay, Navigation]}

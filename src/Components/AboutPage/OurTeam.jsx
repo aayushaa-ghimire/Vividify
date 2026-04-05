@@ -8,7 +8,7 @@ function OurTeam() {
           <div>
             <p
               data-aos="fade-down"
-              data-aos-offset="200"
+              data-aos-offset="100"
               data-aos-delay="100"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
@@ -21,7 +21,7 @@ function OurTeam() {
           <div>
             <h1
               data-aos="fade"
-              data-aos-offset="200"
+              data-aos-offset="100"
               data-aos-delay="100"
               data-aos-duration="2000"
               data-aos-easing="ease-in-out"
@@ -34,10 +34,10 @@ function OurTeam() {
           <div>
             <p
               data-aos="fade-right"
-              data-aos-offset="200"
+              data-aos-offset="100"
               data-aos-delay="100"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
+              data-aos-duration="800"
+              data-aos-easing="ease-in"
               data-aos-mirror="true"
               className="max-w-[700px] text-[1.1rem] leading-relaxed text-[#686868]"
             >
@@ -52,9 +52,9 @@ function OurTeam() {
           <div
             data-aos="fade-down"
             data-aos-offset="100"
-            data-aos-delay="200"
-            data-aos-duration="900"
-            data-aos-easing="ease-in-out"
+            data-aos-delay="100"
+            data-aos-duration="800"
+            data-aos-easing="ease-in"
             data-aos-mirror="true"
             className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
           >
@@ -79,8 +79,8 @@ function OurTeam() {
             data-aos="fade-down"
             data-aos-offset="100"
             data-aos-delay="100"
-            data-aos-duration="900"
-            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+            data-aos-easing="ease-in"
             data-aos-mirror="true"
             className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
           >
@@ -105,8 +105,8 @@ function OurTeam() {
             data-aos="fade-down"
             data-aos-offset="100"
             data-aos-delay="100"
-            data-aos-duration="900"
-            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+            data-aos-easing="ease-in"
             data-aos-mirror="true"
             className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
           >
@@ -131,8 +131,8 @@ function OurTeam() {
             data-aos="fade-down"
             data-aos-offset="100"
             data-aos-delay="100"
-            data-aos-duration="900"
-            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+            data-aos-easing="ease-in"
             data-aos-mirror="true"
             className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
           >
@@ -157,8 +157,8 @@ function OurTeam() {
             data-aos="fade-down"
             data-aos-offset="100"
             data-aos-delay="100"
-            data-aos-duration="900"
-            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+            data-aos-easing="ease-in"
             data-aos-mirror="true"
             className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
           >
@@ -183,8 +183,8 @@ function OurTeam() {
             data-aos="fade-down"
             data-aos-offset="100"
             data-aos-delay="100"
-            data-aos-duration="900"
-            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+            data-aos-easing="ease-in"
             data-aos-mirror="true"
             className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
           >
@@ -209,8 +209,8 @@ function OurTeam() {
             data-aos="fade-down"
             data-aos-offset="100"
             data-aos-delay="100"
-            data-aos-duration="900"
-            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+            data-aos-easing="ease-in"
             data-aos-mirror="true"
             className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
           >
@@ -235,8 +235,8 @@ function OurTeam() {
             data-aos="fade-down"
             data-aos-offset="100"
             data-aos-delay="100"
-            data-aos-duration="900"
-            data-aos-easing="ease-in-out"
+            data-aos-duration="800"
+            data-aos-easing="ease-in"
             data-aos-mirror="true"
             className="flex flex-col bg-white shadow-md rounded-[1vw] overflow-hidden hover:-translate-y-3 transition-all hover:shadow-lg duration-300 ease-in-out"
           >
