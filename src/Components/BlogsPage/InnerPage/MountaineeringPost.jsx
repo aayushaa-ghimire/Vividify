@@ -2,6 +2,7 @@ import React from 'react';
 import BlogHeader from './BlogHeader';
 import BlogContent from './BlogContent';
 import BlogSidebar from './BlogSidebar';
+import HomeBanner from '../../Homepage/HomeBanner';
 
 function MountaineeringPost() {
   return (
@@ -16,6 +17,9 @@ function MountaineeringPost() {
         <div className="w-1/3">
           <BlogSidebar />
         </div>
+      </div>
+      <div className="mt-[5vw]">
+        <HomeBanner />
       </div>
     </div>
   );

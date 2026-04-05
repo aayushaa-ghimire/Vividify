@@ -28,18 +28,18 @@ function GuidingPrinciples() {
         </h1>
       </div>
 
-      <div className="mx-auto flex w-full max-w-7xl flex-col gap-6">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        className="mx-auto flex w-full max-w-7xl flex-col gap-6"
+      >
         {/* Row 1 */}
         <div className="flex flex-col gap-6 md:flex-row">
-          <div
-            data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-delay="80"
-            data-aos-duration="800"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            className="flex flex-col items-center rounded-2xl border border-blue-50 bg-[#f4f8ff] p-6 text-center shadow-lg transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl md:w-[45%]"
-          >
+          <div className="flex flex-col items-center rounded-2xl border border-blue-50 bg-[#f4f8ff] p-6 text-center shadow-lg transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl md:w-[45%]">
             <div className="mb-4 rounded-xl bg-white p-3 text-[#0c5adb] shadow-sm">
               <Lightbulb size={25} />
             </div>
@@ -52,15 +52,7 @@ function GuidingPrinciples() {
             </p>
           </div>
 
-          <div
-            data-aos="fade-down"
-            data-aos-offset="200"
-            data-aos-delay="80"
-            data-aos-duration="800"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            className="flex flex-col items-center rounded-2xl border border-blue-50 bg-[#f4f8ff] p-6 text-center shadow-lg transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl md:w-[60%]"
-          >
+          <div className="flex flex-col items-center rounded-2xl border border-blue-50 bg-[#f4f8ff] p-6 text-center shadow-lg transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl md:w-[60%]">
             <div className="mb-4 rounded-xl bg-white p-3 text-[#0c5adb] shadow-sm">
               <Rocket size={25} />
             </div>
@@ -76,15 +68,7 @@ function GuidingPrinciples() {
 
         {/* Row 2 */}
         <div className="flex flex-col gap-6 md:flex-row">
-          <div
-            data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-delay="140"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            className="flex flex-col items-center rounded-2xl border border-blue-50 bg-[#f4f8ff] p-6 text-center shadow-lg transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl md:w-[60%]"
-          >
+          <div className="flex flex-col items-center rounded-2xl border border-blue-50 bg-[#f4f8ff] p-6 text-center shadow-lg transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl md:w-[60%]">
             <div className="mb-4 rounded-xl bg-white p-3 text-[#0c5adb] shadow-sm">
               <HeartHandshake size={25} />
             </div>
@@ -97,15 +81,7 @@ function GuidingPrinciples() {
             </p>
           </div>
 
-          <div
-            data-aos="fade-down"
-            data-aos-offset="200"
-            data-aos-delay="140"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            className="flex flex-col items-center rounded-2xl border border-blue-50 bg-[#f4f8ff] p-6 text-center shadow-lg transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl md:w-[60%]"
-          >
+          <div className="flex flex-col items-center rounded-2xl border border-blue-50 bg-[#f4f8ff] p-6 text-center shadow-lg transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl md:w-[60%]">
             <div className="mb-4 rounded-xl bg-white p-3 text-[#0c5adb] shadow-sm">
               <ShieldCheck size={25} />
             </div>

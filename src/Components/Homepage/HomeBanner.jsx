@@ -7,28 +7,20 @@ function HomeBanner() {
     <section className="px-6 py-12 lg:px-20 bg-gray-50">
       <div className="max-w-7xl mx-auto bg-[#0c5adb] rounded-3xl p-8 lg:p-16 text-white flex flex-col lg:flex-row items-center justify-between gap-10">
         {/* Left Side */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left">
-          <h2
-            data-aos="fade"
-            data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="1500"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            className="text-3xl lg:text-5xl font-extrabold mb-6 leading-tight"
-          >
+        <div
+          data-aos="fade-down"
+          data-aos-offset="200"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          className="w-full lg:w-1/2 text-center lg:text-left"
+        >
+          <h2 className="text-3xl lg:text-5xl font-extrabold mb-6 leading-tight">
             Have a project in mind? <br />
             Let's talk.
           </h2>
-          <p
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="1000"
-            data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            className="text-blue-100 text-lg leading-relaxed max-w-md mx-auto lg:mx-0"
-          >
+          <p className="text-blue-100 text-lg leading-relaxed max-w-md mx-auto lg:mx-0">
             Whether you have a fully-formed idea or just the start of a vision,
             we're here to help you build it. Reach out and let's see how we can
             work together.

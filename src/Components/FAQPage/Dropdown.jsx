@@ -54,8 +54,8 @@ const Dropdown = () => {
           <h2
             data-aos="fade"
             data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="800"
+            data-aos-delay="80"
+            data-aos-duration="600"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
@@ -68,8 +68,8 @@ const Dropdown = () => {
         <div
           data-aos="fade-right"
           data-aos-offset="200"
-          data-aos-delay="100"
-          data-aos-duration="800"
+          data-aos-delay="80"
+          data-aos-duration="600"
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           className="mx-auto mt-12 max-w-3xl space-y-4"

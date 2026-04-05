@@ -21,8 +21,8 @@ function FAQBanner() {
           <p
             data-aos="fade-right"
             data-aos-offset="200"
-            data-aos-delay="100"
-            data-aos-duration="1000"
+            data-aos-delay="150"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="max-w-xl text-[1.1rem] font-normal leading-relaxed text-[#64748b]"

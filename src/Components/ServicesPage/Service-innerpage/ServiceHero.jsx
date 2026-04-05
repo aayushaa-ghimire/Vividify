@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function ServiceHero() {
   return (
@@ -19,9 +20,12 @@ function ServiceHero() {
             custom API integrations, and lightning-fast deployment.
           </p>
           <div className="mt-8">
-            <button className="bg-[#0061f2] text-white px-8 py-3.5 rounded-2xl font-bold transition-all duration-300 hover:shadow-xl hover:shadow-blue-100 md:px-10 md:py-4">
+            <Link
+              to={'/contacts'}
+              className="bg-[#0061f2] text-white px-8 py-3.5 rounded-2xl font-bold transition-all duration-300 hover:shadow-xl hover:shadow-blue-100 md:px-10 md:py-4"
+            >
               Start Building
-            </button>
+            </Link>
           </div>
         </div>
 

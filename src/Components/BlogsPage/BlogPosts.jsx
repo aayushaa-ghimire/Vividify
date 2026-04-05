@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+
 function BlogPosts() {
   const blogPosts = [
     {
@@ -48,37 +49,46 @@ function BlogPosts() {
     },
   ];
 
-  const tags = ['All', ...new Set(blogPosts.map((item) => item.tag))]; //A new array to hold tags only
+  const tags = ['All', ...new Set(blogPosts.map((item) => item.tag))];
 
   const [activeTag, setActiveTag] = useState('All');
 
   const filteredBlogs =
-    activeTag == 'All'
+    activeTag === 'All'
       ? blogPosts
       : blogPosts.filter((item) => item.tag === activeTag);
 
   return (
     <>
-      <div className=" pt-20 px-15 pb-[8vw] md:px-12 ">
-        <div className="max-w-[1400px] flex flex-col gap-[2vw] mx-auto">
+      <div className="pt-20 px-6 pb-20 md:px-12">
+        <div className="max-w-[1400px] flex flex-col gap-8 mx-auto">
           <div className="flex flex-col justify-center items-center">
-            <span className="text-blue-600 tracking-widest text-[15px] uppercase   font-medium">
+            <span className="text-blue-600 tracking-widest text-[15px] uppercase font-medium">
               Insights & Blogs
             </span>
-            <h2 className="md:text-[50px] text-[35px] text-center text-[#0f172a] mt-4 leading-tight font-bold">
+            <h2 className="md:text-[50px] text-[32px] text-center text-[#0f172a] mt-4 leading-tight font-bold">
               Our Latest <span className="text-blue-600">Blogs</span> <br /> &
               Thoughts
             </h2>
           </div>
 
-          <div className="flex gap-[2.2vw] mb-[3vw] justify-center">
+          {/* Responsive Filter Buttons */}
+          <div className="flex flex-wrap gap-3 mb-8 justify-center">
             {tags.map((tag) => (
               <div
                 key={tag}
-                className="inline-flex items-center bg-[#0c5adb]/5 border border-[#0c5adb]/10 px-5 py-2 rounded-full"
+                className={`inline-flex items-center border px-5 py-2 rounded-full cursor-pointer transition-all duration-300 ${
+                  activeTag === tag
+                    ? 'bg-[#0c5adb] border-[#0c5adb]'
+                    : 'bg-[#0c5adb]/5 border-[#0c5adb]/10 hover:bg-[#0c5adb]/10'
+                }`}
                 onClick={() => setActiveTag(tag)}
               >
-                <button className="text-[#0c5adb] text-[0.7rem] font-bold uppercase tracking-widest">
+                <button
+                  className={`text-[0.7rem] font-bold uppercase tracking-widest transition-colors ${
+                    activeTag === tag ? 'text-white' : 'text-[#0c5adb]'
+                  }`}
+                >
                   {tag}
                 </button>
               </div>
@@ -89,7 +99,7 @@ function BlogPosts() {
             {filteredBlogs.map((item) => (
               <div
                 key={item.id}
-                className="group relative border bg-[#f4f8ff] shadow-2xl border-gray-100 rounded-[2.5rem] p-2 transition-all duration-500 hover:shadow-[0_25px_60px_rgba(59,130,246,0.12)] hover:-translate-y-4"
+                className="group relative border bg-[#f4f8ff] shadow-xl border-gray-100 rounded-[2.5rem] p-2 transition-all duration-500 hover:shadow-[0_25px_60px_rgba(59,130,246,0.12)] hover:-translate-y-2"
               >
                 <div className="relative h-[200px] w-full overflow-hidden rounded-[2rem]">
                   <img
@@ -104,8 +114,8 @@ function BlogPosts() {
                   </div>
                 </div>
 
-                <div className="pt-4 bg-[#f4f8ff] pb-2 px-4">
-                  <h3 className="text-xl text-[#1e293b] leading-[1.3] mb-3  font-bold">
+                <div className="pt-4 pb-2 px-4">
+                  <h3 className="text-xl text-[#1e293b] leading-[1.3] mb-3 font-bold">
                     {item.title}
                   </h3>
 
@@ -113,10 +123,10 @@ function BlogPosts() {
                     {item.info}
                   </p>
 
-                  <div className="flex items-center justify-between border-t border-gray-100 pt-4">
+                  <div className="flex items-center justify-between border-t border-gray-200/50 pt-4 pb-2">
                     <Link
                       to={item.path}
-                      className="rounded-[1vw] bg-[#0c5adb] text-white px-7 py-3 text-sm font-bold transition-all duration-300 hover:bg-[#0a4bb3] active:scale-95 shadow-md hover:shadow-blue-200"
+                      className="rounded-xl bg-[#0c5adb] text-white px-7 py-3 text-sm font-bold transition-all duration-300 hover:bg-[#0a4bb3] active:scale-95 shadow-md hover:shadow-blue-200"
                     >
                       Go to page
                     </Link>

@@ -8,6 +8,7 @@ import {
   FaPhoneAlt,
   FaMapMarkerAlt,
 } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -80,28 +81,28 @@ function Footer() {
               <h4 className="text-lg font-bold text-[#222222]">Company</h4>
               <ul className="flex flex-col gap-2 text-[#686868]">
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to={'/about'}
                     className="transition-colors hover:text-[#0c5adb]"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to={'/service'}
                     className="transition-colors hover:text-[#0c5adb]"
                   >
-                    Careers
-                  </a>
+                    Services
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="#"
+                  <Link
+                    to={'/contacts'}
                     className="transition-colors hover:text-[#0c5adb]"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

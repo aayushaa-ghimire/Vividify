@@ -1,5 +1,6 @@
 import React from 'react';
 import { Eye, Brush, Cpu, Send, ArrowUpRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 function Process() {
   return (
@@ -13,8 +14,8 @@ function Process() {
             exceptional <span className="opacity-80">digital results</span>
           </h2>
 
-          <a
-            href="/contact"
+          <Link
+            to={'/contacts'}
             className="group flex bg-white rounded-xl font-bold transition-all px-6 py-3 items-center gap-2 hover:bg-blue-50 text-[#0061f2]"
           >
             Get Started
@@ -22,7 +23,7 @@ function Process() {
               className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"
               size={18}
             />
-          </a>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 relative z-10">

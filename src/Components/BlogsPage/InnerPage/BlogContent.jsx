@@ -2,11 +2,11 @@ import React from 'react';
 
 function BlogContent() {
   return (
-    <main>
+    <main className="px-4 md:px-0">
       <img
         src="https://images.unsplash.com/photo-1544735716-392fe2489ffa"
         alt="Nepal"
-        className="w-full h-[30rem] object-cover rounded-[2rem] mb-[3rem]"
+        className="w-full aspect-[4/5] sm:aspect-video object-cover rounded-[1.5rem] md:rounded-[2rem] mb-[3rem]"
       />
 
       <article className="space-y-[1.5rem] text-[1.125rem] leading-[1.8] text-gray-700">
@@ -22,9 +22,7 @@ function BlogContent() {
           costs, seasons, and expert tips.
         </p>
 
-        <p></p>
-
-        <h2 className="text-[2rem] font-medium text-black pt-[1rem]">
+        <h2 className="text-[1.75rem] md:text-[2rem] font-medium text-black pt-[1rem]">
           <strong>Why Choose Nepal?</strong>
         </h2>
         <p>Nepal stands as a global hotspot for several reasons:</p>
@@ -40,11 +38,10 @@ function BlogContent() {
           breathtaking scenery and diverse climbing experiences.
         </p>
 
-        <h2 className="text-[2rem] font-medium text-black pt-[1rem]">
+        <h2 className="text-[1.75rem] md:text-[2rem] font-medium text-black pt-[1rem]">
           <strong>Best Peaks for Mountaineering in Nepal</strong>
         </h2>
-        <h3 className="text-[1.5rem] font-medium">
-          {' '}
+        <h3 className="text-[1.3rem] md:text-[1.5rem] font-medium">
           <strong>1. Island Peak (6,189m)</strong>
         </h3>
         <p>
@@ -60,7 +57,7 @@ function BlogContent() {
           <li>Perfect introduction to ice climbing</li>
         </ul>
 
-        <h3 className="text-[1.5rem] font-medium">
+        <h3 className="text-[1.3rem] md:text-[1.5rem] font-medium">
           <strong>2. Mera Peak Climbing (6,476m)</strong>
         </h3>
         <p>
@@ -71,7 +68,7 @@ function BlogContent() {
           <strong>Best for:</strong> First-time climbers seeking high altitude
           experience.
         </p>
-        <h3 className="text-[1.5rem] font-medium">
+        <h3 className="text-[1.3rem] md:text-[1.5rem] font-medium">
           <strong>3. Ama Dablam Expedition (6,812m)</strong>
         </h3>
         <p>
@@ -82,7 +79,7 @@ function BlogContent() {
           <strong>Best for:</strong> Experienced climbers looking for a
           challenge.
         </p>
-        <h3 className="text-[1.5rem] font-medium">
+        <h3 className="text-[1.3rem] md:text-[1.5rem] font-medium">
           <strong>4. Mount Everest Expedition (8,848.86m)</strong>
         </h3>
         <p>Mount Everest is the ultimate dream for mountaineers worldwide.</p>
@@ -94,11 +91,11 @@ function BlogContent() {
           <li>Requires advanced experience</li>
           <li>One of the most rewarding yet demanding climbs</li>
         </ul>
-        <h2 className="text-[2rem] font-medium text-black pt-[1rem]">
+        <h2 className="text-[1.75rem] md:text-[2rem] font-medium text-black pt-[1rem]">
           <strong>Best Time for Mountaineering in Nepal</strong>
         </h2>
         <p>Choosing the right season is crucial for a successful climb.</p>
-        <h3 className="text-[1.5rem] font-medium">
+        <h3 className="text-[1.3rem] md:text-[1.5rem] font-medium">
           <strong>Spring (March–May)</strong>
         </h3>
         <ul className="list-disc pl-[1.5rem] space-y-[0.5rem]">
@@ -106,14 +103,14 @@ function BlogContent() {
           <li>Stable weather and clear skies</li>
           <li>Popular among climbers</li>
         </ul>
-        <h3 className="text-[1.5rem] font-medium">
+        <h3 className="text-[1.3rem] md:text-[1.5rem] font-medium">
           <strong>Autumn (September–November)</strong>
         </h3>
         <ul className="list-disc pl-[1.5rem] space-y-[0.5rem]">
           <li>Ideal for trekking peaks</li>
           <li>Crisp air and excellent visibility</li>
         </ul>
-        <h2 className="text-[2rem] font-medium text-black pt-[1rem]">
+        <h2 className="text-[1.75rem] md:text-[2rem] font-medium text-black pt-[1rem]">
           <strong>Cost of Mountaineering in Nepal</strong>
         </h2>
         <p>
@@ -128,7 +125,7 @@ function BlogContent() {
             <strong>Expeditions (6000m–7000m): </strong> $5,000 – $15,000
           </li>
           <li>
-            <strong>Everest Expedition:</strong>$30,000 – $70,000+
+            <strong>Everest Expedition:</strong> $30,000 – $70,000+
           </li>
         </ul>
         <p>Costs typically include:</p>
@@ -138,7 +135,7 @@ function BlogContent() {
           <li>Accommodation and meals</li>
           <li>Climbing gear (sometimes)</li>
         </ul>
-        <h2 className="text-[2rem] font-medium text-black pt-[1rem]">
+        <h2 className="text-[1.75rem] md:text-[2rem] font-medium text-black pt-[1rem]">
           <strong>Permits Required for Climbing in Nepal</strong>
         </h2>
         <p>
@@ -151,7 +148,7 @@ function BlogContent() {
           <li>National park entry permit</li>
           <li>TIMS (Trekkers’ Information Management System)</li>
         </ul>
-        <h2 className="text-[2rem] font-medium text-black pt-[1rem]">
+        <h2 className="text-[1.75rem] md:text-[2rem] font-medium text-black pt-[1rem]">
           <strong>Safety Tips for Mountaineering in Nepal</strong>
         </h2>
         <p>
@@ -165,7 +162,7 @@ function BlogContent() {
           <li>Use proper gear and equipment</li>
           <li>Monitor weather conditions closely</li>
         </ul>
-        <h2 className="text-[2rem] font-medium text-black pt-[1rem]">
+        <h2 className="text-[1.75rem] md:text-[2rem] font-medium text-black pt-[1rem]">
           <strong>Why Hire a Local Guide in Nepal?</strong>
         </h2>
         <p>
@@ -182,7 +179,7 @@ function BlogContent() {
           Their expertise significantly increases your chances of reaching the
           summit safely.
         </p>
-        <h2 className="text-[2rem] font-medium text-black pt-[1rem]">
+        <h2 className="text-[1.75rem] md:text-[2rem] font-medium text-black pt-[1rem]">
           <strong>Sustainable Mountaineering in Nepal</strong>
         </h2>
         <p>
@@ -194,7 +191,7 @@ function BlogContent() {
           <li>Respect local culture and traditions</li>
           <li>Choose eco-friendly trekking agencies</li>
         </ul>
-        <h2 className="text-[2rem] font-medium text-black pt-[1rem]">
+        <h2 className="text-[1.75rem] md:text-[2rem] font-medium text-black pt-[1rem]">
           <strong>
             Conclusion: Start Your Mountaineering Journey in Nepal
           </strong>
