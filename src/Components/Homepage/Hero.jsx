@@ -1,12 +1,11 @@
 import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
-    <div className="relative min-h-screen bg-[#fcfdfe] flex items-center justify-center pb-12 mb-[5vw]  overflow-hidden font-sans">
+    <div className="relative min-h-screen bg-[#fcfdfe] flex items-center justify-center pb-12 mb-[5vw] pt-[2vw] overflow-hidden font-sans">
       <div className="container mx-auto max-w-7xl px-8 md:px-16 relative z-10">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-15">
           <div className="w-full lg:w-1/2 flex flex-col gap-4 text-center lg:text-left">
@@ -18,7 +17,7 @@ function Hero() {
 
             <h1
               data-aos="fade"
-              data-aos-offset="200"
+              data-aos-offset="20"
               data-aos-delay="100"
               data-aos-duration="2000"
               data-aos-easing="ease-in-out"
@@ -33,9 +32,9 @@ function Hero() {
             <p
               href="#"
               data-aos="fade"
-              data-aos-offset="200"
+              data-aos-offset="20"
               data-aos-delay="100"
-              data-aos-duration="2000"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="max-w-md mx-auto lg:mx-0 text-[#64748b] text-[1rem] md:text-[1.1rem] leading-relaxed font-normal"

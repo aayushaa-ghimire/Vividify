@@ -14,7 +14,7 @@ function OurServices() {
             data-aos="fade"
             data-aos-offset="200"
             data-aos-delay="100"
-            data-aos-duration="1000"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="text-3xl lg:text-4xl font-bold text-[#333] leading-tight"
@@ -26,9 +26,9 @@ function OurServices() {
         <div className="lg:w-1/2 space-y-6">
           <p
             data-aos="fade-right"
-            data-aos-offset="100"
+            data-aos-offset="80"
             data-aos-delay="100"
-            data-aos-duration="1200"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="text-[#616161] text-lg leading-relaxed"

@@ -9,9 +9,9 @@ function HomeBanner() {
         {/* Left Side */}
         <div
           data-aos="fade-down"
-          data-aos-offset="200"
+          data-aos-offset="100"
           data-aos-delay="100"
-          data-aos-duration="1000"
+          data-aos-duration="800"
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           className="w-full lg:w-1/2 text-center lg:text-left"
@@ -31,9 +31,9 @@ function HomeBanner() {
         <div className="w-full lg:w-auto">
           <div
             data-aos="fade-down"
-            data-aos-offset="200"
+            data-aos-offset="100"
             data-aos-delay="100"
-            data-aos-duration="1000"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="bg-blue-600/50 p-8 rounded-2xl border border-blue-400/30 text-center"

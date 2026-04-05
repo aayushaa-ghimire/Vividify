@@ -27,9 +27,9 @@ function Reviews() {
 
           <div
             data-aos="fade-right"
-            data-aos-offset="100"
-            data-aos-delay="100"
-            data-aos-duration="1200"
+            data-aos-offset="80"
+            data-aos-delay="80"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="flex gap-[2vw] mt-[1.5vw] items-center bg-white shadow-[0_20px_40px_rgba(12,90,219,0.08)] rounded-3xl w-fit px-[5vw] lg:px-[2vw] py-[3vw] lg:py-[1.5vw] transition-all hover:shadow-[0_20px_40px_rgba(12,90,219,0.15)]"
@@ -69,7 +69,7 @@ function Reviews() {
               data-aos="fade-right"
               data-aos-offset="100"
               data-aos-delay="100"
-              data-aos-duration="1200"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="relative z-10 w-full leading-relaxed font-normal text-[#464646] lg:leading-loose text-[1.125rem]"

@@ -23,9 +23,9 @@ function TrustedService() {
             </h2>
             <p
               data-aos="fade-right"
-              data-aos-offset="200"
+              data-aos-offset="100"
               data-aos-delay="100"
-              data-aos-duration="1000"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="text-sm text-gray-500 mb-6 leading-relaxed"
@@ -48,17 +48,17 @@ function TrustedService() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div
+            data-aos="fade-down"
+            data-aos-offset="100"
+            data-aos-delay="100"
+            data-aos-duration="700"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            className="grid grid-cols-1 sm:grid-cols-2 gap-4"
+          >
             {/* Card 1 */}
-            <div
-              data-aos="fade-down"
-              data-aos-offset="100"
-              data-aos-delay="120"
-              data-aos-duration="700"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group"
-            >
+            <div className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
               <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
                 <ShieldCheck size={22} />
               </div>
@@ -79,15 +79,7 @@ function TrustedService() {
             </div>
 
             {/* Card 2 */}
-            <div
-              data-aos="fade-down"
-              data-aos-offset="100"
-              data-aos-delay="160"
-              data-aos-duration="700"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group"
-            >
+            <div className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
               <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
                 <Zap size={22} />
               </div>
@@ -108,15 +100,7 @@ function TrustedService() {
             </div>
 
             {/* Card 3 */}
-            <div
-              data-aos="fade-down"
-              data-aos-offset="100"
-              data-aos-delay="180"
-              data-aos-duration="700"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group"
-            >
+            <div className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
               <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
                 <Gauge size={22} />
               </div>
@@ -137,15 +121,7 @@ function TrustedService() {
             </div>
 
             {/* Card 4 */}
-            <div
-              data-aos="fade-down"
-              data-aos-offset="100"
-              data-aos-delay="220"
-              data-aos-duration="700"
-              data-aos-easing="ease-in-out"
-              data-aos-mirror="true"
-              className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group"
-            >
+            <div className="grid grid-cols-[auto_1fr] gap-4 p-4 rounded-xl border border-gray-50 hover:bg-gray-50 transition-all group">
               <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center text-[#0c5adb]">
                 <HardDrive size={22} />
               </div>
@@ -171,7 +147,7 @@ function TrustedService() {
           <div className="relative rounded-2xl overflow-hidden aspect-[4/4.5] shadow-xl">
             <img
               data-aos="fade"
-              data-aos-offset="200"
+              data-aos-offset="100"
               data-aos-delay="100"
               data-aos-duration="800"
               data-aos-easing="ease-in-out"
@@ -183,9 +159,9 @@ function TrustedService() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
             <div
               data-aos="fade-left"
-              data-aos-offset="200"
-              data-aos-delay="80"
-              data-aos-duration="1000"
+              data-aos-offset="80"
+              data-aos-delay="100"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-sm p-4 rounded-xl border border-white/20"

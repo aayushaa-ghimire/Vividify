@@ -114,12 +114,12 @@ function Footer() {
                 {/* Email */}
                 <li className="group flex items-center gap-3 transition-colors duration-300 hover:text-[#0c5adb]">
                   <FaEnvelope className="text-lg" />
-                  <a href="mailto:info@vividify.com">info@vividify.com</a>
+                  <a href="#">info@vividify.com</a>
                 </li>
                 {/* Phone */}
                 <li className="group flex items-center gap-3 transition-colors duration-300 hover:text-[#0c5adb]">
                   <FaPhoneAlt className="text-lg" />
-                  <a href>9708763889</a>
+                  9708763889
                 </li>
                 {/* Location */}
                 <li className="group flex items-center gap-3 transition-colors duration-300 hover:text-[#0c5adb]">

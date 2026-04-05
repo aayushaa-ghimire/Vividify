@@ -60,9 +60,9 @@ function Marketing() {
 
           <p
             data-aos="fade-left"
-            data-aos-offset="200"
+            data-aos-offset="100"
             data-aos-delay="100"
-            data-aos-duration="500"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="text-lg text-gray-600 leading-relaxed mb-10"
@@ -75,9 +75,9 @@ function Marketing() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-10">
             <div
               data-aos="fade-down"
-              data-aos-offset="100"
-              data-aos-delay="120"
-              data-aos-duration="700"
+              data-aos-offset="80"
+              data-aos-delay="100"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="flex gap-4"

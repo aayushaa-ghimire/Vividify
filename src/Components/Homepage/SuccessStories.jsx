@@ -14,9 +14,9 @@ function SuccessStories() {
               </p>
               <h1
                 data-aos="fade"
-                data-aos-offset="200"
+                data-aos-offset="100"
                 data-aos-delay="180"
-                data-aos-duration="1000"
+                data-aos-duration="800"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
                 className="text-4xl lg:text-[2.8rem] font-bold text-[#333] leading-tight"
@@ -27,9 +27,9 @@ function SuccessStories() {
               </h1>
               <p
                 data-aos="fade-right"
-                data-aos-offset="100"
+                data-aos-offset="80"
                 data-aos-delay="100"
-                data-aos-duration="1200"
+                data-aos-duration="800"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
                 className="text-[#666] text-lg leading-relaxed max-w-sm"
@@ -54,8 +54,8 @@ function SuccessStories() {
           <div
             data-aos="fade-down"
             data-aos-offset="100"
-            data-aos-delay="200"
-            data-aos-duration="1000"
+            data-aos-delay="100"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="group relative overflow-hidden rounded-[2.5rem] min-h-[550px] flex flex-col justify-between p-10 transition-all duration-500 hover:shadow-2xl"
@@ -101,8 +101,8 @@ function SuccessStories() {
           <div
             data-aos="fade-down"
             data-aos-offset="100"
-            data-aos-delay="200"
-            data-aos-duration="1000"
+            data-aos-delay="100"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="group relative overflow-hidden rounded-[2.5rem] min-h-[550px] flex flex-col justify-between p-10 transition-all duration-500 hover:shadow-2xl"
