@@ -65,8 +65,8 @@ function Hero() {
               data-aos="fade-down"
               data-aos-offset="200"
               data-aos-delay="50"
-              data-aos-duration="1200"
-              data-aos-easing="ease-out"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               className="col-span-8 row-span-4 rounded-3xl overflow-hidden shadow-xl border-4 border-white group relative"
             >
@@ -84,8 +84,8 @@ function Hero() {
               data-aos="fade-left"
               data-aos-offset="200"
               data-aos-delay="50"
-              data-aos-duration="1200"
-              data-aos-easing="ease-out"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               className="col-span-4 row-span-3 rounded-3xl overflow-hidden shadow-lg border-4 border-white group relative"
             >
@@ -103,8 +103,8 @@ function Hero() {
               data-aos="fade-up"
               data-aos-offset="200"
               data-aos-delay="50"
-              data-aos-duration="1200"
-              data-aos-easing="ease-out"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
               data-aos-mirror="false"
               className="col-span-4 row-span-3 rounded-3xl overflow-hidden shadow-lg border-4 border-white group relative"
             >
@@ -118,7 +118,15 @@ function Hero() {
               </div>
             </div>
 
-            <div className="col-span-8 row-span-2 rounded-3xl overflow-hidden shadow-lg border-4 border-white group relative">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="80"
+              data-aos-delay="50"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="false"
+              className="col-span-8 row-span-2 rounded-3xl overflow-hidden shadow-lg border-4 border-white group relative"
+            >
               <img
                 src="../../public/HomeBanner4.jpg"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"

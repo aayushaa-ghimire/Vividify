@@ -14,9 +14,9 @@ function AboutUs() {
 
           <h1
             data-aos="fade"
-            data-aos-offset="200"
+            data-aos-offset="100"
             data-aos-delay="100"
-            data-aos-duration="2000"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="text-[2.5rem] lg:text-[4.5rem] font-extrabold leading-[1.1] text-[#0c2946] tracking-tight"
@@ -28,9 +28,9 @@ function AboutUs() {
             <p
               href="#"
               data-aos="fade-down"
-              data-aos-offset="200"
+              data-aos-offset="100"
               data-aos-delay="100"
-              data-aos-duration="1000"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="max-w-3xl text-[1.1rem] leading-relaxed text-[#64748b] font-normal"
@@ -47,9 +47,9 @@ function AboutUs() {
             <Link
               to={'/contacts'}
               data-aos="fade"
-              data-aos-offset="200"
+              data-aos-offset="100"
               data-aos-delay="100"
-              data-aos-duration="1000"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               href="#contact"
@@ -62,7 +62,7 @@ function AboutUs() {
 
         <div
           data-aos="fade-down"
-          data-aos-offset="200"
+          data-aos-offset="80"
           data-aos-delay="10"
           data-aos-duration="600"
           data-aos-easing="ease-out"

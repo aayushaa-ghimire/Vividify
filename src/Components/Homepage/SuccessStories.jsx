@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function SuccessStories() {
   return (
-    <section className="bg-white py-24 px-6 lg:px-20 font-sans">
+    <div className="bg-white py-24 px-6 lg:px-20 font-sans">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
           {/* Column 1: Text Content */}
@@ -15,7 +15,7 @@ function SuccessStories() {
               <h1
                 data-aos="fade"
                 data-aos-offset="100"
-                data-aos-delay="180"
+                data-aos-delay="100"
                 data-aos-duration="800"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
@@ -50,12 +50,12 @@ function SuccessStories() {
             </div>
           </div>
 
-          {/* Column 2: Right Path Education */}
+          {/* Column 2: Dwarka Palace */}
           <div
             data-aos="fade-down"
             data-aos-offset="100"
-            data-aos-delay="100"
-            data-aos-duration="800"
+            data-aos-delay="120"
+            data-aos-duration="900"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="group relative overflow-hidden rounded-[2.5rem] min-h-[550px] flex flex-col justify-between p-10 transition-all duration-500 hover:shadow-2xl"
@@ -101,8 +101,8 @@ function SuccessStories() {
           <div
             data-aos="fade-down"
             data-aos-offset="100"
-            data-aos-delay="100"
-            data-aos-duration="800"
+            data-aos-delay="120"
+            data-aos-duration="900"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="group relative overflow-hidden rounded-[2.5rem] min-h-[550px] flex flex-col justify-between p-10 transition-all duration-500 hover:shadow-2xl"
@@ -144,7 +144,7 @@ function SuccessStories() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 

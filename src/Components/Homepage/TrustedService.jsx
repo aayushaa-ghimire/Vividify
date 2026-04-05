@@ -161,7 +161,7 @@ function TrustedService() {
               data-aos="fade-left"
               data-aos-offset="80"
               data-aos-delay="100"
-              data-aos-duration="800"
+              data-aos-duration="900"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-sm p-4 rounded-xl border border-white/20"
