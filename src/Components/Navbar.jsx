@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
 
 function Navbar() {
@@ -39,50 +39,78 @@ function Navbar() {
                 isOpen ? 'block' : 'hidden'
               } absolute top-full  right-0 mt-2 flex flex-col text-[#545353] bg-[#f4f8ff] text-left md:text-center w-[50vw] border-[#e0ecff] shadow-xl min-w-[200px] z-50 transform transition-all duration-300`}
             >
-              <Link
+              <NavLink
                 to="/"
-                className="p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold border-b   border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className={({ isActive }) =>
+                  `p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold border-b border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92] ${
+                    isActive ? 'text-blue-600 bg-blue-50' : ''
+                  }`
+                }
               >
                 Home
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/about"
-                className="p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold  border-b border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className={({ isActive }) =>
+                  `p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold border-b border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92] ${
+                    isActive ? 'text-blue-600 bg-blue-50' : ''
+                  }`
+                }
               >
                 About
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/service"
-                className="p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold border-b border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className={({ isActive }) =>
+                  `p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold border-b border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92] ${
+                    isActive ? 'text-blue-600 bg-blue-50' : ''
+                  }`
+                }
               >
                 Service
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/faq"
-                className="p-3 md:px-10 md:py-2 border-b font-bold border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className={({ isActive }) =>
+                  `p-3 md:px-10 md:py-2 border-b font-bold border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92] ${
+                    isActive ? 'text-blue-600 bg-blue-50' : ''
+                  }`
+                }
               >
                 FAQ
-              </Link>
+              </NavLink>
 
-              <Link
+              <NavLink
                 to="/blogs"
-                className="p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold border-b border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className={({ isActive }) =>
+                  `p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold border-b border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92] ${
+                    isActive ? 'text-blue-600 bg-blue-50' : ''
+                  }`
+                }
               >
                 Blogs
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/projects"
-                className="p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold  border-b border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className={({ isActive }) =>
+                  `p-3 md:px-10 md:py-5 md:text-[1.2rem] font-bold  border-b border-gray-200 hover:text-gray-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92] ${
+                    isActive ? 'text-blue-600 bg-blue-50' : ''
+                  }`
+                }
               >
                 Projects
-              </Link>
+              </NavLink>
 
-              <Link
+              <NavLink
                 to="/contacts"
-                className="p-3 md:px-10 md:py-5 md:text-[1.2rem]  font-bold  hover:text-blue-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92]"
+                className={({ isActive }) =>
+                  `p-3 md:px-10 md:py-5 md:text-[1.2rem]  font-bold  hover:text-blue-800 transition-colors duration-300 transform dark:hover:bg-[#cfd4de92] ${
+                    isActive ? 'text-blue-600 bg-blue-50' : ''
+                  }`
+                }
               >
                 Contacts
-              </Link>
+              </NavLink>
             </div>
           </button>
         </MediaQuery>
@@ -90,49 +118,79 @@ function Navbar() {
         {/* Lg Navbar */}
         <MediaQuery minWidth={1000}>
           <div className=" gap-8  items-center justify-between text-[#686868] font-500 ">
-            <Link
+            <NavLink
               to="/"
-              className="px-4 py-5  hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
+              className={({ isActive }) =>
+                `px-4 py-5 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92] hover:border-blue-500 ${
+                  isActive ? 'text-blue-600 bg-blue-50 border-blue-500' : ''
+                }`
+              }
             >
               Home
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/about"
-              className="px-4 py-5 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
+              className={({ isActive }) =>
+                `px-4 py-5 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92] hover:border-blue-500 ${
+                  isActive ? 'text-blue-600 bg-blue-50 border-blue-500' : ''
+                }`
+              }
             >
               About
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/service"
-              className="px-4 py-5 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92] hover:border-blue-500"
+              className={({ isActive }) =>
+                `px-4 py-5 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92] hover:border-blue-500 ${
+                  isActive ? 'text-blue-600 bg-blue-50 border-blue-500' : ''
+                }`
+              }
             >
               Service
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/faq"
-              className="px-4 py-5 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
+              className={({ isActive }) =>
+                `px-4 py-5 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92] hover:border-blue-500 ${
+                  isActive ? 'text-blue-600 bg-blue-50 border-blue-500' : ''
+                }`
+              }
             >
               FAQ
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/blogs"
-              className="px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
+              className={({ isActive }) =>
+                `px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92] hover:border-blue-500 ${
+                  isActive ? 'text-blue-600 bg-blue-50 border-blue-500' : ''
+                }`
+              }
             >
               Blogs
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/projects"
-              className="px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92]  hover:border-blue-500"
+              className={({ isActive }) =>
+                `px-4 py-6 hover:text-gray-800 transition-colors duration-300 transform hover:bg-[#cfd4de92] hover:border-blue-500 ${
+                  isActive ? 'text-blue-600 bg-blue-50 border-blue-500' : ''
+                }`
+              }
             >
               Projects
-            </Link>
+            </NavLink>
           </div>
-          <Link
+          <NavLink
             to="/contacts"
-            className="rounded-[1vw] bg-[#0c5adb] text-white px-8 py-4 mr-[3vw] text-sm font-bold transition-all duration-300 hover:bg-[#0a4bb3] active:scale-95 shadow-md hover:shadow-blue-200"
+            className={({ isActive }) =>
+              `rounded-[1vw] px-8 py-4 mr-[3vw] text-sm font-bold transition-all duration-300 active:scale-95 shadow-md hover:shadow-blue-200 ${
+                isActive
+                  ? 'bg-blue-700 text-white border-2 border-blue-700'
+                  : 'bg-[#0c5adb] text-white hover:bg-[#0a4bb3]'
+              }`
+            }
           >
             Contacts
-          </Link>
+          </NavLink>
         </MediaQuery>
       </nav>
     </>

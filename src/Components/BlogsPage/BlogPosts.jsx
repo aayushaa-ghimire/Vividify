@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { Link, useSearchParams } from 'react-router-dom';
 
 function BlogPosts() {
   const blogPosts = [
@@ -51,7 +51,17 @@ function BlogPosts() {
 
   const tags = ['All', ...new Set(blogPosts.map((item) => item.tag))];
 
+  const [searchParams, setSearchParams] = useSearchParams();
   const [activeTag, setActiveTag] = useState('All');
+
+  useEffect(() => {
+    const category = searchParams.get('category');
+    if (category && tags.includes(category)) {
+      setActiveTag(category);
+    } else {
+      setActiveTag('All');
+    }
+  }, [searchParams, tags]);
 
   const filteredBlogs =
     activeTag === 'All'
@@ -82,7 +92,14 @@ function BlogPosts() {
                     ? 'bg-[#0c5adb] border-[#0c5adb]'
                     : 'bg-[#0c5adb]/5 border-[#0c5adb]/10 hover:bg-[#0c5adb]/10'
                 }`}
-                onClick={() => setActiveTag(tag)}
+                onClick={() => {
+                  setActiveTag(tag);
+                  if (tag === 'All') {
+                    setSearchParams({});
+                  } else {
+                    setSearchParams({ category: tag });
+                  }
+                }}
               >
                 <button
                   className={`text-[0.7rem] font-bold uppercase tracking-widest transition-colors ${

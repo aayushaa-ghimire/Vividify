@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom';
 function BlogSidebar() {
   const categories = [
     { name: 'All', path: '/blogs' },
-    { name: 'SEO', path: '/blogs' },
-    { name: 'Mountaineering', path: '/blogs' },
-    { name: 'Digital Marketing', path: '/blogs' },
-    { name: 'Web Development', path: '/blogs' },
+    { name: 'SEO', path: '/blogs?category=SEO' },
+    { name: 'Mountaineering', path: '/blogs?category=Mountaineering' },
+    { name: 'Digital Marketing', path: '/blogs?category=Digital%20Marketing' },
+    { name: 'Web Development', path: '/blogs?category=Web%20Development' },
   ];
 
   return (
