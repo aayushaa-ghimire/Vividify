@@ -23,7 +23,7 @@ function Location() {
               data-aos="fade-down"
               data-aos-offset="100"
               data-aos-delay="100"
-              data-aos-duration="1200"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="w-fit rounded-3xl border-1 border-[#504D4D]/19 p-[3vw] shadow-lg lg:p-[1vw]"
@@ -36,9 +36,9 @@ function Location() {
             <div className="flex flex-col gap-[3vw] lg:gap-[1vw]">
               <h1
                 data-aos="fade"
-                data-aos-offset="200"
+                data-aos-offset="80"
                 data-aos-delay="100"
-                data-aos-duration="1000"
+                data-aos-duration="800"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
                 className="text-[2rem] font-bold lg:text-[2.2rem]"
@@ -47,9 +47,9 @@ function Location() {
               </h1>
               <p
                 data-aos="fade-right"
-                data-aos-offset="100"
+                data-aos-offset="50"
                 data-aos-delay="100"
-                data-aos-duration="1200"
+                data-aos-duration="800"
                 data-aos-easing="ease-in-out"
                 data-aos-mirror="true"
                 className="w-full leading-loose text-[#686868] lg:w-[30vw]"
@@ -62,9 +62,9 @@ function Location() {
 
             <div
               data-aos="fade-down"
-              data-aos-offset="100"
+              data-aos-offset="50"
               data-aos-delay="100"
-              data-aos-duration="1200"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="flex items-start gap-[4vw] lg:gap-[0.6vw]"

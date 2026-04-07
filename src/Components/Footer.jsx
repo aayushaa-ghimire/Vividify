@@ -42,36 +42,17 @@ function Footer() {
               <h4 className="text-lg font-bold text-[#222222]">Services</h4>
               <ul className="flex flex-col gap-2 text-[#686868]">
                 <li>
-                  <a
-                    href="#"
-                    className="transition-colors hover:text-[#0c5adb]"
-                  >
-                    Website Development
-                  </a>
+                  className="transition-colors hover:text-[#0c5adb]" Website
+                  Development
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="transition-colors hover:text-[#0c5adb]"
-                  >
-                    Digital Marketing
-                  </a>
+                  className="transition-colors hover:text-[#0c5adb]" Digital
+                  Marketing
                 </li>
+                <li>className="transition-colors hover:text-[#0c5adb]" SEO</li>
                 <li>
-                  <a
-                    href="#"
-                    className="transition-colors hover:text-[#0c5adb]"
-                  >
-                    SEO
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="transition-colors hover:text-[#0c5adb]"
-                  >
-                    App Development
-                  </a>
+                  className="transition-colors hover:text-[#0c5adb]" App
+                  Development
                 </li>
               </ul>
             </div>
@@ -114,7 +95,7 @@ function Footer() {
                 {/* Email */}
                 <li className="group flex items-center gap-3 transition-colors duration-300 hover:text-[#0c5adb]">
                   <FaEnvelope className="text-lg" />
-                  <a href="#">info@vividify.com</a>
+                  info@vividify.com
                 </li>
                 {/* Phone */}
                 <li className="group flex items-center gap-3 transition-colors duration-300 hover:text-[#0c5adb]">

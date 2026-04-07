@@ -7,9 +7,9 @@ function FAQBanner() {
         <div className="flex flex-col gap-6 text-center lg:text-left z-10">
           <h1
             data-aos="fade"
-            data-aos-offset="200"
+            data-aos-offset="80"
             data-aos-delay="100"
-            data-aos-duration="2000"
+            data-aos-duration="700"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="text-[2.5rem] lg:text-[4rem] font-extrabold leading-[1.1] tracking-tight text-[#0c2946]"
@@ -20,9 +20,9 @@ function FAQBanner() {
           </h1>
           <p
             data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-delay="150"
-            data-aos-duration="800"
+            data-aos-offset="50"
+            data-aos-delay="100"
+            data-aos-duration="700"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="max-w-xl text-[1.1rem] font-normal leading-relaxed text-[#64748b]"
@@ -39,9 +39,9 @@ function FAQBanner() {
             src="../../public/faq-concept.png"
             alt="img"
             data-aos="fade-down"
-            data-aos-offset="200"
+            data-aos-offset="100"
             data-aos-delay="100"
-            data-aos-duration="1000"
+            data-aos-duration="600"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="aspect-square w-full max-w-[400px] lg:w-[350px] rounded-3xl object-cover transition-transform duration-500 group-hover:scale-105"

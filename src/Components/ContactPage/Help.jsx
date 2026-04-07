@@ -16,9 +16,9 @@ function Help() {
           <div className="flex flex-col leading-relaxed">
             <span
               data-aos="fade-down"
-              data-aos-offset="100"
+              data-aos-offset="80"
               data-aos-delay="100"
-              data-aos-duration="1200"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="w-fit rounded-3xl border border-[#0c5adb]/20 bg-white px-6 py-2 shadow-sm"
@@ -27,9 +27,9 @@ function Help() {
             </span>
             <h1
               data-aos="fade"
-              data-aos-offset="200"
+              data-aos-offset="80"
               data-aos-delay="100"
-              data-aos-duration="1000"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="mt-[4vw] text-[2rem] font-bold text-[#111] lg:mt-6 lg:text-[2.2rem]"
@@ -38,9 +38,9 @@ function Help() {
             </h1>
             <p
               data-aos="fade-right"
-              data-aos-offset="100"
+              data-aos-offset="80"
               data-aos-delay="100"
-              data-aos-duration="1200"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="mt-[2vw] w-full text-[#686868] lg:mt-4 lg:w-[30vw]"
@@ -53,9 +53,9 @@ function Help() {
           <div className="flex flex-col gap-5">
             <ul
               data-aos="fade-down"
-              data-aos-offset="100"
+              data-aos-offset="80"
               data-aos-delay="100"
-              data-aos-duration="1200"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-mirror="true"
               className="space-y-4 text-[#686868]"
@@ -84,9 +84,9 @@ function Help() {
 
         <form
           data-aos="fade"
-          data-aos-offset="200"
-          data-aos-delay="90"
-          data-aos-duration="2000"
+          data-aos-offset="80"
+          data-aos-delay="80"
+          data-aos-duration="800"
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           onSubmit={handleSubmit(onSubmit)}

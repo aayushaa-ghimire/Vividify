@@ -9,7 +9,7 @@ function ServiceBanner() {
           data-aos="fade"
           data-aos-offset="200"
           data-aos-delay="100"
-          data-aos-duration="1500"
+          data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           className="flex flex-col gap-5 text-center lg:text-left"
@@ -29,9 +29,9 @@ function ServiceBanner() {
           <Link
             to={'/contacts'}
             data-aos="fade-down"
-            data-aos-offset="200"
+            data-aos-offset="100"
             data-aos-delay="100"
-            data-aos-duration="1000"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             className="flex items-center justify-center rounded-2xl bg-white px-9 py-4 text-[1rem] font-bold text-[#0c5adb] transition-all duration-300 hover:bg-[#f8faff]  shadow-sm"
