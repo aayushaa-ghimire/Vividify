@@ -95,7 +95,7 @@ function WhyChooseUs() {
             to={'/contacts'}
             className="w-full rounded-xl bg-gray-100 text-black px-6 py-3.5 text-sm font-bold transition-all duration-300 hover:bg-[#0c5adb] hover:text-white hover:shadow-lg active:scale-95"
           >
-            Purchase
+            Reserve Your Spot
           </Link>
         </div>
 
@@ -116,21 +116,21 @@ function WhyChooseUs() {
               className="w-12 h-12 object-contain brightness-0 invert"
             />
           </div>
-          <h4 className="text-xl font-bold mb-3">Website Plan</h4>
+          <h4 className="text-xl font-bold mb-3">Digital Marketing Plan</h4>
           <p className="text-sm text-blue-100/80 leading-relaxed mb-6 border-b border-white/10 pb-6">
-            We create a user-friendly website with fast performance
+            We provide result-driven digital marketing to boost your brand
+            visibility.
           </p>
           <div className="text-sm font-medium leading-[2.5] text-white/90 mb-8">
-            Modern design <br /> Lead Forms <br />
-            Responsive Design
+            SEO <br /> Social Media Merketing <br /> Social Media Management
             <br />
-            24/7 Support
+            Graphic Design
           </div>
           <Link
             to={'/contacts'}
             className="w-full rounded-xl bg-[#0c5adb] text-white px-6 py-3.5 text-sm font-bold transition-all duration-300 hover:bg-white hover:text-[#000049] hover:shadow-lg active:scale-95"
           >
-            Purchase
+            Reserve Your Spot
           </Link>
         </div>
       </div>
