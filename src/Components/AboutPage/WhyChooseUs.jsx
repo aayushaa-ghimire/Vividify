@@ -76,7 +76,7 @@ function WhyChooseUs() {
         >
           <div className="mb-6 p-4 bg-blue-50 rounded-2xl">
             <img
-              src="../../public/pricing-icon.png"
+              src="/pricing-icon.png"
               alt="icon"
               className="w-12 h-12 object-contain"
             />
@@ -111,7 +111,7 @@ function WhyChooseUs() {
         >
           <div className="mb-6 p-4 bg-white/10 rounded-2xl">
             <img
-              src="../../public/pricing-icon.png"
+              src="/pricing-icon.png"
               alt="icon"
               className="w-12 h-12 object-contain brightness-0 invert"
             />

@@ -10,7 +10,7 @@ function Navbar() {
       <nav className="flex py-[1vw] items-center bg-[#f4f8ff] border-b border-[#e0ecff] sticky top-0 justify-between w-full h-auto text-[1.1rem] z-500 shadow ">
         <div className="">
           <img
-            src="../../public/vividify-logo.png"
+            src="/vividify-logo.png"
             alt="logo"
             className="w-30 ml-[3vw] lg:w-45"
           />
