@@ -144,7 +144,7 @@ function WhatWeDo() {
             className="relative w-full max-w-5xl rounded-[3rem] overflow-hidden shadow-2xl"
           >
             <img
-              src="../../public/HomePageimg.jpg"
+              src="/HomePageimg.jpg"
               alt="Showcase"
               className="w-full h-auto object-cover aspect-[16/5] transition-transform duration-700 hover:scale-105"
             />

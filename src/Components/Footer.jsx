@@ -19,7 +19,7 @@ function Footer() {
         <div className="flex flex-col items-center justify-between gap-8 lg:flex-row">
           <div className="flex-shrink-0">
             <img
-              src="../../public/vividify-logo.png"
+              src="/vividify-logo.png"
               alt="Vividify Logo"
               className="w-[45vw] lg:w-[15vw]"
             />

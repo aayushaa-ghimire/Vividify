@@ -36,7 +36,7 @@ function FAQBanner() {
 
         <div className="w-full lg:w-auto flex justify-center group">
           <img
-            src="../../public/faq-concept.png"
+            src="/faq-concept.png"
             alt="img"
             data-aos="fade-down"
             data-aos-offset="100"

@@ -12,7 +12,7 @@ function Navbar() {
           <img
             src="../../public/vividify-logo.png"
             alt="logo"
-            className="w-45 ml-[3vw]"
+            className="w-30 ml-[3vw] lg:w-45"
           />
         </div>
 

@@ -128,7 +128,7 @@ function Hero() {
               className="col-span-8 row-span-2 rounded-3xl overflow-hidden shadow-lg border-4 border-white group relative"
             >
               <img
-                src="../../public/HomeBanner4.jpg"
+                src="/HomeBanner4.jpg"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 alt="Digital Marketing Dashboard"
               />
